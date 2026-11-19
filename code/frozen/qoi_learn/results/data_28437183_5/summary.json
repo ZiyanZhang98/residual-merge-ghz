@@ -1,0 +1,89 @@
+{
+  "n": 4,
+  "shard": 1,
+  "shards": 4,
+  "preparations": 15,
+  "groups": 8789,
+  "nodes": 100585,
+  "long_nodes": 66,
+  "long_accepted": 64,
+  "tasks": 18,
+  "tasks_accepted": 16,
+  "timings": [
+    {
+      "prep": "9e48ebe21771565ec3c4b08fe8d2b2bb6252eca4738e67a25ddf205f382849ec",
+      "split": "fit",
+      "seconds": 20.887159606209025
+    },
+    {
+      "prep": "4104a44910219f26a8454acadfc99e997485515404e43ad1fab0923ef9b66e98",
+      "split": "fit",
+      "seconds": 25.383088725153357
+    },
+    {
+      "prep": "577679c6409906e11fbb506ec45251ec065e81ac698ee66f4a12ae8bbd2fd24b",
+      "split": "fit",
+      "seconds": 35.90852016187273
+    },
+    {
+      "prep": "81907022f07f82651bbb9dc5da768a5bfa3b95de783e16d4f3442f8e65878d77",
+      "split": "fit",
+      "seconds": 55.9095926550217
+    },
+    {
+      "prep": "aaed5d1b13df95f9aab8d952cd62119faf8c70ba09336f3c561f85818a3296f5",
+      "split": "fit",
+      "seconds": 43.144435693044215
+    },
+    {
+      "prep": "20424ecf153668472292e9f73b2bb040c0ae40dee9f702c198c6505a4e5af1b4",
+      "split": "fit",
+      "seconds": 18.399148251861334
+    },
+    {
+      "prep": "de372759e72e6d8c07ce37b89a7f437d071239baa901f8b893518e5ae213b4da",
+      "split": "fit",
+      "seconds": 18.87891542399302
+    },
+    {
+      "prep": "9521612bd57eb1ff90f42626ce184964247081b495f25ea71ff5e76671bee26b",
+      "split": "fit",
+      "seconds": 20.45319203683175
+    },
+    {
+      "prep": "54bffd2bd26d6373fd23f99d15bda28152605c589fc6e749b473913d34c6a0b9",
+      "split": "fit",
+      "seconds": 25.727273227879778
+    },
+    {
+      "prep": "ee28fe24ad867b778da104743033b14106022c18b2c5a354a5fe0656e66ff282",
+      "split": "fit",
+      "seconds": 36.06757450499572
+    },
+    {
+      "prep": "f77f169daab3837a228a96627cb1688aa8cb631e6cb01cc29db9aaa6aad94752",
+      "split": "fit",
+      "seconds": 55.97462017205544
+    },
+    {
+      "prep": "1f59d02463ae8d697870fa2f35707189a8f8811a52564e8361a1a54472a3a8d0",
+      "split": "fit",
+      "seconds": 43.43534678011201
+    },
+    {
+      "prep": "5c37facb91d2010d81237aa14678c2d745f468aa8c359976f1da7e9f709c3c0b",
+      "split": "monitor",
+      "seconds": 241.8132326111663
+    },
+    {
+      "prep": "099abe2bc3d4dc2e2a8b360b06a64e56425d796d89a120b778b67ef8599fb1a8",
+      "split": "monitor",
+      "seconds": 242.80099134589545
+    },
+    {
+      "prep": "7edd93d7c190ba136bb2ccb83cbb83afa8a7e9638ee7f8cce903f17748c8b6a2",
+      "split": "monitor",
+      "seconds": 240.97893411805853
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "version": 1, "stage": "LO", "new_final_queries": 0,
+  "authority": "HANDOFF section 5j item 22.23 (2026-10-25): step 1, upper-bound check of better look-ahead predictors (exact 3-round tree, exact 2 rounds + PTA tail, MF) against the PTA look-ahead; gates step 2 (an ML redesign for look-ahead)",
+  "hard_regime": {"step1_job": "28470804"},
+  "hard_families": ["AB", "AABB", "ABB"],
+  "tolerance": {"P_relative": 0.01, "F_absolute": 0.01, "TD": 0.01},
+  "K": [16, 64],
+  "arms": [
+    {"name": "pta_s1_k3", "source": "pta", "share": 1.0, "lengths": [1, 2, 3]},
+    {"name": "exact_s1_k3", "source": "exact", "share": 1.0, "lengths": [1, 2, 3]},
+    {"name": "pta_s1_long", "source": "pta", "share": 1.0, "lengths": [1, 2, 4, 8, 16, 32, 40]},
+    {"name": "learned_s1_long", "source": "learned", "share": 1.0, "lengths": [1, 2, 4, 8, 16, 32, 40]},
+    {"name": "d2_s1_long", "source": "d2", "share": 1.0, "lengths": [1, 2, 4, 8, 16, 32, 40]},
+    {"name": "mf_s1_long", "source": "mf", "share": 1.0, "lengths": [1, 2, 4, 8, 16, 32, 40]}
+  ],
+  "gate": {
+    "pairs": [["exact_s1_k3", "pta_s1_k3"], ["d2_s1_long", "pta_s1_long"], ["mf_s1_long", "pta_s1_long"]],
+    "reference_pairs": [["learned_s1_long", "pta_s1_long"]],
+    "ratio": 1.10, "preparation_fraction": 0.6666666666666666
+  },
+  "exact_chunk": 128,
+  "resource": {"reserve_seconds": 180}
+}

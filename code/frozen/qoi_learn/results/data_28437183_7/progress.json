@@ -1,0 +1,81 @@
+{
+  "done": 15,
+  "total": 15,
+  "timings": [
+    {
+      "prep": "d5c09f51ed369ea0541bed0caa8f9e53c3095b5b3d588998e248c8d91b226f39",
+      "split": "fit",
+      "seconds": 45.26192163210362
+    },
+    {
+      "prep": "06aa537cb45534999e8cc944c6ab926d5c463e764740e58989576861e4a04e91",
+      "split": "fit",
+      "seconds": 18.900415937183425
+    },
+    {
+      "prep": "c70d9d2231df69273b3f99f7f442597a5f22cf2a18399bba1b1467d97334b477",
+      "split": "fit",
+      "seconds": 20.504533131141216
+    },
+    {
+      "prep": "b7c0f99d154ed28f35d4d52f50d999fbdfbd45f775ee73c0666e9dd33fc44e80",
+      "split": "fit",
+      "seconds": 23.137722296873108
+    },
+    {
+      "prep": "9638fce2460fb1d90b860b08f2fb03affefcdc27f02571db0fb490de97628c35",
+      "split": "fit",
+      "seconds": 28.36401601601392
+    },
+    {
+      "prep": "ea0d2491ac811d8c737ac2d32a1438395380f78df035814d803154c504d30cff",
+      "split": "fit",
+      "seconds": 39.255387153010815
+    },
+    {
+      "prep": "e6620f55096f52e89c118bc973580217d3afb57103bad90ef700a9ebf19baab7",
+      "split": "fit",
+      "seconds": 58.66192439896986
+    },
+    {
+      "prep": "589f572abcb4fe1c7331214e3bd9f3734f26e16c87e3091496dae6e28bcd054c",
+      "split": "fit",
+      "seconds": 44.633378273108974
+    },
+    {
+      "prep": "a125640a9f3cc3a5a96bb90375cb594678089c24d26f6d0f91241c34bc651e98",
+      "split": "fit",
+      "seconds": 18.78250573691912
+    },
+    {
+      "prep": "b51772060aa0c55a0b7cb6e1064a83dc8491e6987717f6b082bf9c519d164587",
+      "split": "fit",
+      "seconds": 20.39143065409735
+    },
+    {
+      "prep": "79f66db87e797f964d102b6ad186fe10893a3ec50a7320d7320e1c6bf2e6eb0d",
+      "split": "fit",
+      "seconds": 23.188469337066635
+    },
+    {
+      "prep": "c560c42fcc086ff516873c2b19aa15390bd7aa4c850a7dc610c11126ed48526f",
+      "split": "fit",
+      "seconds": 28.521723326994106
+    },
+    {
+      "prep": "ab157ba089d13da1aa7b86e0e568a06ab5a4e3c8dfca86720bf64a69cabade79",
+      "split": "monitor",
+      "seconds": 325.3845070649404
+    },
+    {
+      "prep": "0e2be0e6b97899459e899bddf298a180c54cd543dbb6c50ff3aa64a0bd740802",
+      "split": "monitor",
+      "seconds": 288.0331846070476
+    },
+    {
+      "prep": "0cb61695df22330269034f3adf2703c7ca632aea44e8b8a2f1df00c312c03525",
+      "split": "monitor",
+      "seconds": 274.2669048209209
+    }
+  ]
+}

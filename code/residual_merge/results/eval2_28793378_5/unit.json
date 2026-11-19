@@ -1,0 +1,10 @@
+{
+  "step": 2,
+  "batch": "hard",
+  "index": 5,
+  "shards": 9,
+  "arm": "signed",
+  "mine": [
+    "qb_n4_5c37facb91d2010d_ABB"
+  ]
+}

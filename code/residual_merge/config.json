@@ -1,0 +1,144 @@
+{
+  "version": 1, "stage": "RM", "new_final_queries": 0,
+  "authority": "HANDOFF section 5j item 22.28 (2026-10-29, user decision): M0 of the compressed main line - code and smoke of the pairwise residual merge gaps, budgeted agglomeration with a per-compression budget, the adaptive simulator and atom accounting; n=4; development tasks only; final data are never accessed",
+  "hard_regime": {"step1_job": "28470804"},
+  "tolerance": {"P_relative": 0.01, "F_absolute": 0.01, "TD": 0.01},
+  "hard_families": ["AB", "AABB", "ABB"],
+  "f2": {"arm": "M_PTA", "K": [4, 8, 16, 32, 64, 128, 256], "n": [4]},
+  "merge": {"knn": 8, "cap": 256, "max_rounds": 64},
+  "labels": {"exact_rounds": 3, "coupled_paths": 512, "chunk_paths": 32768, "exact_chunk": 128},
+  "smoke": {
+    "n": 4, "families": ["AB", "ABB"], "check_K": 16, "short_word": 3, "exact_budgets": [0.01, 1e9],
+    "probe_K": 64, "probe_events": [5, 10, 20, 30], "telescoping_t": 10, "pairs_per_event": 64,
+    "branch_mc_branches": 16, "branch_mc_paths": 512,
+    "geo_budgets": [0.0001, 0.001, 0.01, 0.1], "seed": 20261029
+  },
+  "m1": {
+    "n": 4, "K": [8, 16, 32, 64], "events": [3, 8, 13, 18, 23, 28, 33],
+    "pairs_per_set": {"fit": 12, "monitor": 4}, "seed": 20261030
+  },
+  "m1_early": {"events": [0, 1, 2]},
+  "m2": {
+    "labels_job": "28727358", "labels_jobs": ["28727358", "early_28735174"], "width": 256, "depth": 3, "steps": 4000, "batch_groups": 128, "lr": 0.001,
+    "rank_margin": 0.1, "rank_weight": 0.5, "cal_weight": 0.1, "seed": 0
+  },
+  "diag": {
+    "tasks": [{"task_id": "qb_n4_099abe2bc3d4dc2e_ABB", "alpha": 1}, {"task_id": "qb_n4_92f70d2bea8c0b77_B", "alpha": 1},
+              {"task_id": "qb_n4_0cb61695df223302_B", "alpha": 16}, {"task_id": "qb_n4_db40afec75f29005_AB", "alpha": 2}],
+    "windows": [[0, 2], [3, 9], [10, 19], [20, 39]], "c1_budget": 0.001
+  },
+  "m3": {
+    "n": 4, "horizon": 40, "alpha": [0.125, 0.25, 0.5, 1, 2, 4, 8, 16],
+    "geo_budgets": [0.00003, 0.0001, 0.0003, 0.001, 0.003, 0.01, 0.03, 0.1],
+    "profile_family": "ABB", "profile_alpha": [0.125, 1, 8],
+    "decision": {"ratio": 1.3, "fraction": 0.6666666666666666}
+  },
+  "s1": {
+    "authority": "HANDOFF 22.29 step 1 (2026-10-30, user decision): known-noise likelihood replaces the target noise floor; 1B first, 1A only if 1B fails the progress check",
+    "labels_jobs": ["28727358", "early_28735174"], "old_train_job": "28736643",
+    "width": 256, "depth": 3, "steps": 4000, "batch_groups": 128, "lr": 0.001, "seed": 0,
+    "rank_margin": 0.1, "rank_weight": 0.5, "cal_weight": 0.1, "resolved_ratio": 2.0,
+    "gate": {"b_cost_ratio": 0.5, "concordance_drop": 0.01, "z2_exact_range": [0.5, 2.0]}
+  },
+  "eval2": {
+    "m3_deploy_job": "28737007", "b_family": "B",
+    "alpha_ext": [32, 64, 128], "geo_ext": [0.3, 1.0], "f2_ext": [1, 2],
+    "hard_check": ["qb_n4_92f70d2bea8c0b77_AB", "qb_n4_92f70d2bea8c0b77_AABB", "qb_n4_0cb61695df223302_AB",
+                   "qb_n4_0cb61695df223302_AABB", "qb_n4_0e2be0e6b9789945_AB", "qb_n4_0e2be0e6b9789945_AABB",
+                   "qb_n4_099abe2bc3d4dc2e_ABB", "qb_n4_5c37facb91d2010d_ABB", "qb_n4_6248db14b65aaea5_ABB"],
+    "b_ratio": 1.0, "b_not_worse": 8, "regress_ratio": 1.10,
+    "smoke": {"task": "qb_n4_5c37facb91d2010d_B", "alpha": 16, "geo_budget": 0.1}
+  },
+  "s2": {
+    "authority": "HANDOFF 22.29 step 2 (2026-10-30, user decision after the step-1 gate failure and the sign diagnostic 28779188): signed mu + sigma, budget |sum mu| + kappa sqrt(sum sigma^2)",
+    "width": 256, "depth": 3, "steps": 4000, "batch_groups": 128, "lr": 0.001, "seed": 0,
+    "kappa": 2.0, "coverage_gate": 0.90, "coverage_fit_target": 0.95
+  },
+  "curv": {
+    "authority": "HANDOFF 22.30 smoke (2026-10-31, user request 'A+B'): ABB plateau, (A) old model with goal-metric candidate neighbours, (B) curvature of the labelled pairs against the old model's error; no training",
+    "tasks": ["qb_n4_099abe2bc3d4dc2e_ABB", "qb_n4_5c37facb91d2010d_ABB", "qb_n4_6248db14b65aaea5_ABB"],
+    "alpha": [1, 0.25, 4], "pta_alpha": [1],
+    "repro": {"task": "qb_n4_5c37facb91d2010d_ABB", "alpha": 1},
+    "metric": {"hessian_chunk": 128, "tie_breaker": 0.001},
+    "label_preps": ["099abe2bc3d4dc2e", "5c37facb91d2010d", "6248db14b65aaea5", "92f70d2bea8c0b77", "0cb61695df223302", "0e2be0e6b9789945"],
+    "checks": {"match": 1e-8, "prefix1": 1e-6, "exact": 1e-8},
+    "reading": {"a_tasks": 2, "b_rho": 0.3, "b_outputs": 2, "b_min_pairs": 30}
+  },
+  "curv2": {
+    "authority": "HANDOFF 22.30 C2 (2026-10-31, user decision 'check other families first'): old L with PTA goal-metric candidate neighbours on all 63 resolved n=4 M3 tasks at the M3 alphas, against M3 L, C1 and F2",
+    "kind": "PTA", "shards": 12, "regress_ratio": 1.10
+  },
+  "ext": {
+    "authority": "HANDOFF 22.35 (2026-11-02, user request): extended evaluation grids for the frozen configuration on all resolved n=4 M3 tasks (L alpha 32/64/128 where M3 alpha=16 passes; C1 budgets 0.3/1; F2 K=1/2)",
+    "alpha_ext": [32, 64, 128], "geo_ext": [0.3, 1], "f2_ext": [1, 2], "shards": 4,
+    "check_jobs": ["28780005", "28793378"]
+  },
+  "ens_data": {
+    "authority": "HANDOFF 22.33 T0a (2026-11-01, user request): rebuild the capture ensembles behind the M1 and early labels for the ensemble Transformer",
+    "build_shards": 4, "match_tol": 1e-8
+  },
+  "ens": {
+    "authority": "HANDOFF 22.33 T0b (2026-11-01, user request): ensemble Transformer against the pair MLP at label level, 3 seeds each; rule fixed before results",
+    "seeds": [0, 1, 2],
+    "model": {"width": 128, "heads": 4, "layers": 3, "dropout": 0.1, "pair_width": 256, "pair_depth": 3,
+              "steps": 4000, "batch_groups": 32, "lr": 0.0003, "weight_decay": 0.01, "grad_clip": 1.0},
+    "gate": {"min_gain": 0.01, "sd_factor": 2.0, "family_drop": 0.01}
+  },
+  "ens2": {
+    "authority": "HANDOFF 22.33 T0b attempt 2 (2026-11-01, user decision): training matched to the MLP (128 groups x 4000 steps, lr 1e-3 with 200-step warm-up and cosine to 1%, no dropout); everything else and the gate as attempt 1; last attempt of this plan",
+    "attempt": 2,
+    "seeds": [0, 1, 2],
+    "model": {"width": 128, "heads": 4, "layers": 3, "dropout": 0.0, "pair_width": 256, "pair_depth": 3,
+              "steps": 4000, "batch_groups": 128, "lr": 0.001, "warmup": 200, "weight_decay": 0.01, "grad_clip": 1.0},
+    "gate": {"min_gain": 0.01, "sd_factor": 2.0, "family_drop": 0.01, "tie": 0.005}
+  },
+  "union": {
+    "authority": "HANDOFF 22.30 U (2026-10-31, user request): smoke of the union candidate pool (geometric kNN united with PTA goal-metric kNN, priced by the old L) on the ABB tasks and the C2-regressed tasks; decides whether to roll back to L",
+    "kind": "PTA", "shards": 4, "ratio": 1.10, "c2_job": "28794554",
+    "tasks": ["qb_n4_099abe2bc3d4dc2e_ABB", "qb_n4_5c37facb91d2010d_ABB", "qb_n4_6248db14b65aaea5_ABB",
+              "qb_n4_0cb61695df223302_AABB", "qb_n4_ab157ba089d13da1_AABB", "qb_n4_0e2be0e6b9789945_AABB", "qb_n4_6248db14b65aaea5_AABB",
+              "qb_n4_0cb61695df223302_AB", "qb_n4_92f70d2bea8c0b77_AB", "qb_n4_db40afec75f29005_AB",
+              "qb_n4_cc2b61279baf96f7_B", "qb_n4_099abe2bc3d4dc2e_B", "qb_n4_20a25aa62fba07cc_B", "qb_n4_7edd93d7c190ba13_B"]
+  },
+  "test": {
+    "authority": "HANDOFF 22.37 (2026-11-02, user decisions: default alpha 0.5, plan B, Monte Carlo cap 2^21): independent n=4 test set of the frozen configuration (L = train 28736643, Pauli-coordinate kNN), registered before any test result exists; it runs once",
+    "n": 4, "H": 40, "gamma": 0.05,
+    "seed": 20261103,
+    "preparations": 24, "easy_preparations": 12,
+    "hard_families": ["AB", "AABB", "ABB"], "easy_families": ["A", "AAB", "B"],
+    "mc_max_paths": 2097152,
+    "alpha": [0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64, 128],
+    "geo_budgets": [0.00003, 0.0001, 0.0003, 0.001, 0.003, 0.01, 0.03, 0.1, 0.3, 1.0],
+    "f2_K": [1, 2, 4, 8, 16, 32, 64, 128, 256],
+    "default_alpha": 0.5,
+    "shards": 12,
+    "bootstrap": {"reps": 10000, "seed": 20261104},
+    "decision": {"ratio": 1.3, "fraction": 0.6666666666666666, "easy_ratio": 1.0},
+    "ext_deploy_job": "28837517", "ext_analysis_job": "28837518",
+    "smoke": {"mc_task": "qb_n4_50174bcac3ad718f_AB", "deploy_task": "qb_n4_db40afec75f29005_AB", "alpha": 2, "geo_budget": 0.01, "K": 16,
+              "default_alpha_development": {"hard": [24, 27], "easy": [36, 36]}}
+  },
+  "n3": {
+    "authority": "HANDOFF 22.38 (2026-11-03, user decision): the frozen recipe of 22.37 applied unchanged at n=3 as a second setting (labels on the n=3 fit preparations, 1 training seed, the frozen extended grids, default alpha 0.5); evaluation on the resolved n=3 monitor tasks of hard_regime step 1; no stop gate; registered before any n=3 result exists",
+    "n": 3,
+    "label_shards": 12, "eval_shards": 8,
+    "n4_label_report_job": "28734447", "n4_test_analysis_job": "28851720",
+    "smoke": {"n4_preps_shards": 60, "n3_preps_shards": 48, "train_steps": 50, "tasks": 64,
+              "task": "qb_n3_4c167578cc9ac651_AB", "alpha": 0.5, "geo_budget": 0.01, "K": 16}
+  },
+  "abl": {
+    "authority": "HANDOFF 22.39 (2026-11-04, user decision): label-level ablations of the frozen L (no PTA inputs, no state coordinates, regression loss only, no early labels), same labels, recipe and seed; registered before any ablation result exists; runs once",
+    "frozen_train_job": "28736643", "no_early_train_job": "28734894",
+    "threshold": 0.005, "repro_tolerance": 0.002,
+    "rule": "a component matters if removing it lowers the monitor within-capture concordance (all blocks) by more than 0.005 against the retrained full model (full_repro); the frozen model is reported alongside"
+  },
+  "figs": {
+    "authority": "HANDOFF 5j item 22.40 (2026-11-04, user-approved): paper figures and summaries from existing cells only; CPU, read-only",
+    "test_run_job": "28851717", "test_analysis_job": "28851720", "n3_eval_job": "28878735", "n3_analysis_job": "28878736"
+  },
+  "pta_sim": {
+    "authority": "HANDOFF 5j item 22.41 (2026-11-05, user-approved): PTA simulator on every resolved development, test and n=3 task; CPU, read-only",
+    "test_pool_job": "28851716", "test_run_job": "28851717", "reference_job": "28502410"
+  },
+  "resource": {"reserve_seconds": 180}
+}

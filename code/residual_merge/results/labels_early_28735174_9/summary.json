@@ -1,0 +1,39 @@
+{
+  "preparations": 5,
+  "pairs": 1609,
+  "events": 90,
+  "summary": {
+    "fit_branch": {
+      "pairs": 864,
+      "median_rel_residual": 0.00434814397552493,
+      "median_rel_pta_gap": 0.0005090398342087038,
+      "median_ratio_residual_over_pta": 5.611503853055526,
+      "fraction_residual_larger": 0.7893518518518519,
+      "fraction_resolvable": 0.8888888888888888
+    },
+    "fit_merged": {
+      "pairs": 604,
+      "median_rel_residual": 0.023492689727968967,
+      "median_rel_pta_gap": 0.0023258103488324037,
+      "median_ratio_residual_over_pta": 13.48538288253576,
+      "fraction_residual_larger": 0.8509933774834437,
+      "fraction_resolvable": 0.8278145695364238
+    },
+    "monitor_branch": {
+      "pairs": 72,
+      "median_rel_residual": 0.002258076014895735,
+      "median_rel_pta_gap": 0.0003563522150720874,
+      "median_ratio_residual_over_pta": 4.764908200723413,
+      "fraction_residual_larger": 0.7638888888888888,
+      "fraction_resolvable": 0.8611111111111112
+    },
+    "monitor_merged": {
+      "pairs": 69,
+      "median_rel_residual": 0.03284788420112046,
+      "median_rel_pta_gap": 0.004591912197944412,
+      "median_ratio_residual_over_pta": 20.858255898931525,
+      "fraction_residual_larger": 0.8985507246376812,
+      "fraction_resolvable": 0.8840579710144928
+    }
+  }
+}

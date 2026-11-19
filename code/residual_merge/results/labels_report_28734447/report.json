@@ -1,0 +1,1106 @@
+{
+  "pairs": 50976,
+  "events": 2520,
+  "by": {
+    "fit_branch": {
+      "pairs": 24192,
+      "blocks": {
+        "2-3": {
+          "entries": 48384,
+          "exact_fraction": 1.0,
+          "rms_rel_residual_psi": 0.009974209698184706,
+          "rms_rel_pta_gap_psi": 0.03332964519644802,
+          "ratio_psi": 0.2992594022347309,
+          "rms_rel_residual_phi": 0.004369025491980732,
+          "rms_rel_pta_gap_phi": 0.01670955539829272,
+          "noise_rms_psi": 0.0
+        },
+        "4-7": {
+          "entries": 96768,
+          "exact_fraction": 0.0,
+          "rms_rel_residual_psi": 0.06700785992123859,
+          "rms_rel_pta_gap_psi": 0.10093349944828262,
+          "ratio_psi": 0.6638812712084038,
+          "rms_rel_residual_phi": 0.031700620668839816,
+          "rms_rel_pta_gap_phi": 0.0496096564714095,
+          "noise_rms_psi": 0.010810628388326655
+        },
+        "8-15": {
+          "entries": 155520,
+          "exact_fraction": 0.0,
+          "rms_rel_residual_psi": 0.8209961143182799,
+          "rms_rel_pta_gap_psi": 0.34171326787577405,
+          "ratio_psi": 2.402587758508527,
+          "rms_rel_residual_phi": 0.18253498417256972,
+          "rms_rel_pta_gap_phi": 0.16906460365929904,
+          "noise_rms_psi": 0.0360121269909052
+        },
+        "16-40": {
+          "entries": 207360,
+          "exact_fraction": 0.0,
+          "rms_rel_residual_psi": 3.3307976635686294,
+          "rms_rel_pta_gap_psi": 1.4479423844332,
+          "ratio_psi": 2.3003661605447627,
+          "rms_rel_residual_phi": 1.2506897890014301,
+          "rms_rel_pta_gap_phi": 0.5398034244418913,
+          "noise_rms_psi": 0.18411849745387754
+        }
+      },
+      "detected_fraction_psi": 0.8377294526211344,
+      "exact_prefixes": {
+        "entries": 48384,
+        "median_rel_residual": 2.265110518996325e-06,
+        "median_rel_pta_gap": 5.968167914018453e-06,
+        "fraction_residual_larger": 0.49390294312169314
+      },
+      "spearman_prefix3": {
+        "ward_vs_abs_residual": {
+          "events": 2016,
+          "mean": 0.7758734321234322,
+          "median": 0.8741258741258742
+        },
+        "ward_vs_abs_pta_gap": {
+          "events": 2016,
+          "mean": 0.6763202075702077,
+          "median": 0.7762237762237763
+        },
+        "pta_gap_vs_abs_residual": {
+          "events": 2016,
+          "mean": 0.6712142024642025,
+          "median": 0.7552447552447553
+        }
+      }
+    },
+    "fit_merged": {
+      "pairs": 22752,
+      "blocks": {
+        "2-3": {
+          "entries": 45504,
+          "exact_fraction": 1.0,
+          "rms_rel_residual_psi": 0.013142018701212774,
+          "rms_rel_pta_gap_psi": 0.04430003770389672,
+          "ratio_psi": 0.2966593118736054,
+          "rms_rel_residual_phi": 0.005841196178140527,
+          "rms_rel_pta_gap_phi": 0.02521843600421084,
+          "noise_rms_psi": 0.0
+        },
+        "4-7": {
+          "entries": 91008,
+          "exact_fraction": 0.0,
+          "rms_rel_residual_psi": 0.08460651598540192,
+          "rms_rel_pta_gap_psi": 0.10191544104293805,
+          "ratio_psi": 0.8301638605454918,
+          "rms_rel_residual_phi": 0.03472407298192777,
+          "rms_rel_pta_gap_phi": 0.05529690730237137,
+          "noise_rms_psi": 0.012527318701392521
+        },
+        "8-15": {
+          "entries": 146376,
+          "exact_fraction": 0.0,
+          "rms_rel_residual_psi": 0.8240246755917129,
+          "rms_rel_pta_gap_psi": 0.27489281179546016,
+          "ratio_psi": 2.997621764678394,
+          "rms_rel_residual_phi": 0.15217256337015853,
+          "rms_rel_pta_gap_phi": 0.13928533382865513,
+          "noise_rms_psi": 0.047064553361423477
+        },
+        "16-40": {
+          "entries": 195984,
+          "exact_fraction": 0.0,
+          "rms_rel_residual_psi": 3.231485461048296,
+          "rms_rel_pta_gap_psi": 0.9714326955176802,
+          "ratio_psi": 3.326515028739305,
+          "rms_rel_residual_phi": 1.3324738334165134,
+          "rms_rel_pta_gap_phi": 0.45301268340557543,
+          "noise_rms_psi": 0.30194755917680555
+        }
+      },
+      "detected_fraction_psi": 0.8315530352982549,
+      "exact_prefixes": {
+        "entries": 45504,
+        "median_rel_residual": 4.096291587645717e-05,
+        "median_rel_pta_gap": 9.975999200146404e-05,
+        "fraction_residual_larger": 0.4658052039381153
+      },
+      "spearman_prefix3": {
+        "ward_vs_abs_residual": {
+          "events": 1776,
+          "mean": 0.7512600012600015,
+          "median": 0.8391608391608393
+        },
+        "ward_vs_abs_pta_gap": {
+          "events": 1776,
+          "mean": 0.5695205695205696,
+          "median": 0.7132867132867133
+        },
+        "pta_gap_vs_abs_residual": {
+          "events": 1776,
+          "mean": 0.5860462735462736,
+          "median": 0.6993006993006995
+        }
+      }
+    },
+    "monitor_branch": {
+      "pairs": 2016,
+      "blocks": {
+        "2-3": {
+          "entries": 4032,
+          "exact_fraction": 1.0,
+          "rms_rel_residual_psi": 0.009506744525071878,
+          "rms_rel_pta_gap_psi": 0.03259579901349281,
+          "ratio_psi": 0.29165551429301134,
+          "rms_rel_residual_phi": 0.003994026483116511,
+          "rms_rel_pta_gap_phi": 0.015025707513218012,
+          "noise_rms_psi": 0.0
+        },
+        "4-7": {
+          "entries": 8064,
+          "exact_fraction": 0.0,
+          "rms_rel_residual_psi": 0.07913869058408159,
+          "rms_rel_pta_gap_psi": 0.12446948931808317,
+          "ratio_psi": 0.6358079479368778,
+          "rms_rel_residual_phi": 0.03829868817639786,
+          "rms_rel_pta_gap_phi": 0.06164940976659773,
+          "noise_rms_psi": 0.008687564646441147
+        },
+        "8-15": {
+          "entries": 12960,
+          "exact_fraction": 0.0,
+          "rms_rel_residual_psi": 0.5035367533656268,
+          "rms_rel_pta_gap_psi": 0.4774362177634496,
+          "ratio_psi": 1.0546681098565274,
+          "rms_rel_residual_phi": 0.23049484316381544,
+          "rms_rel_pta_gap_phi": 0.23914193839493808,
+          "noise_rms_psi": 0.026181618290744564
+        },
+        "16-40": {
+          "entries": 17280,
+          "exact_fraction": 0.0,
+          "rms_rel_residual_psi": 1.5653201139863764,
+          "rms_rel_pta_gap_psi": 1.154774249339209,
+          "ratio_psi": 1.3555204533544907,
+          "rms_rel_residual_phi": 0.668635613370732,
+          "rms_rel_pta_gap_phi": 0.569139737303273,
+          "noise_rms_psi": 0.09618456390093369
+        }
+      },
+      "detected_fraction_psi": 0.8441687344913151,
+      "exact_prefixes": {
+        "entries": 4032,
+        "median_rel_residual": 1.773081818773047e-06,
+        "median_rel_pta_gap": 5.863969106238372e-06,
+        "fraction_residual_larger": 0.5
+      },
+      "spearman_prefix3": {
+        "ward_vs_abs_residual": {
+          "events": 0,
+          "mean": null,
+          "median": null
+        },
+        "ward_vs_abs_pta_gap": {
+          "events": 0,
+          "mean": null,
+          "median": null
+        },
+        "pta_gap_vs_abs_residual": {
+          "events": 0,
+          "mean": null,
+          "median": null
+        }
+      }
+    },
+    "monitor_merged": {
+      "pairs": 2016,
+      "blocks": {
+        "2-3": {
+          "entries": 4032,
+          "exact_fraction": 1.0,
+          "rms_rel_residual_psi": 0.015879131367907078,
+          "rms_rel_pta_gap_psi": 0.0565347498104156,
+          "ratio_psi": 0.2808738239959737,
+          "rms_rel_residual_phi": 0.007593292258352962,
+          "rms_rel_pta_gap_phi": 0.031752428001472585,
+          "noise_rms_psi": 0.0
+        },
+        "4-7": {
+          "entries": 8064,
+          "exact_fraction": 0.0,
+          "rms_rel_residual_psi": 0.09357070350885215,
+          "rms_rel_pta_gap_psi": 0.14126976263738938,
+          "ratio_psi": 0.6623547867708182,
+          "rms_rel_residual_phi": 0.04474538219955352,
+          "rms_rel_pta_gap_phi": 0.07429955525701129,
+          "noise_rms_psi": 0.01348255294539591
+        },
+        "8-15": {
+          "entries": 12960,
+          "exact_fraction": 0.0,
+          "rms_rel_residual_psi": 0.4193761377675439,
+          "rms_rel_pta_gap_psi": 0.3927825753959353,
+          "ratio_psi": 1.0677055552803012,
+          "rms_rel_residual_phi": 0.2007203531439251,
+          "rms_rel_pta_gap_phi": 0.19790055938152695,
+          "noise_rms_psi": 0.030405048001701532
+        },
+        "16-40": {
+          "entries": 17280,
+          "exact_fraction": 0.0,
+          "rms_rel_residual_psi": 2.3812747477994938,
+          "rms_rel_pta_gap_psi": 0.3806094822048434,
+          "ratio_psi": 6.256477726211497,
+          "rms_rel_residual_phi": 1.388246682036401,
+          "rms_rel_pta_gap_phi": 0.18917731758772666,
+          "noise_rms_psi": 0.3202407784684468
+        }
+      },
+      "detected_fraction_psi": 0.832258064516129,
+      "exact_prefixes": {
+        "entries": 4032,
+        "median_rel_residual": 4.041641495849926e-05,
+        "median_rel_pta_gap": 0.00010035966114764301,
+        "fraction_residual_larger": 0.4489087301587302
+      },
+      "spearman_prefix3": {
+        "ward_vs_abs_residual": {
+          "events": 0,
+          "mean": null,
+          "median": null
+        },
+        "ward_vs_abs_pta_gap": {
+          "events": 0,
+          "mean": null,
+          "median": null
+        },
+        "pta_gap_vs_abs_residual": {
+          "events": 0,
+          "mean": null,
+          "median": null
+        }
+      }
+    }
+  },
+  "by_family": {
+    "A": {
+      "pairs": 8232,
+      "blocks": {
+        "2-3": {
+          "entries": 16464,
+          "exact_fraction": 1.0,
+          "rms_rel_residual_psi": 0.01986002909235514,
+          "rms_rel_pta_gap_psi": 0.06832416009360971,
+          "ratio_psi": 0.29067359284249183,
+          "rms_rel_residual_phi": 0.009702629175898213,
+          "rms_rel_pta_gap_phi": 0.030021314497433744,
+          "noise_rms_psi": 0.0
+        },
+        "4-7": {
+          "entries": 32928,
+          "exact_fraction": 0.0,
+          "rms_rel_residual_psi": 0.15276394173463267,
+          "rms_rel_pta_gap_psi": 0.233378294214029,
+          "ratio_psi": 0.6545764774273923,
+          "rms_rel_residual_phi": 0.0751809541352994,
+          "rms_rel_pta_gap_phi": 0.1111147300623755,
+          "noise_rms_psi": 0.018351266033170402
+        },
+        "8-15": {
+          "entries": 52920,
+          "exact_fraction": 0.0,
+          "rms_rel_residual_psi": 0.8142897641878084,
+          "rms_rel_pta_gap_psi": 0.791095572380067,
+          "ratio_psi": 1.0293190767557452,
+          "rms_rel_residual_phi": 0.40462057548802033,
+          "rms_rel_pta_gap_phi": 0.39026944224149984,
+          "noise_rms_psi": 0.02938430623852783
+        },
+        "16-40": {
+          "entries": 70560,
+          "exact_fraction": 0.0,
+          "rms_rel_residual_psi": 6.181268276758532,
+          "rms_rel_pta_gap_psi": 2.455692291865042,
+          "ratio_psi": 2.5171184098411614,
+          "rms_rel_residual_phi": 3.0845390130201724,
+          "rms_rel_pta_gap_phi": 1.21546067913311,
+          "noise_rms_psi": 0.4889442648318765
+        }
+      },
+      "detected_fraction_psi": 0.8320768482490273,
+      "exact_prefixes": {
+        "entries": 16464,
+        "median_rel_residual": 9.001615260195517e-06,
+        "median_rel_pta_gap": 4.3844263159487215e-06,
+        "fraction_residual_larger": 0.5652939747327502
+      },
+      "spearman_prefix3": {
+        "ward_vs_abs_residual": {
+          "events": 420,
+          "mean": 0.9330478253849213,
+          "median": 0.9521739130434782
+        },
+        "ward_vs_abs_pta_gap": {
+          "events": 420,
+          "mean": 0.8975571986231563,
+          "median": 0.9243478260869564
+        },
+        "pta_gap_vs_abs_residual": {
+          "events": 420,
+          "mean": 0.9294526329219712,
+          "median": 0.9457769103064566
+        }
+      }
+    },
+    "B": {
+      "pairs": 8736,
+      "blocks": {
+        "2-3": {
+          "entries": 17472,
+          "exact_fraction": 1.0,
+          "rms_rel_residual_psi": 0.009400269002965086,
+          "rms_rel_pta_gap_psi": 0.012208145054150316,
+          "ratio_psi": 0.7699997797592799,
+          "rms_rel_residual_phi": 0.0006872646083964709,
+          "rms_rel_pta_gap_phi": 0.0011081645201071336,
+          "noise_rms_psi": 0.0
+        },
+        "4-7": {
+          "entries": 34944,
+          "exact_fraction": 0.0,
+          "rms_rel_residual_psi": 0.07292438453471604,
+          "rms_rel_pta_gap_psi": 0.02208987141821027,
+          "ratio_psi": 3.3012588961744354,
+          "rms_rel_residual_phi": 0.004585881075793526,
+          "rms_rel_pta_gap_phi": 0.0013820919149271347,
+          "noise_rms_psi": 0.017650618731158925
+        },
+        "8-15": {
+          "entries": 56160,
+          "exact_fraction": 0.0,
+          "rms_rel_residual_psi": 1.7505578790931062,
+          "rms_rel_pta_gap_psi": 0.02975917484263883,
+          "ratio_psi": 58.82414039870869,
+          "rms_rel_residual_phi": 0.11156863192892322,
+          "rms_rel_pta_gap_phi": 0.0018599961360933372,
+          "noise_rms_psi": 0.08691933808847685
+        },
+        "16-40": {
+          "entries": 74880,
+          "exact_fraction": 0.0,
+          "rms_rel_residual_psi": 4.655596431900524,
+          "rms_rel_pta_gap_psi": 1.4225024037620646,
+          "ratio_psi": 3.2728214866899052,
+          "rms_rel_residual_phi": 0.2986031994243323,
+          "rms_rel_pta_gap_phi": 0.08890833042811146,
+          "noise_rms_psi": 0.3169581822748221
+        }
+      },
+      "detected_fraction_psi": 0.4165521978021978,
+      "exact_prefixes": {
+        "entries": 17472,
+        "median_rel_residual": 1.4114036824005053e-06,
+        "median_rel_pta_gap": 1.9757757192917533e-08,
+        "fraction_residual_larger": 0.6848672161172161
+      },
+      "spearman_prefix3": {
+        "ward_vs_abs_residual": {
+          "events": 420,
+          "mean": 0.5534601202799959,
+          "median": 0.5817391304347825
+        },
+        "ward_vs_abs_pta_gap": {
+          "events": 420,
+          "mean": 0.20721472937000887,
+          "median": 0.25782608695652176
+        },
+        "pta_gap_vs_abs_residual": {
+          "events": 420,
+          "mean": 0.4516788918465937,
+          "median": 0.4865217391304347
+        }
+      }
+    },
+    "AB": {
+      "pairs": 8448,
+      "blocks": {
+        "2-3": {
+          "entries": 16896,
+          "exact_fraction": 1.0,
+          "rms_rel_residual_psi": 0.005432823738892943,
+          "rms_rel_pta_gap_psi": 0.03493025020286437,
+          "ratio_psi": 0.15553349052299195,
+          "rms_rel_residual_phi": 0.00316194520726034,
+          "rms_rel_pta_gap_phi": 0.02355107793445472,
+          "noise_rms_psi": 0.0
+        },
+        "4-7": {
+          "entries": 33792,
+          "exact_fraction": 0.0,
+          "rms_rel_residual_psi": 0.02744152771438412,
+          "rms_rel_pta_gap_psi": 0.0626602786782139,
+          "ratio_psi": 0.437941360830959,
+          "rms_rel_residual_phi": 0.014704251179829885,
+          "rms_rel_pta_gap_phi": 0.0433051614401147,
+          "noise_rms_psi": 0.005111876877518269
+        },
+        "8-15": {
+          "entries": 54432,
+          "exact_fraction": 0.0,
+          "rms_rel_residual_psi": 0.0845246048585293,
+          "rms_rel_pta_gap_psi": 0.07932503931698028,
+          "ratio_psi": 1.0655475948870536,
+          "rms_rel_residual_phi": 0.0443680760606156,
+          "rms_rel_pta_gap_phi": 0.06336541270456607,
+          "noise_rms_psi": 0.017137941298766054
+        },
+        "16-40": {
+          "entries": 72288,
+          "exact_fraction": 0.0,
+          "rms_rel_residual_psi": 0.19587455694659675,
+          "rms_rel_pta_gap_psi": 0.09830010896899753,
+          "ratio_psi": 1.9926179024722426,
+          "rms_rel_residual_phi": 0.10837427205704417,
+          "rms_rel_pta_gap_phi": 0.08811040711030045,
+          "noise_rms_psi": 0.050512231513355925
+        }
+      },
+      "detected_fraction_psi": 0.9785748106060606,
+      "exact_prefixes": {
+        "entries": 16896,
+        "median_rel_residual": 3.1919427818078886e-05,
+        "median_rel_pta_gap": 6.306024334213288e-05,
+        "fraction_residual_larger": 0.42554450757575757
+      },
+      "spearman_prefix3": {
+        "ward_vs_abs_residual": {
+          "events": 420,
+          "mean": 0.9053052491782373,
+          "median": 0.9295652173913044
+        },
+        "ward_vs_abs_pta_gap": {
+          "events": 420,
+          "mean": 0.8004866755245195,
+          "median": 0.837391304347826
+        },
+        "pta_gap_vs_abs_residual": {
+          "events": 420,
+          "mean": 0.7644189681975,
+          "median": 0.8108695652173912
+        }
+      }
+    },
+    "AAB": {
+      "pairs": 8448,
+      "blocks": {
+        "2-3": {
+          "entries": 16896,
+          "exact_fraction": 1.0,
+          "rms_rel_residual_psi": 0.006341930324829679,
+          "rms_rel_pta_gap_psi": 0.026079348920117044,
+          "ratio_psi": 0.2431782459084955,
+          "rms_rel_residual_phi": 0.003244203424610936,
+          "rms_rel_pta_gap_phi": 0.01720652022191354,
+          "noise_rms_psi": 0.0
+        },
+        "4-7": {
+          "entries": 33792,
+          "exact_fraction": 0.0,
+          "rms_rel_residual_psi": 0.02101872707182498,
+          "rms_rel_pta_gap_psi": 0.04188843905554363,
+          "ratio_psi": 0.5017787137867412,
+          "rms_rel_residual_phi": 0.011610169068607672,
+          "rms_rel_pta_gap_phi": 0.029119150146977597,
+          "noise_rms_psi": 0.005460644182383323
+        },
+        "8-15": {
+          "entries": 54072,
+          "exact_fraction": 0.0,
+          "rms_rel_residual_psi": 0.05591013880779523,
+          "rms_rel_pta_gap_psi": 0.04252136380290501,
+          "ratio_psi": 1.3148717211176446,
+          "rms_rel_residual_phi": 0.029067680245730438,
+          "rms_rel_pta_gap_phi": 0.03659817243299692,
+          "noise_rms_psi": 0.014719567866907953
+        },
+        "16-40": {
+          "entries": 72648,
+          "exact_fraction": 0.0,
+          "rms_rel_residual_psi": 0.07189382852670377,
+          "rms_rel_pta_gap_psi": 0.04093362499024816,
+          "ratio_psi": 1.7563513747886101,
+          "rms_rel_residual_phi": 0.03746219746851793,
+          "rms_rel_pta_gap_phi": 0.03883456251318486,
+          "noise_rms_psi": 0.020901803140535927
+        }
+      },
+      "detected_fraction_psi": 0.9602225642239849,
+      "exact_prefixes": {
+        "entries": 16896,
+        "median_rel_residual": 1.274738203030411e-06,
+        "median_rel_pta_gap": 3.2210984049113927e-06,
+        "fraction_residual_larger": 0.5259232954545454
+      },
+      "spearman_prefix3": {
+        "ward_vs_abs_residual": {
+          "events": 420,
+          "mean": 0.9130637179356867,
+          "median": 0.9378260869565216
+        },
+        "ward_vs_abs_pta_gap": {
+          "events": 420,
+          "mean": 0.7822557529495398,
+          "median": 0.8304347826086955
+        },
+        "pta_gap_vs_abs_residual": {
+          "events": 420,
+          "mean": 0.7221980932723967,
+          "median": 0.7854658385093167
+        }
+      }
+    },
+    "AABB": {
+      "pairs": 8520,
+      "blocks": {
+        "2-3": {
+          "entries": 17040,
+          "exact_fraction": 1.0,
+          "rms_rel_residual_psi": 0.005894171600330881,
+          "rms_rel_pta_gap_psi": 0.030985076706526688,
+          "ratio_psi": 0.19022614196366774,
+          "rms_rel_residual_phi": 0.0031545762751980055,
+          "rms_rel_pta_gap_phi": 0.024453582908004336,
+          "noise_rms_psi": 0.0
+        },
+        "4-7": {
+          "entries": 34080,
+          "exact_fraction": 0.0,
+          "rms_rel_residual_psi": 0.022929942545791688,
+          "rms_rel_pta_gap_psi": 0.05548744672680088,
+          "ratio_psi": 0.4132455879379352,
+          "rms_rel_residual_phi": 0.01273664532926733,
+          "rms_rel_pta_gap_phi": 0.0427509821188063,
+          "noise_rms_psi": 0.004820512790172297
+        },
+        "8-15": {
+          "entries": 55008,
+          "exact_fraction": 0.0,
+          "rms_rel_residual_psi": 0.067152509388862,
+          "rms_rel_pta_gap_psi": 0.06094748806362622,
+          "ratio_psi": 1.1018093037527328,
+          "rms_rel_residual_phi": 0.03453168825608873,
+          "rms_rel_pta_gap_phi": 0.048329134724761115,
+          "noise_rms_psi": 0.013445845667863218
+        },
+        "16-40": {
+          "entries": 73512,
+          "exact_fraction": 0.0,
+          "rms_rel_residual_psi": 0.21125511552141693,
+          "rms_rel_pta_gap_psi": 0.16131928012536043,
+          "ratio_psi": 1.3095466044557824,
+          "rms_rel_residual_phi": 0.09883370702893308,
+          "rms_rel_pta_gap_phi": 0.07721346912359976,
+          "noise_rms_psi": 0.03905032960311697
+        }
+      },
+      "detected_fraction_psi": 0.9599765258215962,
+      "exact_prefixes": {
+        "entries": 17040,
+        "median_rel_residual": 4.529002224875305e-05,
+        "median_rel_pta_gap": 0.00020414037217687434,
+        "fraction_residual_larger": 0.39248826291079814
+      },
+      "spearman_prefix3": {
+        "ward_vs_abs_residual": {
+          "events": 420,
+          "mean": 0.7621129208357638,
+          "median": 0.8571428571428572
+        },
+        "ward_vs_abs_pta_gap": {
+          "events": 420,
+          "mean": 0.7369095406278453,
+          "median": 0.7830434782608695
+        },
+        "pta_gap_vs_abs_residual": {
+          "events": 420,
+          "mean": 0.6814423517690829,
+          "median": 0.7391304347826086
+        }
+      }
+    },
+    "ABB": {
+      "pairs": 8592,
+      "blocks": {
+        "2-3": {
+          "entries": 17184,
+          "exact_fraction": 1.0,
+          "rms_rel_residual_psi": 0.01571864518198855,
+          "rms_rel_pta_gap_psi": 0.04335019593237169,
+          "ratio_psi": 0.3625968659175235,
+          "rms_rel_residual_phi": 0.006375292409848457,
+          "rms_rel_pta_gap_phi": 0.02157723274535484,
+          "noise_rms_psi": 0.0
+        },
+        "4-7": {
+          "entries": 34368,
+          "exact_fraction": 0.0,
+          "rms_rel_residual_psi": 0.07522875001560124,
+          "rms_rel_pta_gap_psi": 0.0564684963976347,
+          "ratio_psi": 1.332225131086585,
+          "rms_rel_residual_phi": 0.02989390959462957,
+          "rms_rel_pta_gap_phi": 0.029877798706508064,
+          "noise_rms_psi": 0.009354820302093492
+        },
+        "8-15": {
+          "entries": 55224,
+          "exact_fraction": 0.0,
+          "rms_rel_residual_psi": 0.17992532699608993,
+          "rms_rel_pta_gap_psi": 0.08085637757882305,
+          "ratio_psi": 2.2252459531802455,
+          "rms_rel_residual_phi": 0.060266086207311886,
+          "rms_rel_pta_gap_phi": 0.031207815913173013,
+          "noise_rms_psi": 0.026629177029981282
+        },
+        "16-40": {
+          "entries": 74016,
+          "exact_fraction": 0.0,
+          "rms_rel_residual_psi": 1.4794317603239993,
+          "rms_rel_pta_gap_psi": 0.9404981127400809,
+          "ratio_psi": 1.5730300149287593,
+          "rms_rel_residual_phi": 0.6744862307037718,
+          "rms_rel_pta_gap_phi": 0.1112138603090208,
+          "noise_rms_psi": 0.16885320345984486
+        }
+      },
+      "detected_fraction_psi": 0.8751163873370578,
+      "exact_prefixes": {
+        "entries": 17184,
+        "median_rel_residual": 1.441614187838131e-05,
+        "median_rel_pta_gap": 0.0008786863710619468,
+        "fraction_residual_larger": 0.2841014897579143
+      },
+      "spearman_prefix3": {
+        "ward_vs_abs_residual": {
+          "events": 420,
+          "mean": 0.724295412444154,
+          "median": 0.7778260869565217
+        },
+        "ward_vs_abs_pta_gap": {
+          "events": 420,
+          "mean": 0.6628021994457584,
+          "median": 0.7469565217391304
+        },
+        "pta_gap_vs_abs_residual": {
+          "events": 420,
+          "mean": 0.5608581806483082,
+          "median": 0.6531471261273387
+        }
+      }
+    }
+  },
+  "long_range": {
+    "fit_all": {
+      "2-3": {
+        "pairs": 46944,
+        "noise_share_median": 0.0,
+        "ward_vs_residual": {
+          "events": 3792,
+          "mean": 0.773400386533298,
+          "median": 0.8741258741258742
+        },
+        "pta_gap_vs_residual": {
+          "events": 3792,
+          "mean": 0.6572246319081761,
+          "median": 0.7552447552447553
+        }
+      },
+      "4-7": {
+        "pairs": 46944,
+        "noise_share_median": 0.021991645353939607,
+        "ward_vs_residual": {
+          "events": 3791,
+          "mean": 0.5903178857544461,
+          "median": 0.7132867132867133
+        },
+        "pta_gap_vs_residual": {
+          "events": 3791,
+          "mean": 0.5327376395696101,
+          "median": 0.6433566433566434
+        }
+      },
+      "8-15": {
+        "pairs": 40248,
+        "noise_share_median": 0.013729809627738374,
+        "ward_vs_residual": {
+          "events": 3252,
+          "mean": 0.6029812745679904,
+          "median": 0.7202797202797203
+        },
+        "pta_gap_vs_residual": {
+          "events": 3252,
+          "mean": 0.5729534917726801,
+          "median": 0.6713286713286714
+        }
+      },
+      "16-40": {
+        "pairs": 33552,
+        "noise_share_median": 0.015832027159524108,
+        "ward_vs_residual": {
+          "events": 2712,
+          "mean": 0.575796253893599,
+          "median": 0.6713286713286714
+        },
+        "pta_gap_vs_residual": {
+          "events": 2712,
+          "mean": 0.5274614765765209,
+          "median": 0.5944055944055945
+        }
+      }
+    },
+    "fit_A": {
+      "2-3": {
+        "pairs": 7560,
+        "noise_share_median": 0.0,
+        "ward_vs_residual": {
+          "events": 588,
+          "mean": 0.9046310832025117,
+          "median": 0.9440559440559443
+        },
+        "pta_gap_vs_residual": {
+          "events": 588,
+          "mean": 0.9090909090909092,
+          "median": 0.9370629370629372
+        }
+      },
+      "4-7": {
+        "pairs": 7560,
+        "noise_share_median": 0.030568654540534743,
+        "ward_vs_residual": {
+          "events": 588,
+          "mean": 0.4147162361448076,
+          "median": 0.4545454545454546
+        },
+        "pta_gap_vs_residual": {
+          "events": 588,
+          "mean": 0.527674706246135,
+          "median": 0.5944055944055945
+        }
+      },
+      "8-15": {
+        "pairs": 6480,
+        "noise_share_median": 0.020568239847061257,
+        "ward_vs_residual": {
+          "events": 504,
+          "mean": 0.5797674547674548,
+          "median": 0.6153846153846154
+        },
+        "pta_gap_vs_residual": {
+          "events": 504,
+          "mean": 0.6878676878676879,
+          "median": 0.7692307692307694
+        }
+      },
+      "16-40": {
+        "pairs": 5400,
+        "noise_share_median": 0.021676954973122706,
+        "ward_vs_residual": {
+          "events": 420,
+          "mean": 0.6266733266733268,
+          "median": 0.6713286713286714
+        },
+        "pta_gap_vs_residual": {
+          "events": 420,
+          "mean": 0.7201798201798202,
+          "median": 0.7972027972027973
+        }
+      }
+    },
+    "fit_B": {
+      "2-3": {
+        "pairs": 8064,
+        "noise_share_median": 0.0,
+        "ward_vs_residual": {
+          "events": 672,
+          "mean": 0.5228833666333667,
+          "median": 0.5734265734265735
+        },
+        "pta_gap_vs_residual": {
+          "events": 672,
+          "mean": 0.4427239427239427,
+          "median": 0.5104895104895105
+        }
+      },
+      "4-7": {
+        "pairs": 8064,
+        "noise_share_median": 1.3197732245125655,
+        "ward_vs_residual": {
+          "events": 671,
+          "mean": 0.1347222077475431,
+          "median": 0.1328671328671329
+        },
+        "pta_gap_vs_residual": {
+          "events": 671,
+          "mean": 0.07926797494606735,
+          "median": 0.09090909090909093
+        }
+      },
+      "8-15": {
+        "pairs": 6912,
+        "noise_share_median": 0.8421518225280487,
+        "ward_vs_residual": {
+          "events": 576,
+          "mean": 0.13619366744366745,
+          "median": 0.14685314685314685
+        },
+        "pta_gap_vs_residual": {
+          "events": 576,
+          "mean": 0.14202117327117328,
+          "median": 0.16783216783216784
+        }
+      },
+      "16-40": {
+        "pairs": 5760,
+        "noise_share_median": 0.7162717341071355,
+        "ward_vs_residual": {
+          "events": 480,
+          "mean": 0.11194638694638696,
+          "median": 0.1223776223776224
+        },
+        "pta_gap_vs_residual": {
+          "events": 480,
+          "mean": 0.21653554778554782,
+          "median": 0.22377622377622378
+        }
+      }
+    },
+    "fit_AB": {
+      "2-3": {
+        "pairs": 7776,
+        "noise_share_median": 0.0,
+        "ward_vs_residual": {
+          "events": 624,
+          "mean": 0.883304195804196,
+          "median": 0.9300699300699302
+        },
+        "pta_gap_vs_residual": {
+          "events": 624,
+          "mean": 0.7497758651604807,
+          "median": 0.8251748251748254
+        }
+      },
+      "4-7": {
+        "pairs": 7776,
+        "noise_share_median": 0.0029339183449499156,
+        "ward_vs_residual": {
+          "events": 624,
+          "mean": 0.8411556392325624,
+          "median": 0.9230769230769231
+        },
+        "pta_gap_vs_residual": {
+          "events": 624,
+          "mean": 0.7036489151873767,
+          "median": 0.7972027972027973
+        }
+      },
+      "8-15": {
+        "pairs": 6696,
+        "noise_share_median": 0.0020792799342316997,
+        "ward_vs_residual": {
+          "events": 540,
+          "mean": 0.8344211344211344,
+          "median": 0.9160839160839163
+        },
+        "pta_gap_vs_residual": {
+          "events": 540,
+          "mean": 0.7099715099715102,
+          "median": 0.7937062937062938
+        }
+      },
+      "16-40": {
+        "pairs": 5544,
+        "noise_share_median": 0.002374399068692733,
+        "ward_vs_residual": {
+          "events": 444,
+          "mean": 0.7832325332325334,
+          "median": 0.8811188811188813
+        },
+        "pta_gap_vs_residual": {
+          "events": 444,
+          "mean": 0.5711743211743212,
+          "median": 0.6293706293706295
+        }
+      }
+    },
+    "fit_AAB": {
+      "2-3": {
+        "pairs": 7776,
+        "noise_share_median": 0.0,
+        "ward_vs_residual": {
+          "events": 624,
+          "mean": 0.9068831809216426,
+          "median": 0.9370629370629372
+        },
+        "pta_gap_vs_residual": {
+          "events": 624,
+          "mean": 0.702281692666308,
+          "median": 0.7797202797202798
+        }
+      },
+      "4-7": {
+        "pairs": 7776,
+        "noise_share_median": 0.0034122059705387416,
+        "ward_vs_residual": {
+          "events": 624,
+          "mean": 0.7918235610543304,
+          "median": 0.8881118881118882
+        },
+        "pta_gap_vs_residual": {
+          "events": 624,
+          "mean": 0.6623632777478932,
+          "median": 0.7552447552447553
+        }
+      },
+      "8-15": {
+        "pairs": 6624,
+        "noise_share_median": 0.0039052686822067333,
+        "ward_vs_residual": {
+          "events": 528,
+          "mean": 0.7872033269760543,
+          "median": 0.8741258741258742
+        },
+        "pta_gap_vs_residual": {
+          "events": 528,
+          "mean": 0.6860431235431237,
+          "median": 0.7552447552447553
+        }
+      },
+      "16-40": {
+        "pairs": 5544,
+        "noise_share_median": 0.0034514275505462873,
+        "ward_vs_residual": {
+          "events": 444,
+          "mean": 0.7529137529137531,
+          "median": 0.8426573426573427
+        },
+        "pta_gap_vs_residual": {
+          "events": 444,
+          "mean": 0.665973665973666,
+          "median": 0.7482517482517484
+        }
+      }
+    },
+    "fit_AABB": {
+      "2-3": {
+        "pairs": 7848,
+        "noise_share_median": 0.0,
+        "ward_vs_residual": {
+          "events": 636,
+          "mean": 0.7451180894577122,
+          "median": 0.8671328671328673
+        },
+        "pta_gap_vs_residual": {
+          "events": 636,
+          "mean": 0.6674363372476582,
+          "median": 0.7552447552447553
+        }
+      },
+      "4-7": {
+        "pairs": 7848,
+        "noise_share_median": 0.008060171966661206,
+        "ward_vs_residual": {
+          "events": 636,
+          "mean": 0.7838105290935482,
+          "median": 0.8671328671328673
+        },
+        "pta_gap_vs_residual": {
+          "events": 636,
+          "mean": 0.6504046268197212,
+          "median": 0.7307692307692308
+        }
+      },
+      "8-15": {
+        "pairs": 6768,
+        "noise_share_median": 0.005115610179124023,
+        "ward_vs_residual": {
+          "events": 552,
+          "mean": 0.7596153846153847,
+          "median": 0.8321678321678322
+        },
+        "pta_gap_vs_residual": {
+          "events": 552,
+          "mean": 0.6387453126583561,
+          "median": 0.7202797202797203
+        }
+      },
+      "16-40": {
+        "pairs": 5616,
+        "noise_share_median": 0.008931748410584266,
+        "ward_vs_residual": {
+          "events": 456,
+          "mean": 0.7235155195681511,
+          "median": 0.7902097902097903
+        },
+        "pta_gap_vs_residual": {
+          "events": 456,
+          "mean": 0.49490860017175814,
+          "median": 0.5734265734265735
+        }
+      }
+    },
+    "fit_ABB": {
+      "2-3": {
+        "pairs": 7920,
+        "noise_share_median": 0.0,
+        "ward_vs_residual": {
+          "events": 648,
+          "mean": 0.7075023741690409,
+          "median": 0.7762237762237763
+        },
+        "pta_gap_vs_residual": {
+          "events": 648,
+          "mean": 0.508590175256842,
+          "median": 0.6083916083916086
+        }
+      },
+      "4-7": {
+        "pairs": 7920,
+        "noise_share_median": 0.028435496037725903,
+        "ward_vs_residual": {
+          "events": 648,
+          "mean": 0.595927220927221,
+          "median": 0.6713286713286714
+        },
+        "pta_gap_vs_residual": {
+          "events": 648,
+          "mean": 0.6020029353362687,
+          "median": 0.7132867132867133
+        }
+      },
+      "8-15": {
+        "pairs": 6768,
+        "noise_share_median": 0.02017421052237677,
+        "ward_vs_residual": {
+          "events": 552,
+          "mean": 0.5520041552650248,
+          "median": 0.6223776223776225
+        },
+        "pta_gap_vs_residual": {
+          "events": 552,
+          "mean": 0.6096964629573326,
+          "median": 0.6853146853146854
+        }
+      },
+      "16-40": {
+        "pairs": 5688,
+        "noise_share_median": 0.034025213873424956,
+        "ward_vs_residual": {
+          "events": 468,
+          "mean": 0.4971161317315165,
+          "median": 0.548951048951049
+        },
+        "pta_gap_vs_residual": {
+          "events": 468,
+          "mean": 0.5322455322455323,
+          "median": 0.6083916083916086
+        }
+      }
+    }
+  }
+}

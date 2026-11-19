@@ -1,0 +1,12 @@
+{
+  "version": 1, "stage": "L", "n": 4, "H": 10, "new_final_queries": 0,
+  "calibration_root": "../response_recombination/results/rr_calibration_28148840",
+  "label_depth": 2, "state_q": 4, "seed": 20261016,
+  "monitor_preparations": ["ghz4__depolarizing0.80__h0.70_0.20__d4", "ghz4__thr_depolarizing0.7225__h0.70_0.20__d2"],
+  "data": {"visit_K": 32, "roots_per_visit": 16, "visit_arm": "R2_d2_q4"},
+  "model": {"width": 96, "dtype": "float64", "symmetry": "S4_group_average_party_latent"},
+  "train": {"arms": ["psi", "joint", "pta_joint"], "seeds": [0, 1], "steps": 10000, "learning_rate": 0.001, "target_update": 100, "log_every": 100, "monitor_every": 500, "bellman_weight": 0.25, "variance_weight": 0.1, "per_model_seconds": 300},
+  "evaluation": {"K": [16, 32, 64, 128], "merge_extra_K": [4, 8], "replicates": 8, "max_tasks": 8},
+  "time": {"prepare_hours": 0.25, "train_hours": 0.75, "evaluate_hours": 5.5, "profile_hours": 0.5, "reserve_seconds": 120},
+  "profile": {"roots_per_visit": 16, "steps": 120, "evaluation_replicates": 2}
+}

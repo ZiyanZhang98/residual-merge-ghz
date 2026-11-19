@@ -1,0 +1,360 @@
+{
+  "status": "COMPLETE",
+  "mode": "full",
+  "g0_config": {
+    "version": 1,
+    "name": "ghz_scaling_gate",
+    "stage": "G0",
+    "status": "G0_IMPLEMENTED_NOT_EXECUTED",
+    "seed": 0,
+    "new_final_queries": 0,
+    "n": [
+      2,
+      3,
+      4
+    ],
+    "physical_tolerance": 1e-08,
+    "antihermitian_max": 1e-12,
+    "perturbation": 1e-12,
+    "chunk": 1024,
+    "clustering_iterations": 6,
+    "noise": {
+      "overrotation": 0.1,
+      "gamma_candidates": [
+        0.01,
+        0.02,
+        0.05
+      ]
+    },
+    "spectra": {
+      "families": [
+        "depolarizing",
+        "phase_biased"
+      ],
+      "F0": [
+        0.7,
+        0.8,
+        0.9
+      ],
+      "phase_biased_tail": 0.6
+    },
+    "histories": {
+      "calibration": [
+        [
+          0.35,
+          0.05
+        ],
+        [
+          0.7,
+          0.2
+        ]
+      ],
+      "evaluation": [
+        [
+          0.45,
+          0.14
+        ],
+        [
+          0.8,
+          0.28
+        ]
+      ],
+      "final": [
+        [
+          0.3,
+          0.1
+        ],
+        [
+          0.55,
+          0.22
+        ]
+      ]
+    },
+    "history_depths": [
+      2,
+      4
+    ],
+    "words": {
+      "main": [
+        "AB",
+        "AABB",
+        "AAB",
+        "ABB"
+      ],
+      "multistable": [
+        "A",
+        "B"
+      ]
+    },
+    "horizons": {
+      "standard": 10,
+      "stress": 40
+    },
+    "K_grid": [
+      4,
+      5,
+      6,
+      8,
+      10,
+      12,
+      16,
+      20,
+      25,
+      32,
+      40,
+      50,
+      64,
+      80,
+      100,
+      128,
+      160,
+      200,
+      256
+    ],
+    "reference": {
+      "2": [
+        512,
+        256
+      ],
+      "3": [
+        1024,
+        512
+      ],
+      "4": [
+        1024,
+        512
+      ]
+    },
+    "lookahead_depths": [
+      1,
+      2,
+      4,
+      6
+    ],
+    "threshold_tasks_per_word": 32,
+    "threshold_scan_points": 41,
+    "threshold_scan_groups": 16,
+    "dejmps_crosscheck": {
+      "configs": [
+        [
+          0.05,
+          1.0
+        ],
+        [
+          0.15,
+          0.2
+        ]
+      ],
+      "B_angle": 0.7
+    },
+    "checks": {
+      "tolerance": 1e-12,
+      "random_states": 64,
+      "rollout_K": 64,
+      "rollout_horizon": 40,
+      "cluster_steps": [
+        5,
+        20,
+        35
+      ],
+      "cluster_budgets": [
+        16,
+        64
+      ],
+      "sanity_F0": 0.9,
+      "sanity_rounds": 10
+    },
+    "bench": {
+      "K": [
+        16,
+        64,
+        256,
+        1024
+      ],
+      "numpy_K": [
+        16,
+        64,
+        256
+      ],
+      "steps": 12,
+      "numpy_steps": 3,
+      "eval_batch": 4096,
+      "assumed_lookahead_K": 32,
+      "assumed_K_window": 6
+    }
+  },
+  "g1_config": {
+    "version": 2,
+    "name": "ghz_scaling_gate_G1a",
+    "stage": "G1a",
+    "status": "G1A_IMPLEMENTED_NOT_EXECUTED",
+    "new_final_queries": 0,
+    "g0_results": "results/g0_28071949",
+    "note": "Physics, noise, preparations, words, horizons, K grid and reference sizes are read from config.json (G0, frozen). This file holds only the G1a protocol of HANDOFF 5h (reduced G1 design, 2026-10-14).",
+    "amendments": [
+      "v2 (2026-10-14, before the formal run, after smoke job 28077543): two-tier reference acceptance (user option C). The R x 2 upgrade is still triggered by a check difference above tolerance (1e-4); the finest computed reference is used and accepted if its last check difference is <= accept_tolerance (1e-3 = eps/10); the original 1e-4 rule stays exactly evaluable and is reported as a pre-registered sensitivity verdict. The 1e-12 sensitivity tolerance stays 1e-4. Decision thresholds and eps unchanged.",
+      "v2: budget raised with user permission (G1a <= 14 A100h, G1a+G1b <= 24 A100h, job limit 14 h); 4 worker processes, the configuration whose throughput was measured in smoke job 28077543."
+    ],
+    "splits": [
+      "calibration",
+      "evaluation"
+    ],
+    "eps": 0.01,
+    "K_window": 3,
+    "K_unreached": 320,
+    "h10": {
+      "n": [
+        4
+      ],
+      "splits": [
+        "evaluation"
+      ]
+    },
+    "reference": {
+      "tolerance": 0.0001,
+      "accept_tolerance": 0.001,
+      "sensitivity_tolerance": 0.0001,
+      "upgrades": 1,
+      "panel_exclusion_max": 0.2
+    },
+    "threshold": {
+      "families": [
+        "depolarizing"
+      ],
+      "F_min": 0.3,
+      "F_max": 0.95,
+      "scan_word": "AB",
+      "scan_K": 256,
+      "min_jump": 0.1,
+      "per_side": 4,
+      "words": [
+        "AB",
+        "AABB"
+      ],
+      "F_points": 41
+    },
+    "decision": {
+      "n": 4,
+      "split": "evaluation",
+      "stress_panels": [
+        "H40",
+        "threshold"
+      ],
+      "quantile": 95,
+      "headroom_K": 32,
+      "background_pass_max": 0.5
+    },
+    "limits": {
+      "groups_per_split": null,
+      "tasks_per_panel": null
+    },
+    "parallel": {
+      "workers": 4
+    },
+    "time": {
+      "limit_hours": 14.0,
+      "report_reserve_minutes": 20,
+      "hard_stop_minutes": 12
+    },
+    "budget": {
+      "enforce": true,
+      "G1a_max_A100h": 14.0,
+      "G1_total_max_A100h": 24.0,
+      "G1b": {
+        "n": 4,
+        "modes": [
+          "la",
+          "concat"
+        ],
+        "depths": [
+          1,
+          2,
+          4
+        ],
+        "multistable_depths": [
+          1,
+          2
+        ]
+      }
+    },
+    "smoke": {
+      "threshold": {
+        "min_jump": 0.0,
+        "F_points": 9
+      },
+      "limits": {
+        "groups_per_split": 1,
+        "tasks_per_panel": 2
+      },
+      "parallel": {
+        "workers": 4
+      },
+      "time": {
+        "limit_hours": 0.75,
+        "report_reserve_minutes": 8,
+        "hard_stop_minutes": 5
+      },
+      "budget": {
+        "enforce": false
+      }
+    },
+    "mode": "full"
+  },
+  "sources": {
+    "predictive_state_claim/architecture_head_ablation/ghz_scaling_gate/g1_checks.py": "0ffb9250e0ec8d16fccdf592cfe4a48a5b86b3a18ffe4550de1b55caa20c3d0b",
+    "predictive_state_claim/architecture_head_ablation/ghz_scaling_gate/g1_common.py": "652624627dcfe9ffacf21c9f2cce2fe06e6d56dcd85c7198f31608b013946e5c",
+    "predictive_state_claim/architecture_head_ablation/ghz_scaling_gate/g1_core.py": "e3c6d84a1428a06d126e6dbd4861a7c7636634afdd31192259ed84a3dbbbb340",
+    "predictive_state_claim/architecture_head_ablation/ghz_scaling_gate/g1_pool.py": "de1fe19d717c7488e17c86cc885d058e98cd2095a477c04da4544aeb66148096",
+    "predictive_state_claim/architecture_head_ablation/ghz_scaling_gate/g1_report.py": "a8fa07eef30b541446a40ebefecb8457b3f0ff0f618404d4b4e61d5a41b9704b",
+    "predictive_state_claim/architecture_head_ablation/ghz_scaling_gate/g1_run.py": "23419c473717c017be6f7ef8affce8ca859dcaf9670fe145c834e1a701b4c566",
+    "predictive_state_claim/architecture_head_ablation/ghz_scaling_gate/g1_tasks.py": "fcaefb7d9592a7ba59c583010e76ac6a10ec383011bc1da443e450a6c7bdc6e2",
+    "predictive_state_claim/architecture_head_ablation/ghz_scaling_gate/ghz_bench.py": "f45e526fe7b85dacafdfe4a25d3f0ae1bd097157627de7fe5ed1b3522e49d833",
+    "predictive_state_claim/architecture_head_ablation/ghz_scaling_gate/ghz_checks.py": "c36ce5e01ab327f5055098920b8b124175c7a11738b163e650436aba080450c8",
+    "predictive_state_claim/architecture_head_ablation/ghz_scaling_gate/ghz_data.py": "a73eb2939675315beab280bfc6a39ebe5b1ff9ca0f5b48e130ab0f4e0abb9f4a",
+    "predictive_state_claim/architecture_head_ablation/ghz_scaling_gate/ghz_merge.py": "5fd6f73ae3a21cdf0bd25affadc4454daeca33ba1419f3be44dce63c6cfbfe53",
+    "predictive_state_claim/architecture_head_ablation/ghz_scaling_gate/ghz_physics.py": "2dfdcab907bb87cd48b973911432ecfc3fd8036e02410493d8b121e3eab07779",
+    "predictive_state_claim/architecture_head_ablation/ghz_scaling_gate/ghz_runtime.py": "bc3baf60ecbb272900dd1a915c85c6ecce2dff42440ae544e8f5b3ddaaf04a1e",
+    "predictive_state_claim/architecture_head_ablation/ghz_scaling_gate/run.py": "e1c2ee86d378a241607e7888768ec62fc2b0a69c253fe5db6083ddf0f7ce70df",
+    "predictive_state_claim/architecture_head_ablation/ghz_scaling_gate/config.json": "d7e493e1d272c076a616fce8510a0da8d535b60f82eea9791354990a1f6e796c",
+    "predictive_state_claim/architecture_head_ablation/ghz_scaling_gate/run.sbatch": "9d064e33bbef64e7026215cc4cf604340bdd8e1706975a1a354c299be2e90d36",
+    "predictive_state_claim/architecture_head_ablation/positive_block_kernel/block_runtime.py": "ce3687506b019db7a3ad769385218d2061c12d02f749b20950a6034a51a5a8d5",
+    "predictive_state_claim/architecture_head_ablation/positive_block_kernel/job_environment.sh": "041474b99fd01625f1f9320e8319d7ae969ad9243fd5ffa1802f0ca99abaf3b2",
+    "predictive_state_claim/architecture_head_ablation/h3_short_sweep/environment.sh": "cad8750dd97a822b57ca33b4f5a3dfb5210350a7cc0d962f03404e6780a39d95",
+    "predictive_state_claim/steps_3_5/engine.py": "52dd0f2799fd5f14ad4ed9ffd52aac73d041050b9c0880915b7e71531d482bd7",
+    "predictive_state_claim/steps_3_5/config.json": "49c02fa3f5145595b16506ba93647ea2f96266f09a0f80b583d6d408fc240671",
+    "predictive_state_claim/steps_0_2/run.py": "1db7473d7fc1e596a5b46668d3293aabb76a94afe18bf8225b4f21356a2adce0",
+    "research_review/exp2/run_exp2.py": "75fefd177a8e95ca023e2abd147854cebcb097205acd33459d6413dca5f7cba3",
+    "research_review/exp2/config.json": "adf204be479302458360db6d27ad1f8a53a39b28691cba21cdee48753ebc35d3",
+    "dejmps_experiment/simulator/dejmps.py": "1f4906f55f0585addbe997b763fd7824bff4fbdf36a48ed0e1b38fb306b685b7",
+    "dejmps_experiment/simulator/channels.py": "5cfb90b89ec4c5235261d01758bc6e55ab27b11ac34ca2592ee5f917f3cdb4d8",
+    "dejmps_experiment/simulator/linalg.py": "0137b2cab0603ada68de99daf2c4df67893756ae5215de829c9de712be1ecbc9",
+    "dejmps_experiment/data/pauli_basis.py": "27bc9f024dc9b82dc89f1743ac5b94f790899f76864da3e087699e5a9bfba2bf",
+    "predictive_state_claim/architecture_head_ablation/ghz_scaling_gate/g1_config.json": "8838d716d6cef9911395dfeb0999014d234b58b54378f6aeb7c00b88e48e9157",
+    "predictive_state_claim/architecture_head_ablation/ghz_scaling_gate/g1a.sbatch": "744921e94c442053d69e312bae2e934fd213203c47e2c016661b05c03b54fe8a",
+    "predictive_state_claim/architecture_head_ablation/ghz_scaling_gate/g1a_smoke.sbatch": "827b1894eca7c25a186c1d9c7c7ec1c584a64e5d7508092126281e0cee1a7d1a",
+    "predictive_state_claim/architecture_head_ablation/ghz_scaling_gate/g1a_pipeline.sh": "e4e0c1fe33416c1df7a9899f937f85bc59b0a135603340eed2fe78077dd1ddc3"
+  },
+  "files": {
+    "thresholds.json": "e4faa0c9773c9adba7682df426f0d767f6b77a4b169274a6250b39c876676c45"
+  },
+  "new_final_queries": 0,
+  "final_accessed": false,
+  "pool": {
+    "tag": "tasks_eval",
+    "items": 652,
+    "workers": 4,
+    "wall_seconds": 17313.06018424034,
+    "worker_seconds": 67863.1631122916,
+    "exit_codes": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "status_counts": {
+      "OK": 594,
+      "REFERENCE_EXCLUDED": 58
+    },
+    "missing": []
+  }
+}

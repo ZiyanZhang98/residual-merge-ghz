@@ -1,0 +1,15 @@
+{
+  "version": 3, "stage": "PC", "seed": 20261019, "new_final_queries": 0,
+  "revision": {"date": "2026-10-20", "post_PC0": true, "fixed_domain": "n3_H40", "main_subset": "mixed_word_and_M0_P_limited", "estimators": ["add", "mul"], "cheap_candidates": ["M_PTA", "M_PTA__mul"], "route_room_threshold": 1.1, "route_min_preparations": 3, "baseline_blocks_training": false},
+  "K": [4, 8, 16, 32, 64, 128, 256], "tolerance": 1e-10,
+  "g1a": "../ghz_scaling_gate/results/g1a_28087770",
+  "old_panel": "../response_learning/results/evaluate_28172305/evaluation_plan.json",
+  "legacy_train": "../response_learning/results/train_28170436",
+  "split": {"reserve_preparations": 8, "audit_preparations": 12, "audit_tasks": 32},
+  "pool": {"fit": 48, "monitor": 12, "F0": [0.52, 0.92], "phi": [0.2, 0.9], "gamma": [0.03, 0.30]},
+  "data": {"words": ["AB", "AAB", "AABB", "ABB"], "gammas": [0.02, 0.05], "K_per_preparation": 2, "visits_per_trajectory": 6, "clusters_per_visit": 1, "exact_depth": 2, "diagnostic_depth": 4, "chunk_leaves": 4096},
+  "train": {"objectives": ["point", "gap"], "seeds": [0, 1, 2], "parameterizations": ["pta", "direct"], "steps": 3000, "direct_warmup_steps": 200, "target_update": 100, "width": 128, "learning_rate": 0.001, "anchor_weight": 1.0, "bellman_weight": 0.25, "kernel_landmarks": 128, "kernel_bandwidth": 1.0, "kernel_ridge": 0.00001},
+  "timing_blocks": 3,
+  "profile": {"K": [4, 32, 256], "steps": 12, "fit": 4, "monitor": 2, "timing_blocks": 1},
+  "resource": {"reserve_seconds": 90, "verification_minutes": 30, "production_ceiling_minutes": 180}
+}

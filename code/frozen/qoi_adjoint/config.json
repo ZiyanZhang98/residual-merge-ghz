@@ -1,0 +1,17 @@
+{
+  "version": 1, "stage": "QA", "new_final_queries": 0,
+  "authority": "HANDOFF section 5j item 22 (2026-10-21); step A quantity-of-interest audit, no training",
+  "pc0_root": "../p_correction/results/pc0_28290118_0",
+  "K": [4, 8, 16, 32, 64, 128, 256],
+  "tolerance": {"P_relative": 0.01, "F_absolute": 0.01, "TD": 0.01, "identity": 1e-10},
+  "n4_H40": {"preparations": 12, "tasks": 32},
+  "decision": {
+    "framework_ratio": 3.0,
+    "room_K": 16,
+    "room_preparation_fraction": 0.5,
+    "censored_K": 512,
+    "h10_domains": ["n4_H10", "n3_H10"],
+    "h40_domains": ["n3_H40", "n4_H40"]
+  },
+  "resource": {"reserve_seconds": 120}
+}

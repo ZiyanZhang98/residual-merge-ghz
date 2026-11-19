@@ -1,0 +1,23 @@
+{
+  "version": 1, "stage": "LG", "new_final_queries": 0,
+  "authority": "HANDOFF section 5j item 22.26 (2026-10-27, user request): (1) does the PTA correction erase what the learned look-ahead gains over the PTA look-ahead; (2) how close the merges chosen by the learned and by the PTA look-ahead are to those chosen with the true future responses",
+  "hard_regime": {"step1_job": "28470804", "step2_job": "28470806"},
+  "lookahead_tuning": {"smoke_job": "28556073"},
+  "lookahead_oracle": {"run_job": "28577119"},
+  "hard_families": ["AB", "AABB", "ABB"],
+  "tolerance": {"P_relative": 0.01, "F_absolute": 0.01, "TD": 0.01},
+  "settings": {
+    "orig": {"kind": "orig", "lengths": [1, 2, 4, 8, 16], "weight": 1.0},
+    "s1_long": {"kind": "std", "share": 1.0, "lengths": [1, 2, 4, 8, 16, 32, 40]},
+    "s1_k3": {"kind": "std", "share": 1.0, "lengths": [1, 2, 3]}
+  },
+  "probe": {
+    "K": [16, 64], "events": [5, 10, 20, 30], "exact_rounds": 3,
+    "truth_paths": 2048, "coupled_paths": 512, "chunk_paths": 32768, "exact_chunk": 128,
+    "cost_settings": ["orig", "s1_long"], "seed": 20261027
+  },
+  "smoke": {"picks": [[3, "AB"], [4, "ABB"]], "K": [16], "events": [5, 30], "truth_paths": 1024, "coupled_paths": 256},
+  "read": {"ratio": 1.05, "erased_below": 1.02, "closer_ratio": 1.10, "fraction": 0.6666666666666666, "floor_factor": 1.5,
+           "horizons": [1, 2, 3, 4, 8, 16, 24, 32]},
+  "resource": {"reserve_seconds": 180}
+}

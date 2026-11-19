@@ -1,0 +1,14 @@
+{
+  "version": 1, "stage": "PG", "new_final_queries": 0,
+  "authority": "HANDOFF section 5j item 22.18 (2026-10-23): no-training physics-guided merging (A goal-oriented metric, B two-point merge) and analytic corrections (C branch-summed MF, D exact-m + PTA tail), scored against hard_regime Monte Carlo truth",
+  "hard_regime": {"step1_job": "28470804", "step2_job": "28470806"},
+  "hard_families": ["AB", "AABB", "ABB"],
+  "K": [4, 8, 16, 32, 64, 128, 256],
+  "trajectories": {"geo": ["geo", "mean"], "gPTA": ["PTA", "mean"], "gD1": ["D1", "mean"], "gMF": ["MF", "mean"], "tpD1": ["D1", "two_point"]},
+  "sources": {"geo": ["M_PTA", "D1", "D2", "MF"], "gPTA": ["M_PTA", "D1", "MF"], "gD1": ["M_PTA", "D1", "D2", "MF"], "gMF": ["M_PTA", "D1", "MF"], "tpD1": ["M_PTA", "D1", "MF"]},
+  "metric": {"hessian_chunk": 128, "tie_breaker": 1e-3},
+  "tolerance": {"P_relative": 0.01, "F_absolute": 0.01, "TD": 0.01},
+  "decision": {"baselines": ["geo+M_PTA", "geo_raw", "geo+M_PTA__mul"], "ratio": 1.5, "preparation_fraction": 0.6666666666666666, "primary_n": 4},
+  "smoke": {"K": [16, 64]},
+  "resource": {"reserve_seconds": 180}
+}

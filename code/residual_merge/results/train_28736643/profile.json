@@ -1,0 +1,50 @@
+{
+  "task_id": "qb_n4_099abe2bc3d4dc2e_ABB",
+  "runs": [
+    {
+      "task_id": "qb_n4_099abe2bc3d4dc2e_ABB",
+      "family": "ABB",
+      "prep_id": "099abe2bc3d4dc2e2a8b360b06a64e56425d796d89a120b778b67ef8599fb1a8",
+      "status": "OK",
+      "Q_QoI": 3.0247491412965064,
+      "method": "L",
+      "budget": 0.125,
+      "physical_calls": 4674,
+      "seconds": 44.540502324991394,
+      "max_atoms": 256,
+      "forced": 8364,
+      "merge_seconds": 39.69419219013071,
+      "correction_seconds": 2.941663719189819
+    },
+    {
+      "task_id": "qb_n4_099abe2bc3d4dc2e_ABB",
+      "family": "ABB",
+      "prep_id": "099abe2bc3d4dc2e2a8b360b06a64e56425d796d89a120b778b67ef8599fb1a8",
+      "status": "OK",
+      "Q_QoI": 2.8517433128982304,
+      "method": "L",
+      "budget": 1,
+      "physical_calls": 3394,
+      "seconds": 39.065182686026674,
+      "max_atoms": 256,
+      "forced": 3674,
+      "merge_seconds": 35.11516651714919,
+      "correction_seconds": 2.5616284788702615
+    },
+    {
+      "task_id": "qb_n4_099abe2bc3d4dc2e_ABB",
+      "family": "ABB",
+      "prep_id": "099abe2bc3d4dc2e2a8b360b06a64e56425d796d89a120b778b67ef8599fb1a8",
+      "status": "OK",
+      "Q_QoI": 2.9630117861459127,
+      "method": "L",
+      "budget": 8,
+      "physical_calls": 860,
+      "seconds": 30.778073373017833,
+      "max_atoms": 197,
+      "forced": 0,
+      "merge_seconds": 28.160752186900936,
+      "correction_seconds": 2.1159067449043505
+    }
+  ]
+}

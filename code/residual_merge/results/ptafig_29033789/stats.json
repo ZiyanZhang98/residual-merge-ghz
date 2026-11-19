@@ -1,0 +1,233 @@
+{
+ "pta_job": "28921046",
+ "test_job": "28851717",
+ "set": "n=4 test, resolvable tasks",
+ "mean": "geometric for P, arithmetic for F",
+ "tolerance": {
+  "P": 0.01,
+  "F": 0.01
+ },
+ "note": "within_tolerance counts tasks whose error stays within the tolerance of that quantity in all 40 rounds",
+ "stats": {
+  "P": {
+   "AB": {
+    "tasks": 24,
+    "within_tolerance": 0,
+    "first_failure_median": 3.0,
+    "first_failure_range": [
+     2,
+     3
+    ],
+    "round40": {
+     "sim_mean": 6.18312704807152e-10,
+     "sim_min": 7.72460958820166e-18,
+     "sim_max": 7.900667477363412e-06,
+     "truth_mean": 1.1702301927297812e-07,
+     "truth_min": 5.117676585364976e-10,
+     "truth_max": 1.285531204612311e-05
+    }
+   },
+   "AABB": {
+    "tasks": 24,
+    "within_tolerance": 0,
+    "first_failure_median": 2.0,
+    "first_failure_range": [
+     2,
+     2
+    ],
+    "round40": {
+     "sim_mean": 2.1870369124311724e-11,
+     "sim_min": 1.4657082724811147e-18,
+     "sim_max": 8.730916873163827e-07,
+     "truth_mean": 2.547373648473954e-08,
+     "truth_min": 5.531050677608427e-10,
+     "truth_max": 2.1324636789914623e-06
+    }
+   },
+   "ABB": {
+    "tasks": 6,
+    "within_tolerance": 0,
+    "first_failure_median": 4.0,
+    "first_failure_range": [
+     3,
+     4
+    ],
+    "round40": {
+     "sim_mean": 4.514906839099795e-14,
+     "sim_min": 1.628605948866043e-15,
+     "sim_max": 5.02978893317398e-13,
+     "truth_mean": 3.8867720632084957e-13,
+     "truth_min": 6.1342340797897926e-15,
+     "truth_max": 3.4701027371873785e-12
+    }
+   },
+   "A": {
+    "tasks": 12,
+    "within_tolerance": 0,
+    "first_failure_median": 2.0,
+    "first_failure_range": [
+     2,
+     2
+    ],
+    "round40": {
+     "sim_mean": 7.723482593912764e-05,
+     "sim_min": 5.0513873426934594e-05,
+     "sim_max": 0.00012002990960154817,
+     "truth_mean": 0.09665678930961034,
+     "truth_min": 0.0488502285479864,
+     "truth_max": 0.21931364513606075
+    }
+   },
+   "AAB": {
+    "tasks": 12,
+    "within_tolerance": 0,
+    "first_failure_median": 2.0,
+    "first_failure_range": [
+     2,
+     2
+    ],
+    "round40": {
+     "sim_mean": 3.2588842300748125e-09,
+     "sim_min": 3.127274605434811e-10,
+     "sim_max": 9.247637967035773e-06,
+     "truth_mean": 4.579095832780286e-06,
+     "truth_min": 1.4781870679085482e-06,
+     "truth_max": 1.7983684003499064e-05
+    }
+   },
+   "B": {
+    "tasks": 12,
+    "within_tolerance": 0,
+    "first_failure_median": 10.5,
+    "first_failure_range": [
+     4,
+     18
+    ],
+    "round40": {
+     "sim_mean": 0.0019935361438075633,
+     "sim_min": 9.11975851254173e-05,
+     "sim_max": 0.0069438529511495085,
+     "truth_mean": 0.0020087382368593914,
+     "truth_min": 0.0001539272744743868,
+     "truth_max": 0.006679116199406208
+    }
+   }
+  },
+  "F": {
+   "AB": {
+    "tasks": 24,
+    "within_tolerance": 0,
+    "first_failure_median": 2.0,
+    "first_failure_range": [
+     2,
+     2
+    ],
+    "round40": {
+     "sim_mean": 0.6648398058575998,
+     "sim_min": 0.19583935064035704,
+     "sim_max": 0.8845624531798651,
+     "truth_mean": 0.7198222719333707,
+     "truth_min": 0.4821129168120057,
+     "truth_max": 0.8986012267674791
+    }
+   },
+   "AABB": {
+    "tasks": 24,
+    "within_tolerance": 0,
+    "first_failure_median": 3.0,
+    "first_failure_range": [
+     2,
+     3
+    ],
+    "round40": {
+     "sim_mean": 0.5057703855100518,
+     "sim_min": 0.14150896865681742,
+     "sim_max": 0.7255064526895756,
+     "truth_mean": 0.5939312295357445,
+     "truth_min": 0.4451490346511843,
+     "truth_max": 0.7614448296628537
+    }
+   },
+   "ABB": {
+    "tasks": 6,
+    "within_tolerance": 0,
+    "first_failure_median": 2.0,
+    "first_failure_range": [
+     2,
+     2
+    ],
+    "round40": {
+     "sim_mean": 0.11132288353343534,
+     "sim_min": 0.11132288130510537,
+     "sim_max": 0.11132288757348424,
+     "truth_mean": 0.11114527663170697,
+     "truth_min": 0.11056103771326874,
+     "truth_max": 0.11133011024368183
+    }
+   },
+   "A": {
+    "tasks": 12,
+    "within_tolerance": 11,
+    "first_failure_median": 2.0,
+    "first_failure_range": [
+     2,
+     2
+    ],
+    "round40": {
+     "sim_mean": 0.49854368902422697,
+     "sim_min": 0.498543689024227,
+     "sim_max": 0.4985436890242271,
+     "truth_mean": 0.4999831531246232,
+     "truth_min": 0.49995096042690734,
+     "truth_max": 0.49998609692538276
+    }
+   },
+   "AAB": {
+    "tasks": 12,
+    "within_tolerance": 0,
+    "first_failure_median": 3.0,
+    "first_failure_range": [
+     2,
+     3
+    ],
+    "round40": {
+     "sim_mean": 0.6080191333822308,
+     "sim_min": 0.486703693357426,
+     "sim_max": 0.9753677218285722,
+     "truth_mean": 0.5221493255701158,
+     "truth_min": 0.4994696843765166,
+     "truth_max": 0.6947453636354527
+    }
+   },
+   "B": {
+    "tasks": 12,
+    "within_tolerance": 9,
+    "first_failure_median": 2.0,
+    "first_failure_range": [
+     2,
+     2
+    ],
+    "round40": {
+     "sim_mean": 0.12422424301040025,
+     "sim_min": 0.12170089245729311,
+     "sim_max": 0.12446721965031907,
+     "truth_mean": 0.12420563694394592,
+     "truth_min": 0.12238883752128864,
+     "truth_max": 0.12441937777118038
+    }
+   }
+  },
+  "paper_B": {
+   "P": {
+    "tasks": 12,
+    "within_tolerance": 0,
+    "first_failure_median": 10.5
+   },
+   "F": {
+    "tasks": 12,
+    "within_tolerance": 9,
+    "first_failure_median": 2.0
+   }
+  }
+ }
+}

@@ -1,0 +1,49 @@
+{
+  "done": 5,
+  "total": 5,
+  "timings": [
+    {
+      "prep": "10fee3e475b880f8bbab1b9a14400ac835693f738dca03c13ba809745ad77715",
+      "split": "fit",
+      "seconds": 25.867895601000782
+    },
+    {
+      "prep": "b21c9c6d910f66b46a8ccd29e2f12631fee2d28bac49c475eabd5d94672effda",
+      "split": "fit",
+      "seconds": 25.87948247300119
+    },
+    {
+      "prep": "8c892278911f29a9b84655724a109203598dcb52eab29dc487eef724d927f1ed",
+      "split": "fit",
+      "seconds": 25.876241150999704
+    },
+    {
+      "prep": "b2e729dae65e25dc1228a0c727fe7a97fd8b9a1d221078493f5469833999dcca",
+      "split": "fit",
+      "seconds": 25.87456306599961
+    },
+    {
+      "prep": "4c167578cc9ac6519e43d5cf6b985fe98fefbab21fbf229fe4cd077e74fb0238",
+      "split": "monitor",
+      "seconds": 15.53404003200012
+    }
+  ],
+  "summary": {
+    "fit": {
+      "pairs": 1320,
+      "median_rel_residual": 0.015945492975957473,
+      "median_rel_pta_gap": 0.0018414874790090897,
+      "median_ratio_residual_over_pta": 6.871542594820031,
+      "fraction_residual_larger": 0.7757575757575758,
+      "fraction_resolvable": 0.8446969696969697
+    },
+    "monitor": {
+      "pairs": 126,
+      "median_rel_residual": 0.010813123067916182,
+      "median_rel_pta_gap": 0.00033706874220992226,
+      "median_ratio_residual_over_pta": 27.69387400914511,
+      "fraction_residual_larger": 0.7301587301587301,
+      "fraction_resolvable": 0.873015873015873
+    }
+  }
+}

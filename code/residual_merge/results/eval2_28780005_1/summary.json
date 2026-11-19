@@ -1,0 +1,7 @@
+{
+  "batch": "B",
+  "arm": "signed",
+  "tasks": 3,
+  "runs": 75,
+  "failures": 0
+}

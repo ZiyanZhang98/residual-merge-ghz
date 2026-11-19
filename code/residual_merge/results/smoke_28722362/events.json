@@ -1,0 +1,404 @@
+[
+  {
+    "task_id": "qb_n4_099abe2bc3d4dc2e_AB",
+    "n": 4,
+    "family": "AB",
+    "events": [
+      {
+        "t": 5,
+        "branches": 128,
+        "pairs": 64,
+        "L": 35,
+        "seconds": {
+          "pta": 0.08236797101562843,
+          "exact": 0.018726726004388183,
+          "coupled": 32.82431938499212
+        },
+        "seconds_per_pair": 0.5144595950314397,
+        "coupled_path_steps": 3440640,
+        "coupled_seconds_per_path_step": 9.540178392680467e-06,
+        "residual": {
+          "median_max_rel_residual_psi": 1.2431231082635212e-06,
+          "median_max_rel_pta_gap_psi": 2.751918903644547e-06,
+          "q90_max_rel_residual_psi": 0.00013896396558326713,
+          "resolvable_fraction": 0.984375
+        }
+      },
+      {
+        "t": 10,
+        "branches": 512,
+        "pairs": 64,
+        "L": 30,
+        "seconds": {
+          "pta": 0.07099205197300762,
+          "exact": 0.010310049983672798,
+          "coupled": 27.74523548100842
+        },
+        "seconds_per_pair": 0.4347896497338297,
+        "coupled_path_steps": 2949120,
+        "coupled_seconds_per_path_step": 9.407971015424405e-06,
+        "residual": {
+          "median_max_rel_residual_psi": 5.12374074992492e-06,
+          "median_max_rel_pta_gap_psi": 2.6936497397488187e-06,
+          "q90_max_rel_residual_psi": 5.913328351440637e-05,
+          "resolvable_fraction": 0.984375
+        }
+      },
+      {
+        "t": 20,
+        "branches": 512,
+        "pairs": 64,
+        "L": 20,
+        "seconds": {
+          "pta": 0.047498362022452056,
+          "exact": 0.010216252994723618,
+          "coupled": 18.511404539982323
+        },
+        "seconds_per_pair": 0.29014248679686716,
+        "coupled_path_steps": 1966080,
+        "coupled_seconds_per_path_step": 9.415387237539837e-06,
+        "residual": {
+          "median_max_rel_residual_psi": 7.922382606063608e-07,
+          "median_max_rel_pta_gap_psi": 6.411602699016343e-08,
+          "q90_max_rel_residual_psi": 1.4199317467177401e-05,
+          "resolvable_fraction": 0.796875
+        }
+      },
+      {
+        "t": 30,
+        "branches": 512,
+        "pairs": 64,
+        "L": 10,
+        "seconds": {
+          "pta": 0.024330998014193028,
+          "exact": 0.01015870796982199,
+          "coupled": 9.270457091042772
+        },
+        "seconds_per_pair": 0.14538979370354355,
+        "coupled_path_steps": 983040,
+        "coupled_seconds_per_path_step": 9.430396617678602e-06,
+        "residual": {
+          "median_max_rel_residual_psi": 1.4738952624294448e-06,
+          "median_max_rel_pta_gap_psi": 4.294248435141333e-07,
+          "q90_max_rel_residual_psi": 3.7790001070624365e-05,
+          "resolvable_fraction": 0.953125
+        }
+      }
+    ],
+    "worst_coupled_vs_exact": [
+      {
+        "t": 5,
+        "quantity": "psi",
+        "pair": 54,
+        "prefix": 1,
+        "diff": 7.877578927657365e-06,
+        "se": 3.6450178529964303e-06,
+        "level_psi": 0.7213638615314644,
+        "level_own": 0.7213638615314644,
+        "max_rel_own_scale": 1.0920395860881037e-05
+      },
+      {
+        "t": 5,
+        "quantity": "phi",
+        "pair": 8,
+        "prefix": 3,
+        "diff": 6.922213392805809e-07,
+        "se": 8.818301971605589e-07,
+        "level_psi": 0.1993760115481235,
+        "level_own": 0.12057350281134205,
+        "max_rel_own_scale": 5.7410734791679726e-06
+      },
+      {
+        "t": 10,
+        "quantity": "psi",
+        "pair": 12,
+        "prefix": 3,
+        "diff": -6.539422701511846e-05,
+        "se": 0.00014109980848020596,
+        "level_psi": 0.3639896811218094,
+        "level_own": 0.3639896811218094,
+        "max_rel_own_scale": 0.000179659562912813
+      },
+      {
+        "t": 10,
+        "quantity": "phi",
+        "pair": 12,
+        "prefix": 3,
+        "diff": -8.002984788885834e-05,
+        "se": 0.00016504861777712383,
+        "level_psi": 0.3639896811218094,
+        "level_own": 0.18258090217535422,
+        "max_rel_own_scale": 0.0004383254049867501
+      },
+      {
+        "t": 20,
+        "quantity": "psi",
+        "pair": 8,
+        "prefix": 2,
+        "diff": -0.00018875914841880355,
+        "se": 7.757170822165665e-10,
+        "level_psi": 0.4206499817545865,
+        "level_own": 0.4206499817545865,
+        "max_rel_own_scale": 0.0004487320970072654
+      },
+      {
+        "t": 20,
+        "quantity": "phi",
+        "pair": 8,
+        "prefix": 2,
+        "diff": -0.0002500591178620573,
+        "se": 2.5438723517388143e-07,
+        "level_psi": 0.4206499817545865,
+        "level_own": 0.20264429760277222,
+        "max_rel_own_scale": 0.0012339805305167217
+      },
+      {
+        "t": 30,
+        "quantity": "psi",
+        "pair": 57,
+        "prefix": 3,
+        "diff": 2.6842775591905226e-06,
+        "se": 9.91575430144644e-07,
+        "level_psi": 0.4072941617075456,
+        "level_own": 0.4072941617075456,
+        "max_rel_own_scale": 6.59051322497951e-06
+      },
+      {
+        "t": 30,
+        "quantity": "phi",
+        "pair": 57,
+        "prefix": 3,
+        "diff": 1.620006630681019e-06,
+        "se": 4.7666934718642476e-07,
+        "level_psi": 0.4072941617075456,
+        "level_own": 0.3900756530170961,
+        "max_rel_own_scale": 4.1530575367902235e-06
+      }
+    ],
+    "telescoping": {
+      "merges": 384,
+      "rounds": 3,
+      "clusters": 128,
+      "branches": 512,
+      "pta_psi_max_abs": 9.549957667113335e-17,
+      "pta_psi_scale": 4.973082522008454e-06,
+      "pta_phi_max_abs": 1.8001398304932567e-16,
+      "pta_phi_scale": 7.0228231359159565e-06,
+      "exact_psi_max_abs": 8.956526384266972e-17,
+      "exact_psi_scale": 8.145524344471688e-06,
+      "exact_phi_max_abs": 7.457955693984664e-17,
+      "exact_phi_scale": 7.022823135804934e-06,
+      "agglomeration": {
+        "before": 512,
+        "after": 128,
+        "merges": 0,
+        "forced": 384,
+        "spent": 0.0,
+        "forced_cost": 0.0012391907543330303,
+        "rounds": 3
+      },
+      "passed": true
+    }
+  },
+  {
+    "task_id": "qb_n4_099abe2bc3d4dc2e_ABB",
+    "n": 4,
+    "family": "ABB",
+    "events": [
+      {
+        "t": 5,
+        "branches": 512,
+        "pairs": 64,
+        "L": 35,
+        "seconds": {
+          "pta": 0.08605468104360625,
+          "exact": 0.011683029995765537,
+          "coupled": 37.2771275669802
+        },
+        "seconds_per_pair": 0.5839822699690558,
+        "coupled_path_steps": 3440640,
+        "coupled_seconds_per_path_step": 1.0834358598103899e-05,
+        "residual": {
+          "median_max_rel_residual_psi": 0.0012415594161252846,
+          "median_max_rel_pta_gap_psi": 0.00042099847246397583,
+          "q90_max_rel_residual_psi": 0.02187678040932581,
+          "resolvable_fraction": 1.0
+        }
+      },
+      {
+        "t": 10,
+        "branches": 128,
+        "pairs": 64,
+        "L": 30,
+        "seconds": {
+          "pta": 0.07379891903838143,
+          "exact": 0.015068948967382312,
+          "coupled": 32.206374570028856
+        },
+        "seconds_per_pair": 0.5046131630942909,
+        "coupled_path_steps": 2949120,
+        "coupled_seconds_per_path_step": 1.0920672800709654e-05,
+        "residual": {
+          "median_max_rel_residual_psi": 4.490103407642084e-05,
+          "median_max_rel_pta_gap_psi": 3.668078521820793e-05,
+          "q90_max_rel_residual_psi": 0.0007275295046997007,
+          "resolvable_fraction": 0.96875
+        }
+      },
+      {
+        "t": 20,
+        "branches": 512,
+        "pairs": 64,
+        "L": 20,
+        "seconds": {
+          "pta": 0.0487544679781422,
+          "exact": 0.011091716994997114,
+          "coupled": 21.187627828039695
+        },
+        "seconds_per_pair": 0.33199178145332553,
+        "coupled_path_steps": 1966080,
+        "coupled_seconds_per_path_step": 1.0776584792093757e-05,
+        "residual": {
+          "median_max_rel_residual_psi": 6.179733217475726e-06,
+          "median_max_rel_pta_gap_psi": 1.8373894440114898e-06,
+          "q90_max_rel_residual_psi": 3.0221563788738647e-05,
+          "resolvable_fraction": 0.484375
+        }
+      },
+      {
+        "t": 30,
+        "branches": 512,
+        "pairs": 64,
+        "L": 10,
+        "seconds": {
+          "pta": 0.02483767899684608,
+          "exact": 0.011590851005166769,
+          "coupled": 10.164461148029659
+        },
+        "seconds_per_pair": 0.15938890121924487,
+        "coupled_path_steps": 983040,
+        "coupled_seconds_per_path_step": 1.0339824572784077e-05,
+        "residual": {
+          "median_max_rel_residual_psi": 1.3864439634046414e-09,
+          "median_max_rel_pta_gap_psi": 3.8552501305965054e-08,
+          "q90_max_rel_residual_psi": 1.8739271013644622e-08,
+          "resolvable_fraction": 0.921875
+        }
+      }
+    ],
+    "worst_coupled_vs_exact": [
+      {
+        "t": 5,
+        "quantity": "psi",
+        "pair": 21,
+        "prefix": 1,
+        "diff": 2.2441896539831396e-05,
+        "se": 1.4055979944479007e-05,
+        "level_psi": 0.8022907233936911,
+        "level_own": 0.8022907233936911,
+        "max_rel_own_scale": 2.797227474462391e-05
+      },
+      {
+        "t": 5,
+        "quantity": "phi",
+        "pair": 24,
+        "prefix": 2,
+        "diff": -1.743610989875e-06,
+        "se": 2.1851775935663396e-06,
+        "level_psi": 0.24086111695931078,
+        "level_own": 0.1255003346750529,
+        "max_rel_own_scale": 1.3893277610689886e-05
+      },
+      {
+        "t": 10,
+        "quantity": "psi",
+        "pair": 7,
+        "prefix": 3,
+        "diff": -4.304771138222943e-06,
+        "se": 3.5114416140584647e-06,
+        "level_psi": 0.14729775173028103,
+        "level_own": 0.14729775173028103,
+        "max_rel_own_scale": 2.922496160094466e-05
+      },
+      {
+        "t": 10,
+        "quantity": "phi",
+        "pair": 7,
+        "prefix": 3,
+        "diff": -2.1988265015037334e-06,
+        "se": 1.710286705714675e-06,
+        "level_psi": 0.14729775173028103,
+        "level_own": 0.060503548044047256,
+        "max_rel_own_scale": 3.634210839838621e-05
+      },
+      {
+        "t": 20,
+        "quantity": "psi",
+        "pair": 34,
+        "prefix": 1,
+        "diff": -1.1552974727014575e-05,
+        "se": 5.8104482208909096e-06,
+        "level_psi": 0.5000000077221862,
+        "level_own": 0.5000000077221862,
+        "max_rel_own_scale": 2.3105949097172266e-05
+      },
+      {
+        "t": 20,
+        "quantity": "phi",
+        "pair": 32,
+        "prefix": 2,
+        "diff": 7.246617112536548e-07,
+        "se": 4.957096013303942e-07,
+        "level_psi": 0.06251925795435578,
+        "level_own": 0.004216793049559138,
+        "max_rel_own_scale": 0.00017185138154442213
+      },
+      {
+        "t": 30,
+        "quantity": "psi",
+        "pair": 16,
+        "prefix": 3,
+        "diff": 3.709120189203461e-08,
+        "se": 4.9007516891498315e-08,
+        "level_psi": 0.03125859794378628,
+        "level_own": 0.03125859794378628,
+        "max_rel_own_scale": 1.186591988506246e-06
+      },
+      {
+        "t": 30,
+        "quantity": "phi",
+        "pair": 16,
+        "prefix": 3,
+        "diff": 2.4746385291486507e-09,
+        "se": 3.1017297800367856e-09,
+        "level_psi": 0.03125859794378628,
+        "level_own": 0.0019541768931139775,
+        "max_rel_own_scale": 1.2663329189228712e-06
+      }
+    ],
+    "telescoping": {
+      "merges": 96,
+      "rounds": 3,
+      "clusters": 32,
+      "branches": 128,
+      "pta_psi_max_abs": 6.334112379567658e-17,
+      "pta_psi_scale": 7.922601118287576e-06,
+      "pta_phi_max_abs": 3.902111381411111e-17,
+      "pta_phi_scale": 4.813833774819365e-06,
+      "exact_psi_max_abs": 1.9354321679934498e-16,
+      "exact_psi_scale": 9.137506528450468e-06,
+      "exact_phi_max_abs": 4.85129650210428e-17,
+      "exact_phi_scale": 5.9296461132896106e-06,
+      "agglomeration": {
+        "before": 128,
+        "after": 32,
+        "merges": 0,
+        "forced": 96,
+        "spent": 0.0,
+        "forced_cost": 0.0009180856190143592,
+        "rounds": 3
+      },
+      "passed": true
+    }
+  }
+]

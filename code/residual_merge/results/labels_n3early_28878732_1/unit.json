@@ -1,0 +1,6 @@
+{
+  "index": 1,
+  "shards": 12,
+  "mode": "n3early",
+  "n": 3
+}

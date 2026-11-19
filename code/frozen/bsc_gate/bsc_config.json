@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "name": "bsc_gate",
+  "stage": "BSC-Q",
+  "status": "IMPLEMENTED_NOT_EXECUTED",
+  "new_final_queries": 0,
+  "note": "HANDOFF 5i stage 1, gate Q1 and gate Q2 (no learning). Physics, preparations and the K grid come from the frozen G0 config; eps, K_window and K_unreached from the G1a v2 protocol; tasks, references (T2) and merge_K results are reused from G1a job 28087770. Thresholds are the HANDOFF 5i suggested values, frozen here pending user confirmation.",
+  "seed": 0,
+  "g1a_results": "../ghz_scaling_gate/results/g1a_28087770",
+  "n": 4,
+  "judgment": {"split": "evaluation", "panels": ["H40", "threshold"]},
+  "arms": {
+    "decision": ["S2", "S3", "S4", "O1", "O2"],
+    "nonlearned": ["S2", "S3", "S4"],
+    "oracle": ["O1", "O2"],
+    "context": ["S0", "S1"]
+  },
+  "replicates": {"M": 20, "need": 19},
+  "lookahead": {"depths": [1, 2, 4], "chunk_leaves": 16384, "twist_mix": 0.1},
+  "subsets": {"calibration_every": 3, "context_every": 4},
+  "limits": {"calibration_tasks": null, "evaluation_t2": null, "evaluation_t3": null, "t3_tasks": null},
+  "t1": {
+    "n": [3, 4],
+    "words": ["AB", "AABB", "ABB"],
+    "preps": [["depolarizing", 0.8, 0], ["phase_biased", 0.7, 1]],
+    "history_depth": 2,
+    "H_max": 8,
+    "max_leaves": 131072,
+    "K": 16,
+    "replicates": 100,
+    "block": 20,
+    "z_max": 4.5,
+    "coverage": [0.93, 0.97],
+    "exact_tolerance": 1e-12,
+    "enforce": true
+  },
+  "t3": {
+    "arm": "S3",
+    "K": 1024,
+    "batch": 8,
+    "R_max": 32,
+    "halfwidth_max": 1e-3,
+    "bootstrap": 500,
+    "validation_tasks": 4,
+    "agreement_slack": 1e-3
+  },
+  "q1": {"averaging_ratio": 2.0, "abb_fraction": 0.5},
+  "q2": {"no_gain_G": 1.5, "no_gain_low": 1.2, "go_G": 2.0, "go_low": 1.5, "prior_fraction": 0.8, "bootstrap": 2000},
+  "parallel": {"workers": 4},
+  "time": {"limit_hours": 24.0, "report_reserve_minutes": 20, "hard_stop_minutes": 12},
+  "budget": {"enforce": true, "max_A100h": 24.0},
+  "smoke": {
+    "limits": {"calibration_tasks": 2, "evaluation_t2": 2, "evaluation_t3": 1, "t3_tasks": 1},
+    "subsets": {"context_every": 1},
+    "replicates": {"M": 3, "need": 3},
+    "K_grid": [8, 32, 128],
+    "t1": {"n": [3], "words": ["AB"], "preps": [["depolarizing", 0.8, 0]], "replicates": 40, "block": 10, "K": 8, "enforce": false},
+    "t3": {"K": 128, "batch": 4, "R_max": 8, "bootstrap": 100, "validation_tasks": 1, "halfwidth_max": 1.0, "agreement_slack": 1.0},
+    "time": {"limit_hours": 1.0, "report_reserve_minutes": 8, "hard_stop_minutes": 5},
+    "budget": {"enforce": false}
+  }
+}

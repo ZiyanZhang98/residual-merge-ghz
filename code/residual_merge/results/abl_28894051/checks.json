@@ -1,0 +1,17 @@
+{
+  "frozen_reproduced": {
+    "exact": true,
+    "max_abs_diff": 0.0,
+    "passed": true,
+    "monitor_all": [
+      0.8862945397057035,
+      0.8862945397057035
+    ]
+  },
+  "retrain_noise": {
+    "full_repro": 0.8860513194697799,
+    "frozen": 0.8862945397057035,
+    "difference": -0.00024322023592360242,
+    "within_tolerance": true
+  }
+}

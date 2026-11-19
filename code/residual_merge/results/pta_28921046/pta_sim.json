@@ -1,0 +1,308 @@
+{
+  "reproduction": {
+    "tasks": 55,
+    "max_abs_dQ": 0.0,
+    "passed": true
+  },
+  "failures": {
+    "dev": [],
+    "test": [],
+    "n3": []
+  },
+  "summary": {
+    "dev": {
+      "hard": {
+        "tasks": 27,
+        "scored": 27,
+        "passed": 0,
+        "passed_by_low": 0,
+        "passed_by_high": 0,
+        "median_Q": 91.05657906650241,
+        "min_Q": 38.89425862363907,
+        "median_max_P_relative": 0.9105657906650241,
+        "median_max_F_absolute": 0.18888878212057336,
+        "median_first_failing_round": 2.0
+      },
+      "easy": {
+        "tasks": 36,
+        "scored": 36,
+        "passed": 0,
+        "passed_by_low": 0,
+        "passed_by_high": 0,
+        "median_Q": 99.90071372788057,
+        "min_Q": 3.8139430423988583,
+        "median_max_P_relative": 0.9990071372788057,
+        "median_max_F_absolute": 0.012455846753614636,
+        "median_first_failing_round": 2.0
+      },
+      "AB": {
+        "tasks": 12,
+        "scored": 12,
+        "passed": 0,
+        "passed_by_low": 0,
+        "passed_by_high": 0,
+        "median_Q": 91.821974716878,
+        "min_Q": 38.89425862363907,
+        "median_max_P_relative": 0.9182197471687801,
+        "median_max_F_absolute": 0.11052364868065398,
+        "median_first_failing_round": 2.0
+      },
+      "AABB": {
+        "tasks": 12,
+        "scored": 12,
+        "passed": 0,
+        "passed_by_low": 0,
+        "passed_by_high": 0,
+        "median_Q": 98.82153131659004,
+        "min_Q": 58.51281547100414,
+        "median_max_P_relative": 0.9882153131659004,
+        "median_max_F_absolute": 0.18887926405530456,
+        "median_first_failing_round": 2.0
+      },
+      "ABB": {
+        "tasks": 3,
+        "scored": 3,
+        "passed": 0,
+        "passed_by_low": 0,
+        "passed_by_high": 0,
+        "median_Q": 80.71894884660811,
+        "min_Q": 79.39611838152189,
+        "median_max_P_relative": 0.8071894884660812,
+        "median_max_F_absolute": 0.372948530144795,
+        "median_first_failing_round": 2.0
+      },
+      "A": {
+        "tasks": 12,
+        "scored": 12,
+        "passed": 0,
+        "passed_by_low": 0,
+        "passed_by_high": 0,
+        "median_Q": 99.9309141710209,
+        "min_Q": 99.87283807161023,
+        "median_max_P_relative": 0.9993091417102091,
+        "median_max_F_absolute": 0.004888021275928883,
+        "median_first_failing_round": 2.0
+      },
+      "AAB": {
+        "tasks": 12,
+        "scored": 12,
+        "passed": 0,
+        "passed_by_low": 0,
+        "passed_by_high": 0,
+        "median_Q": 99.98894326206295,
+        "min_Q": 61.01496217681995,
+        "median_max_P_relative": 0.9998894326206295,
+        "median_max_F_absolute": 0.08771155287110577,
+        "median_first_failing_round": 2.0
+      },
+      "B": {
+        "tasks": 12,
+        "scored": 12,
+        "passed": 0,
+        "passed_by_low": 0,
+        "passed_by_high": 0,
+        "median_Q": 4.302482106019827,
+        "min_Q": 3.8139430423988583,
+        "median_max_P_relative": 0.04302482106019828,
+        "median_max_F_absolute": 0.005661034050468403,
+        "median_first_failing_round": 6.5
+      }
+    },
+    "test": {
+      "hard": {
+        "tasks": 54,
+        "scored": 54,
+        "passed": 0,
+        "passed_by_low": 0,
+        "passed_by_high": 0,
+        "median_Q": 93.49165860386535,
+        "min_Q": 38.34420843567045,
+        "median_max_P_relative": 0.9349165860386535,
+        "median_max_F_absolute": 0.18531478789432307,
+        "median_first_failing_round": 2.0
+      },
+      "easy": {
+        "tasks": 36,
+        "scored": 36,
+        "passed": 0,
+        "passed_by_low": 0,
+        "passed_by_high": 0,
+        "median_Q": 99.88824285938503,
+        "min_Q": 3.3245338244344698,
+        "median_max_P_relative": 0.9988824285938502,
+        "median_max_F_absolute": 0.008083972559867883,
+        "median_first_failing_round": 2.0
+      },
+      "AB": {
+        "tasks": 24,
+        "scored": 24,
+        "passed": 0,
+        "passed_by_low": 0,
+        "passed_by_high": 0,
+        "median_Q": 91.83188859873343,
+        "min_Q": 38.34420843567045,
+        "median_max_P_relative": 0.9183188859873342,
+        "median_max_F_absolute": 0.11557356239970099,
+        "median_first_failing_round": 2.0
+      },
+      "AABB": {
+        "tasks": 24,
+        "scored": 24,
+        "passed": 0,
+        "passed_by_low": 0,
+        "passed_by_high": 0,
+        "median_Q": 99.37122349700132,
+        "min_Q": 60.60957238892145,
+        "median_max_P_relative": 0.9937122349700134,
+        "median_max_F_absolute": 0.18920266593173324,
+        "median_first_failing_round": 2.0
+      },
+      "ABB": {
+        "tasks": 6,
+        "scored": 6,
+        "passed": 0,
+        "passed_by_low": 0,
+        "passed_by_high": 0,
+        "median_Q": 81.91594304296707,
+        "min_Q": 73.74005960871823,
+        "median_max_P_relative": 0.8191594304296708,
+        "median_max_F_absolute": 0.40209684774738064,
+        "median_first_failing_round": 2.0
+      },
+      "A": {
+        "tasks": 12,
+        "scored": 12,
+        "passed": 0,
+        "passed_by_low": 0,
+        "passed_by_high": 0,
+        "median_Q": 99.90963521868255,
+        "min_Q": 99.88194487393879,
+        "median_max_P_relative": 0.9990963521868256,
+        "median_max_F_absolute": 0.0046553578484898606,
+        "median_first_failing_round": 2.0
+      },
+      "AAB": {
+        "tasks": 12,
+        "scored": 12,
+        "passed": 0,
+        "passed_by_low": 0,
+        "passed_by_high": 0,
+        "median_Q": 99.97751551271428,
+        "min_Q": 53.61013448701419,
+        "median_max_P_relative": 0.9997751551271428,
+        "median_max_F_absolute": 0.08771358434993604,
+        "median_first_failing_round": 2.0
+      },
+      "B": {
+        "tasks": 12,
+        "scored": 12,
+        "passed": 0,
+        "passed_by_low": 0,
+        "passed_by_high": 0,
+        "median_Q": 4.046064541420261,
+        "min_Q": 3.3245338244344698,
+        "median_max_P_relative": 0.03992902406022872,
+        "median_max_F_absolute": 0.0038145391601988876,
+        "median_first_failing_round": 10.0
+      }
+    },
+    "n3": {
+      "hard": {
+        "tasks": 28,
+        "scored": 28,
+        "passed": 0,
+        "passed_by_low": 0,
+        "passed_by_high": 0,
+        "median_Q": 99.98386745283982,
+        "min_Q": 14.099616235227904,
+        "median_max_P_relative": 0.9998386745283983,
+        "median_max_F_absolute": 0.14428424711794102,
+        "median_first_failing_round": 2.0
+      },
+      "easy": {
+        "tasks": 36,
+        "scored": 36,
+        "passed": 0,
+        "passed_by_low": 0,
+        "passed_by_high": 0,
+        "median_Q": 99.42930284978233,
+        "min_Q": 1.8552617388915542,
+        "median_max_P_relative": 0.9942930284978233,
+        "median_max_F_absolute": 0.00482865586560291,
+        "median_first_failing_round": 2.0
+      },
+      "AB": {
+        "tasks": 10,
+        "scored": 10,
+        "passed": 0,
+        "passed_by_low": 0,
+        "passed_by_high": 0,
+        "median_Q": 99.9552667558976,
+        "min_Q": 20.821874123715844,
+        "median_max_P_relative": 0.999552667558976,
+        "median_max_F_absolute": 0.09686144197268642,
+        "median_first_failing_round": 2.0
+      },
+      "AABB": {
+        "tasks": 12,
+        "scored": 12,
+        "passed": 0,
+        "passed_by_low": 0,
+        "passed_by_high": 0,
+        "median_Q": 99.99903369842254,
+        "min_Q": 49.69391870247399,
+        "median_max_P_relative": 0.9999903369842253,
+        "median_max_F_absolute": 0.18004326661859163,
+        "median_first_failing_round": 2.0
+      },
+      "ABB": {
+        "tasks": 6,
+        "scored": 6,
+        "passed": 0,
+        "passed_by_low": 0,
+        "passed_by_high": 0,
+        "median_Q": 31.192284238365197,
+        "min_Q": 14.099616235227904,
+        "median_max_P_relative": 0.311922842383652,
+        "median_max_F_absolute": 0.06187511441755217,
+        "median_first_failing_round": 3.0
+      },
+      "A": {
+        "tasks": 12,
+        "scored": 12,
+        "passed": 0,
+        "passed_by_low": 0,
+        "passed_by_high": 0,
+        "median_Q": 99.42930284978233,
+        "min_Q": 99.19941767316736,
+        "median_max_P_relative": 0.9942930284978233,
+        "median_max_F_absolute": 0.0033556332089996754,
+        "median_first_failing_round": 2.0
+      },
+      "AAB": {
+        "tasks": 12,
+        "scored": 12,
+        "passed": 0,
+        "passed_by_low": 0,
+        "passed_by_high": 0,
+        "median_Q": 99.84240276829496,
+        "min_Q": 99.62933456742596,
+        "median_max_P_relative": 0.9984240276829497,
+        "median_max_F_absolute": 0.0692659635921612,
+        "median_first_failing_round": 2.0
+      },
+      "B": {
+        "tasks": 12,
+        "scored": 12,
+        "passed": 0,
+        "passed_by_low": 0,
+        "passed_by_high": 0,
+        "median_Q": 2.8436677622677804,
+        "min_Q": 1.8552617388915542,
+        "median_max_P_relative": 0.028436677622677806,
+        "median_max_F_absolute": 0.0018547270029166674,
+        "median_first_failing_round": 17.0
+      }
+    }
+  }
+}

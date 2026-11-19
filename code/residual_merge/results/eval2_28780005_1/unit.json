@@ -1,0 +1,12 @@
+{
+  "step": 2,
+  "batch": "B",
+  "index": 1,
+  "shards": 4,
+  "arm": "signed",
+  "mine": [
+    "qb_n4_0cb61695df223302_B",
+    "qb_n4_5c37facb91d2010d_B",
+    "qb_n4_ab157ba089d13da1_B"
+  ]
+}

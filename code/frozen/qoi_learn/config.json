@@ -1,0 +1,27 @@
+{
+  "version": 1, "stage": "QB", "new_final_queries": 0,
+  "authority": "HANDOFF section 5j item 22.5-22.7, step B (learnability on fit/monitor only)",
+  "step_a": "../qoi_adjoint/results/aggregate_28435233",
+  "n": [3, 4], "H": 40, "gamma": 0.05,
+  "K": [4, 8, 16, 32, 64, 128, 256],
+  "data": {
+    "words": ["A", "B", "AB", "AAB", "AABB", "ABB"],
+    "K_per_preparation": 2, "visit_stride": 4, "clusters_per_visit": 6, "min_cluster": 2,
+    "exact_depth": 2, "diagnostic_depth": 4, "long_visits": [0, 10, 20, 29]
+  },
+  "reference": {"R": 1024, "check": 512, "P_relative": 1e-3, "F_absolute": 1e-3, "TD": 1e-3},
+  "train": {
+    "configs": [
+      {"name": "rate_pta", "kind": "rate", "param": "pta", "seeds": [0]},
+      {"name": "rate_state_pta", "kind": "rate_state", "param": "pta", "seeds": [0]}
+    ],
+    "width": 128, "rounds": 40, "steps_per_round": 600, "batch_groups": 512,
+    "learning_rate": 1e-3, "final_learning_rate": 1e-5, "gap_weight": 1.0, "point_tolerance": 0.01, "fidelity_tolerance": 0.01, "gap_tolerance": 0.001,
+    "kernel_landmarks": 256, "kernel_bandwidth": 1.0, "quad_linear": 32, "quad_rank": 32,
+    "rate_rounds": 40, "rate_steps": 300, "state_rounds": 40, "state_steps": 600, "state_bound": 2.0,
+    "curvature_penalty": 10.0, "teacher_mix": 0.5
+  },
+  "pregate": {"long_min_length": 11, "short_ratio": 1.1, "short_floor": 1e-4, "preparation_fraction": 0.6666666666666666, "seed_fraction": 0.6666666666666666, "revision_tasks_per_preparation": 3},
+  "tolerance": {"P_relative": 0.01, "F_absolute": 0.01, "TD": 0.01},
+  "resource": {"reserve_seconds": 180}
+}

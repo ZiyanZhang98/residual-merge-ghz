@@ -1,0 +1,21 @@
+{
+  "version": 1, "stage": "LT", "new_final_queries": 0,
+  "authority": "HANDOFF section 5j item 22.22 (2026-10-24): look-ahead tuning pilot on the development set, to decide whether the full tuning of item 22.21 is worth its cost",
+  "hard_regime": {"step1_job": "28470804", "step2_job": "28470806"},
+  "hard_families": ["AB", "AABB", "ABB"],
+  "tolerance": {"P_relative": 0.01, "F_absolute": 0.01, "TD": 0.01},
+  "smoke": {
+    "K": [16, 64],
+    "configs": [
+      {"name": "s0.3_long_psiF", "share": 0.3, "lengths": [1, 2, 4, 8, 16, 32, 40], "quantities": "psiF"},
+      {"name": "s1_long_psiF", "share": 1.0, "lengths": [1, 2, 4, 8, 16, 32, 40], "quantities": "psiF"},
+      {"name": "s3_long_psiF", "share": 3.0, "lengths": [1, 2, 4, 8, 16, 32, 40], "quantities": "psiF"},
+      {"name": "s1_long_psi", "share": 1.0, "lengths": [1, 2, 4, 8, 16, 32, 40], "quantities": "psi"}
+    ],
+    "learned_only": [
+      {"name": "s1_long_psiLFpta", "share": 1.0, "lengths": [1, 2, 4, 8, 16, 32, 40], "quantities": "psiL_Fpta"}
+    ]
+  },
+  "decision": {"ratio": 1.10, "preparation_fraction": 0.6666666666666666},
+  "resource": {"reserve_seconds": 150}
+}

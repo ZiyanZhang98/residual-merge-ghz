@@ -1,0 +1,53 @@
+{
+  "version": 2,
+  "name": "ghz_scaling_gate_G1a",
+  "stage": "G1a",
+  "status": "G1A_IMPLEMENTED_NOT_EXECUTED",
+  "new_final_queries": 0,
+  "g0_results": "results/g0_28071949",
+  "note": "Physics, noise, preparations, words, horizons, K grid and reference sizes are read from config.json (G0, frozen). This file holds only the G1a protocol of HANDOFF 5h (reduced G1 design, 2026-10-14).",
+  "amendments": [
+    "v2 (2026-10-14, before the formal run, after smoke job 28077543): two-tier reference acceptance (user option C). The R x 2 upgrade is still triggered by a check difference above tolerance (1e-4); the finest computed reference is used and accepted if its last check difference is <= accept_tolerance (1e-3 = eps/10); the original 1e-4 rule stays exactly evaluable and is reported as a pre-registered sensitivity verdict. The 1e-12 sensitivity tolerance stays 1e-4. Decision thresholds and eps unchanged.",
+    "v2: budget raised with user permission (G1a <= 14 A100h, G1a+G1b <= 24 A100h, job limit 14 h); 4 worker processes, the configuration whose throughput was measured in smoke job 28077543."
+  ],
+  "splits": ["calibration", "evaluation"],
+  "eps": 0.01,
+  "K_window": 3,
+  "K_unreached": 320,
+  "h10": {"n": [4], "splits": ["evaluation"]},
+  "reference": {"tolerance": 1e-4, "accept_tolerance": 1e-3, "sensitivity_tolerance": 1e-4, "upgrades": 1, "panel_exclusion_max": 0.2},
+  "threshold": {
+    "families": ["depolarizing"],
+    "F_min": 0.30,
+    "F_max": 0.95,
+    "scan_word": "AB",
+    "scan_K": 256,
+    "min_jump": 0.1,
+    "per_side": 4,
+    "words": ["AB", "AABB"]
+  },
+  "decision": {
+    "n": 4,
+    "split": "evaluation",
+    "stress_panels": ["H40", "threshold"],
+    "quantile": 95,
+    "headroom_K": 32,
+    "background_pass_max": 0.5
+  },
+  "limits": {"groups_per_split": null, "tasks_per_panel": null},
+  "parallel": {"workers": 4},
+  "time": {"limit_hours": 14.0, "report_reserve_minutes": 20, "hard_stop_minutes": 12},
+  "budget": {
+    "enforce": true,
+    "G1a_max_A100h": 14.0,
+    "G1_total_max_A100h": 24.0,
+    "G1b": {"n": 4, "modes": ["la", "concat"], "depths": [1, 2, 4], "multistable_depths": [1, 2]}
+  },
+  "smoke": {
+    "threshold": {"min_jump": 0.0, "F_points": 9},
+    "limits": {"groups_per_split": 1, "tasks_per_panel": 2},
+    "parallel": {"workers": 4},
+    "time": {"limit_hours": 0.75, "report_reserve_minutes": 8, "hard_stop_minutes": 5},
+    "budget": {"enforce": false}
+  }
+}

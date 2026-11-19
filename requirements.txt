@@ -1,0 +1,5 @@
+# Python >= 3.10 (pathlib.Path.is_relative_to). Pin these to your cluster's versions for bit-exact reruns.
+numpy
+scipy
+torch          # float64; the archived runs used NVIDIA A100 GPUs (CUDA)
+matplotlib     # figures only

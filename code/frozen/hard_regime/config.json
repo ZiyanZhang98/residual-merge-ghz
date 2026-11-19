@@ -1,0 +1,17 @@
+{
+  "version": 1, "stage": "HR", "new_final_queries": 0,
+  "authority": "HANDOFF section 5j item 22.17 (2026-10-22, plan B: MC P target 0.3%, n=4 look-ahead K<=256): independent Monte Carlo references, hard-regime benchmark, learned look-ahead merging",
+  "data_job": "28437183",
+  "learned": {"3": "../qoi_learn/results/revise_28444130_0/train/model.pt", "4": "../qoi_learn/results/revise_28444130_1/train/model.pt"},
+  "K": [4, 8, 16, 32, 64, 128, 256, 512, 1024],
+  "correction_K_max": 256,
+  "goal_K_by_n": {"3": [4, 8, 16, 32, 64, 128, 256, 512], "4": [4, 8, 16, 32, 64, 128, 256]},
+  "mc": {"initial_paths": 65536, "max_paths": 2097152, "chunk": 16384, "target_P_relative": 0.003, "target_F_absolute": 0.002, "seed": 20261022},
+  "tolerance": {"P_relative": 0.01, "F_absolute": 0.01, "TD": 0.01},
+  "hard_families": ["AB", "AABB", "ABB"],
+  "decision": {"room_K": 64, "no_room_K": 32, "agree_fraction": 0.95, "agree_sigma": 3.0, "reference_tolerance": 1e-3,
+               "goal_ratio": 2.0, "preparation_fraction": 0.6666666666666666, "censored_K": 2048},
+  "goal": {"lengths": [1, 2, 4, 8, 16], "weight": 1.0},
+  "smoke": {"K": [4, 64], "goal_K": [4, 64], "initial_paths": 4096, "max_paths": 8192, "tasks": 2},
+  "resource": {"reserve_seconds": 180}
+}

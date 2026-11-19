@@ -1,0 +1,2646 @@
+{
+  "pool": [
+    {
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.745841258945671,
+        "phi": 0.4662115880031969,
+        "gamma": 0.24808782942029745,
+        "id": "pc_8b98989aa32867adb4d6"
+      },
+      "split": "test",
+      "signature": "8b98989aa32867adb4d68c5e7692889f8eccfa32e2584750346848513b8afcf1"
+    },
+    {
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.5799540315023402,
+        "phi": 0.6256156289475685,
+        "gamma": 0.09583831918577905,
+        "id": "pc_4cba04f314f6e0b422fb"
+      },
+      "split": "test",
+      "signature": "4cba04f314f6e0b422fb1275d7833cf87aaca0bea9ff4e377573df96a476a9f6"
+    },
+    {
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.6070199283600626,
+        "phi": 0.2499546333460271,
+        "gamma": 0.18042954477730325,
+        "id": "pc_324d0571d1633f26063a"
+      },
+      "split": "test",
+      "signature": "324d0571d1633f26063ace81bf635755f490c742a86bee00907fe50c28a39c88"
+    },
+    {
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.5458520667267913,
+        "phi": 0.34924848437634304,
+        "gamma": 0.05025541675362995,
+        "id": "pc_d91a7e6b8e5ef17f5b96"
+      },
+      "split": "test",
+      "signature": "d91a7e6b8e5ef17f5b96ec5ee1097fc29f2a95a7a3ef487be06d208c0b7ed860"
+    },
+    {
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.914219004473983,
+        "phi": 0.33084941157596887,
+        "gamma": 0.07519466242672543,
+        "id": "pc_01f0a6598e1420fceec3"
+      },
+      "split": "test",
+      "signature": "01f0a6598e1420fceec3a0b50e287d131946a3d48c5d1b2ce30745adf36bdb66"
+    },
+    {
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.6143523285676591,
+        "phi": 0.4018536774813247,
+        "gamma": 0.24121473883909922,
+        "id": "pc_4128e264e81e4d56d792"
+      },
+      "split": "test",
+      "signature": "4128e264e81e4d56d792b3478778598fda3f134e5431a3906ac104f9cd3c91fb"
+    },
+    {
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.6904534316833082,
+        "phi": 0.6405134808914335,
+        "gamma": 0.2863868044700403,
+        "id": "pc_2bce1a7f0722cfc9cb74"
+      },
+      "split": "test",
+      "signature": "2bce1a7f0722cfc9cb746d60d78fba5400c2a42f7009f664626b049c3a8ffce3"
+    },
+    {
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.8446258753585048,
+        "phi": 0.7375175753128675,
+        "gamma": 0.05039216223255949,
+        "id": "pc_6cc57e971b1094013d22"
+      },
+      "split": "test",
+      "signature": "6cc57e971b1094013d226685aec9d3b621d99836870b06c80b9ea0da3eb21280"
+    },
+    {
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.7812059906546978,
+        "phi": 0.6385066804497033,
+        "gamma": 0.09267217311308233,
+        "id": "pc_31dc73556aecc319b583"
+      },
+      "split": "test",
+      "signature": "31dc73556aecc319b583cf5ed26ca71577ed716e650c720411538c6f8d5e1193"
+    },
+    {
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.8551675986182934,
+        "phi": 0.24352822852821934,
+        "gamma": 0.14512996489981858,
+        "id": "pc_64fd41875e5e637cbaa6"
+      },
+      "split": "test",
+      "signature": "64fd41875e5e637cbaa6a93ea7fb2e40dc6d2dc5929dd1d0f24a42f344a2f7a4"
+    },
+    {
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.7276224954367848,
+        "phi": 0.512896015954109,
+        "gamma": 0.07125260186355437,
+        "id": "pc_7efb19601d4bf613b687"
+      },
+      "split": "test",
+      "signature": "7efb19601d4bf613b687472b77c5f1d22f58ae8432f0ceda24504089c59bbf31"
+    },
+    {
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.919731417725196,
+        "phi": 0.295047481294121,
+        "gamma": 0.16938041090691763,
+        "id": "pc_800bbded6cbe51551b3e"
+      },
+      "split": "test",
+      "signature": "800bbded6cbe51551b3e327a7e73d7b2052a93146713477a1c47706b029f38f0"
+    },
+    {
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.9093651707750448,
+        "phi": 0.6566637731192104,
+        "gamma": 0.2266676376008128,
+        "id": "pc_469b64b95ef92d95dcd4"
+      },
+      "split": "test",
+      "signature": "469b64b95ef92d95dcd4de97ce7574fec57eea5202600f5ae8f710fe036ce0f5"
+    },
+    {
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.9026082277768015,
+        "phi": 0.5697797162154824,
+        "gamma": 0.29848956348567623,
+        "id": "pc_3b5d45076218772cbd7c"
+      },
+      "split": "test",
+      "signature": "3b5d45076218772cbd7ce0bb6a7eaf5a21c301b0f06cea9a6c227e08fd90dca0"
+    },
+    {
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.8471480127018169,
+        "phi": 0.6288734644778627,
+        "gamma": 0.08562117916465617,
+        "id": "pc_829775dfe7d3612d845a"
+      },
+      "split": "test",
+      "signature": "829775dfe7d3612d845a41429497bfa2e0c575764b84d54e96424ec00f0e7e2d"
+    },
+    {
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.5462310821266892,
+        "phi": 0.5387760240940753,
+        "gamma": 0.05872684883421421,
+        "id": "pc_233c91fa7aceae6dff8a"
+      },
+      "split": "test",
+      "signature": "233c91fa7aceae6dff8a08e761fdf7d7b6efa9e4ee74a84e6c094cbab8c2bdc0"
+    },
+    {
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.6243624590322889,
+        "phi": 0.42197272852878065,
+        "gamma": 0.1270589700345639,
+        "id": "pc_3dc1f801a193981013a1"
+      },
+      "split": "test",
+      "signature": "3dc1f801a193981013a13c2c5d057e6deeff408b9eeb45680299d6eae8e83666"
+    },
+    {
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.7488406832993418,
+        "phi": 0.8556637241908558,
+        "gamma": 0.03609716325223328,
+        "id": "pc_7da15aadc6b12b16e2e3"
+      },
+      "split": "test",
+      "signature": "7da15aadc6b12b16e2e3b1512e5d129fdddd62138c76aad02bffdb20d5cc62d1"
+    },
+    {
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.6693518867634831,
+        "phi": 0.20566308639662115,
+        "gamma": 0.03106366200144552,
+        "id": "pc_fc97ef435a579b6d7c47"
+      },
+      "split": "test",
+      "signature": "fc97ef435a579b6d7c47b03ee113416a4f1bcb1adb363ffe6f41ddd37b4776d1"
+    },
+    {
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.5965855750374872,
+        "phi": 0.7666296985862895,
+        "gamma": 0.20580113656177065,
+        "id": "pc_a1d6b122c1792c297303"
+      },
+      "split": "test",
+      "signature": "a1d6b122c1792c297303b7566f95b6453b803106dd767cb9e905134f6190eac9"
+    },
+    {
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.58447298065614,
+        "phi": 0.765982566741773,
+        "gamma": 0.2183175194669533,
+        "id": "pc_f2df863543c3e574f9e8"
+      },
+      "split": "test",
+      "signature": "f2df863543c3e574f9e8ba24840a714e89bbf9a084993699892757f0b1f8de99"
+    },
+    {
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.5717191673667532,
+        "phi": 0.8902331410371898,
+        "gamma": 0.09169239409541174,
+        "id": "pc_adb9f4ce818e70490c3b"
+      },
+      "split": "test",
+      "signature": "adb9f4ce818e70490c3b30afa2dc43d2b6274fd481b8b8b12c8e014ea9ef18d3"
+    },
+    {
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.8243345719559657,
+        "phi": 0.20182301454696194,
+        "gamma": 0.20529037291214716,
+        "id": "pc_462c1dac2628c180bde8"
+      },
+      "split": "test",
+      "signature": "462c1dac2628c180bde833f598b165aa69606ea1aa1d70da02b943bfd5470e16"
+    },
+    {
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.7561376533003566,
+        "phi": 0.6395162028566634,
+        "gamma": 0.12063517717462327,
+        "id": "pc_fe1c63786dae62f64e45"
+      },
+      "split": "test",
+      "signature": "fe1c63786dae62f64e45d87f0b90bcdde0d7ba078ec1e59cabbfa1e6153de135"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "ts_n4_8b98989aa32867ad_AB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AB",
+      "word": "ABABABABABABABABABABABABABABABABABABABAB",
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.745841258945671,
+        "phi": 0.4662115880031969,
+        "gamma": 0.24808782942029745,
+        "id": "pc_8b98989aa32867adb4d6"
+      },
+      "prep_signature": "8b98989aa32867adb4d68c5e7692889f8eccfa32e2584750346848513b8afcf1",
+      "prep_index": 0,
+      "prep_class": "depolarizing/depth2"
+    },
+    {
+      "id": "ts_n4_8b98989aa32867ad_AABB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AABB",
+      "word": "AABBAABBAABBAABBAABBAABBAABBAABBAABBAABB",
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.745841258945671,
+        "phi": 0.4662115880031969,
+        "gamma": 0.24808782942029745,
+        "id": "pc_8b98989aa32867adb4d6"
+      },
+      "prep_signature": "8b98989aa32867adb4d68c5e7692889f8eccfa32e2584750346848513b8afcf1",
+      "prep_index": 0,
+      "prep_class": "depolarizing/depth2"
+    },
+    {
+      "id": "ts_n4_8b98989aa32867ad_ABB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "ABB",
+      "word": "ABBABBABBABBABBABBABBABBABBABBABBABBABBA",
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.745841258945671,
+        "phi": 0.4662115880031969,
+        "gamma": 0.24808782942029745,
+        "id": "pc_8b98989aa32867adb4d6"
+      },
+      "prep_signature": "8b98989aa32867adb4d68c5e7692889f8eccfa32e2584750346848513b8afcf1",
+      "prep_index": 0,
+      "prep_class": "depolarizing/depth2"
+    },
+    {
+      "id": "ts_n4_8b98989aa32867ad_A",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "A",
+      "word": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.745841258945671,
+        "phi": 0.4662115880031969,
+        "gamma": 0.24808782942029745,
+        "id": "pc_8b98989aa32867adb4d6"
+      },
+      "prep_signature": "8b98989aa32867adb4d68c5e7692889f8eccfa32e2584750346848513b8afcf1",
+      "prep_index": 0,
+      "prep_class": "depolarizing/depth2"
+    },
+    {
+      "id": "ts_n4_8b98989aa32867ad_AAB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AAB",
+      "word": "AABAABAABAABAABAABAABAABAABAABAABAABAABA",
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.745841258945671,
+        "phi": 0.4662115880031969,
+        "gamma": 0.24808782942029745,
+        "id": "pc_8b98989aa32867adb4d6"
+      },
+      "prep_signature": "8b98989aa32867adb4d68c5e7692889f8eccfa32e2584750346848513b8afcf1",
+      "prep_index": 0,
+      "prep_class": "depolarizing/depth2"
+    },
+    {
+      "id": "ts_n4_8b98989aa32867ad_B",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "B",
+      "word": "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.745841258945671,
+        "phi": 0.4662115880031969,
+        "gamma": 0.24808782942029745,
+        "id": "pc_8b98989aa32867adb4d6"
+      },
+      "prep_signature": "8b98989aa32867adb4d68c5e7692889f8eccfa32e2584750346848513b8afcf1",
+      "prep_index": 0,
+      "prep_class": "depolarizing/depth2"
+    },
+    {
+      "id": "ts_n4_4cba04f314f6e0b4_AB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AB",
+      "word": "ABABABABABABABABABABABABABABABABABABABAB",
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.5799540315023402,
+        "phi": 0.6256156289475685,
+        "gamma": 0.09583831918577905,
+        "id": "pc_4cba04f314f6e0b422fb"
+      },
+      "prep_signature": "4cba04f314f6e0b422fb1275d7833cf87aaca0bea9ff4e377573df96a476a9f6",
+      "prep_index": 1,
+      "prep_class": "phase_biased/depth2"
+    },
+    {
+      "id": "ts_n4_4cba04f314f6e0b4_AABB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AABB",
+      "word": "AABBAABBAABBAABBAABBAABBAABBAABBAABBAABB",
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.5799540315023402,
+        "phi": 0.6256156289475685,
+        "gamma": 0.09583831918577905,
+        "id": "pc_4cba04f314f6e0b422fb"
+      },
+      "prep_signature": "4cba04f314f6e0b422fb1275d7833cf87aaca0bea9ff4e377573df96a476a9f6",
+      "prep_index": 1,
+      "prep_class": "phase_biased/depth2"
+    },
+    {
+      "id": "ts_n4_4cba04f314f6e0b4_ABB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "ABB",
+      "word": "ABBABBABBABBABBABBABBABBABBABBABBABBABBA",
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.5799540315023402,
+        "phi": 0.6256156289475685,
+        "gamma": 0.09583831918577905,
+        "id": "pc_4cba04f314f6e0b422fb"
+      },
+      "prep_signature": "4cba04f314f6e0b422fb1275d7833cf87aaca0bea9ff4e377573df96a476a9f6",
+      "prep_index": 1,
+      "prep_class": "phase_biased/depth2"
+    },
+    {
+      "id": "ts_n4_4cba04f314f6e0b4_A",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "A",
+      "word": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.5799540315023402,
+        "phi": 0.6256156289475685,
+        "gamma": 0.09583831918577905,
+        "id": "pc_4cba04f314f6e0b422fb"
+      },
+      "prep_signature": "4cba04f314f6e0b422fb1275d7833cf87aaca0bea9ff4e377573df96a476a9f6",
+      "prep_index": 1,
+      "prep_class": "phase_biased/depth2"
+    },
+    {
+      "id": "ts_n4_4cba04f314f6e0b4_AAB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AAB",
+      "word": "AABAABAABAABAABAABAABAABAABAABAABAABAABA",
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.5799540315023402,
+        "phi": 0.6256156289475685,
+        "gamma": 0.09583831918577905,
+        "id": "pc_4cba04f314f6e0b422fb"
+      },
+      "prep_signature": "4cba04f314f6e0b422fb1275d7833cf87aaca0bea9ff4e377573df96a476a9f6",
+      "prep_index": 1,
+      "prep_class": "phase_biased/depth2"
+    },
+    {
+      "id": "ts_n4_4cba04f314f6e0b4_B",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "B",
+      "word": "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.5799540315023402,
+        "phi": 0.6256156289475685,
+        "gamma": 0.09583831918577905,
+        "id": "pc_4cba04f314f6e0b422fb"
+      },
+      "prep_signature": "4cba04f314f6e0b422fb1275d7833cf87aaca0bea9ff4e377573df96a476a9f6",
+      "prep_index": 1,
+      "prep_class": "phase_biased/depth2"
+    },
+    {
+      "id": "ts_n4_324d0571d1633f26_AB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AB",
+      "word": "ABABABABABABABABABABABABABABABABABABABAB",
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.6070199283600626,
+        "phi": 0.2499546333460271,
+        "gamma": 0.18042954477730325,
+        "id": "pc_324d0571d1633f26063a"
+      },
+      "prep_signature": "324d0571d1633f26063ace81bf635755f490c742a86bee00907fe50c28a39c88",
+      "prep_index": 2,
+      "prep_class": "depolarizing/depth4"
+    },
+    {
+      "id": "ts_n4_324d0571d1633f26_AABB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AABB",
+      "word": "AABBAABBAABBAABBAABBAABBAABBAABBAABBAABB",
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.6070199283600626,
+        "phi": 0.2499546333460271,
+        "gamma": 0.18042954477730325,
+        "id": "pc_324d0571d1633f26063a"
+      },
+      "prep_signature": "324d0571d1633f26063ace81bf635755f490c742a86bee00907fe50c28a39c88",
+      "prep_index": 2,
+      "prep_class": "depolarizing/depth4"
+    },
+    {
+      "id": "ts_n4_324d0571d1633f26_ABB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "ABB",
+      "word": "ABBABBABBABBABBABBABBABBABBABBABBABBABBA",
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.6070199283600626,
+        "phi": 0.2499546333460271,
+        "gamma": 0.18042954477730325,
+        "id": "pc_324d0571d1633f26063a"
+      },
+      "prep_signature": "324d0571d1633f26063ace81bf635755f490c742a86bee00907fe50c28a39c88",
+      "prep_index": 2,
+      "prep_class": "depolarizing/depth4"
+    },
+    {
+      "id": "ts_n4_324d0571d1633f26_A",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "A",
+      "word": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.6070199283600626,
+        "phi": 0.2499546333460271,
+        "gamma": 0.18042954477730325,
+        "id": "pc_324d0571d1633f26063a"
+      },
+      "prep_signature": "324d0571d1633f26063ace81bf635755f490c742a86bee00907fe50c28a39c88",
+      "prep_index": 2,
+      "prep_class": "depolarizing/depth4"
+    },
+    {
+      "id": "ts_n4_324d0571d1633f26_AAB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AAB",
+      "word": "AABAABAABAABAABAABAABAABAABAABAABAABAABA",
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.6070199283600626,
+        "phi": 0.2499546333460271,
+        "gamma": 0.18042954477730325,
+        "id": "pc_324d0571d1633f26063a"
+      },
+      "prep_signature": "324d0571d1633f26063ace81bf635755f490c742a86bee00907fe50c28a39c88",
+      "prep_index": 2,
+      "prep_class": "depolarizing/depth4"
+    },
+    {
+      "id": "ts_n4_324d0571d1633f26_B",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "B",
+      "word": "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.6070199283600626,
+        "phi": 0.2499546333460271,
+        "gamma": 0.18042954477730325,
+        "id": "pc_324d0571d1633f26063a"
+      },
+      "prep_signature": "324d0571d1633f26063ace81bf635755f490c742a86bee00907fe50c28a39c88",
+      "prep_index": 2,
+      "prep_class": "depolarizing/depth4"
+    },
+    {
+      "id": "ts_n4_d91a7e6b8e5ef17f_AB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AB",
+      "word": "ABABABABABABABABABABABABABABABABABABABAB",
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.5458520667267913,
+        "phi": 0.34924848437634304,
+        "gamma": 0.05025541675362995,
+        "id": "pc_d91a7e6b8e5ef17f5b96"
+      },
+      "prep_signature": "d91a7e6b8e5ef17f5b96ec5ee1097fc29f2a95a7a3ef487be06d208c0b7ed860",
+      "prep_index": 3,
+      "prep_class": "phase_biased/depth4"
+    },
+    {
+      "id": "ts_n4_d91a7e6b8e5ef17f_AABB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AABB",
+      "word": "AABBAABBAABBAABBAABBAABBAABBAABBAABBAABB",
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.5458520667267913,
+        "phi": 0.34924848437634304,
+        "gamma": 0.05025541675362995,
+        "id": "pc_d91a7e6b8e5ef17f5b96"
+      },
+      "prep_signature": "d91a7e6b8e5ef17f5b96ec5ee1097fc29f2a95a7a3ef487be06d208c0b7ed860",
+      "prep_index": 3,
+      "prep_class": "phase_biased/depth4"
+    },
+    {
+      "id": "ts_n4_d91a7e6b8e5ef17f_ABB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "ABB",
+      "word": "ABBABBABBABBABBABBABBABBABBABBABBABBABBA",
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.5458520667267913,
+        "phi": 0.34924848437634304,
+        "gamma": 0.05025541675362995,
+        "id": "pc_d91a7e6b8e5ef17f5b96"
+      },
+      "prep_signature": "d91a7e6b8e5ef17f5b96ec5ee1097fc29f2a95a7a3ef487be06d208c0b7ed860",
+      "prep_index": 3,
+      "prep_class": "phase_biased/depth4"
+    },
+    {
+      "id": "ts_n4_d91a7e6b8e5ef17f_A",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "A",
+      "word": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.5458520667267913,
+        "phi": 0.34924848437634304,
+        "gamma": 0.05025541675362995,
+        "id": "pc_d91a7e6b8e5ef17f5b96"
+      },
+      "prep_signature": "d91a7e6b8e5ef17f5b96ec5ee1097fc29f2a95a7a3ef487be06d208c0b7ed860",
+      "prep_index": 3,
+      "prep_class": "phase_biased/depth4"
+    },
+    {
+      "id": "ts_n4_d91a7e6b8e5ef17f_AAB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AAB",
+      "word": "AABAABAABAABAABAABAABAABAABAABAABAABAABA",
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.5458520667267913,
+        "phi": 0.34924848437634304,
+        "gamma": 0.05025541675362995,
+        "id": "pc_d91a7e6b8e5ef17f5b96"
+      },
+      "prep_signature": "d91a7e6b8e5ef17f5b96ec5ee1097fc29f2a95a7a3ef487be06d208c0b7ed860",
+      "prep_index": 3,
+      "prep_class": "phase_biased/depth4"
+    },
+    {
+      "id": "ts_n4_d91a7e6b8e5ef17f_B",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "B",
+      "word": "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.5458520667267913,
+        "phi": 0.34924848437634304,
+        "gamma": 0.05025541675362995,
+        "id": "pc_d91a7e6b8e5ef17f5b96"
+      },
+      "prep_signature": "d91a7e6b8e5ef17f5b96ec5ee1097fc29f2a95a7a3ef487be06d208c0b7ed860",
+      "prep_index": 3,
+      "prep_class": "phase_biased/depth4"
+    },
+    {
+      "id": "ts_n4_01f0a6598e1420fc_AB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AB",
+      "word": "ABABABABABABABABABABABABABABABABABABABAB",
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.914219004473983,
+        "phi": 0.33084941157596887,
+        "gamma": 0.07519466242672543,
+        "id": "pc_01f0a6598e1420fceec3"
+      },
+      "prep_signature": "01f0a6598e1420fceec3a0b50e287d131946a3d48c5d1b2ce30745adf36bdb66",
+      "prep_index": 4,
+      "prep_class": "depolarizing/depth2"
+    },
+    {
+      "id": "ts_n4_01f0a6598e1420fc_AABB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AABB",
+      "word": "AABBAABBAABBAABBAABBAABBAABBAABBAABBAABB",
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.914219004473983,
+        "phi": 0.33084941157596887,
+        "gamma": 0.07519466242672543,
+        "id": "pc_01f0a6598e1420fceec3"
+      },
+      "prep_signature": "01f0a6598e1420fceec3a0b50e287d131946a3d48c5d1b2ce30745adf36bdb66",
+      "prep_index": 4,
+      "prep_class": "depolarizing/depth2"
+    },
+    {
+      "id": "ts_n4_01f0a6598e1420fc_ABB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "ABB",
+      "word": "ABBABBABBABBABBABBABBABBABBABBABBABBABBA",
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.914219004473983,
+        "phi": 0.33084941157596887,
+        "gamma": 0.07519466242672543,
+        "id": "pc_01f0a6598e1420fceec3"
+      },
+      "prep_signature": "01f0a6598e1420fceec3a0b50e287d131946a3d48c5d1b2ce30745adf36bdb66",
+      "prep_index": 4,
+      "prep_class": "depolarizing/depth2"
+    },
+    {
+      "id": "ts_n4_01f0a6598e1420fc_A",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "A",
+      "word": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.914219004473983,
+        "phi": 0.33084941157596887,
+        "gamma": 0.07519466242672543,
+        "id": "pc_01f0a6598e1420fceec3"
+      },
+      "prep_signature": "01f0a6598e1420fceec3a0b50e287d131946a3d48c5d1b2ce30745adf36bdb66",
+      "prep_index": 4,
+      "prep_class": "depolarizing/depth2"
+    },
+    {
+      "id": "ts_n4_01f0a6598e1420fc_AAB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AAB",
+      "word": "AABAABAABAABAABAABAABAABAABAABAABAABAABA",
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.914219004473983,
+        "phi": 0.33084941157596887,
+        "gamma": 0.07519466242672543,
+        "id": "pc_01f0a6598e1420fceec3"
+      },
+      "prep_signature": "01f0a6598e1420fceec3a0b50e287d131946a3d48c5d1b2ce30745adf36bdb66",
+      "prep_index": 4,
+      "prep_class": "depolarizing/depth2"
+    },
+    {
+      "id": "ts_n4_01f0a6598e1420fc_B",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "B",
+      "word": "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.914219004473983,
+        "phi": 0.33084941157596887,
+        "gamma": 0.07519466242672543,
+        "id": "pc_01f0a6598e1420fceec3"
+      },
+      "prep_signature": "01f0a6598e1420fceec3a0b50e287d131946a3d48c5d1b2ce30745adf36bdb66",
+      "prep_index": 4,
+      "prep_class": "depolarizing/depth2"
+    },
+    {
+      "id": "ts_n4_4128e264e81e4d56_AB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AB",
+      "word": "ABABABABABABABABABABABABABABABABABABABAB",
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.6143523285676591,
+        "phi": 0.4018536774813247,
+        "gamma": 0.24121473883909922,
+        "id": "pc_4128e264e81e4d56d792"
+      },
+      "prep_signature": "4128e264e81e4d56d792b3478778598fda3f134e5431a3906ac104f9cd3c91fb",
+      "prep_index": 5,
+      "prep_class": "phase_biased/depth2"
+    },
+    {
+      "id": "ts_n4_4128e264e81e4d56_AABB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AABB",
+      "word": "AABBAABBAABBAABBAABBAABBAABBAABBAABBAABB",
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.6143523285676591,
+        "phi": 0.4018536774813247,
+        "gamma": 0.24121473883909922,
+        "id": "pc_4128e264e81e4d56d792"
+      },
+      "prep_signature": "4128e264e81e4d56d792b3478778598fda3f134e5431a3906ac104f9cd3c91fb",
+      "prep_index": 5,
+      "prep_class": "phase_biased/depth2"
+    },
+    {
+      "id": "ts_n4_4128e264e81e4d56_ABB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "ABB",
+      "word": "ABBABBABBABBABBABBABBABBABBABBABBABBABBA",
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.6143523285676591,
+        "phi": 0.4018536774813247,
+        "gamma": 0.24121473883909922,
+        "id": "pc_4128e264e81e4d56d792"
+      },
+      "prep_signature": "4128e264e81e4d56d792b3478778598fda3f134e5431a3906ac104f9cd3c91fb",
+      "prep_index": 5,
+      "prep_class": "phase_biased/depth2"
+    },
+    {
+      "id": "ts_n4_4128e264e81e4d56_A",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "A",
+      "word": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.6143523285676591,
+        "phi": 0.4018536774813247,
+        "gamma": 0.24121473883909922,
+        "id": "pc_4128e264e81e4d56d792"
+      },
+      "prep_signature": "4128e264e81e4d56d792b3478778598fda3f134e5431a3906ac104f9cd3c91fb",
+      "prep_index": 5,
+      "prep_class": "phase_biased/depth2"
+    },
+    {
+      "id": "ts_n4_4128e264e81e4d56_AAB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AAB",
+      "word": "AABAABAABAABAABAABAABAABAABAABAABAABAABA",
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.6143523285676591,
+        "phi": 0.4018536774813247,
+        "gamma": 0.24121473883909922,
+        "id": "pc_4128e264e81e4d56d792"
+      },
+      "prep_signature": "4128e264e81e4d56d792b3478778598fda3f134e5431a3906ac104f9cd3c91fb",
+      "prep_index": 5,
+      "prep_class": "phase_biased/depth2"
+    },
+    {
+      "id": "ts_n4_4128e264e81e4d56_B",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "B",
+      "word": "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.6143523285676591,
+        "phi": 0.4018536774813247,
+        "gamma": 0.24121473883909922,
+        "id": "pc_4128e264e81e4d56d792"
+      },
+      "prep_signature": "4128e264e81e4d56d792b3478778598fda3f134e5431a3906ac104f9cd3c91fb",
+      "prep_index": 5,
+      "prep_class": "phase_biased/depth2"
+    },
+    {
+      "id": "ts_n4_2bce1a7f0722cfc9_AB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AB",
+      "word": "ABABABABABABABABABABABABABABABABABABABAB",
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.6904534316833082,
+        "phi": 0.6405134808914335,
+        "gamma": 0.2863868044700403,
+        "id": "pc_2bce1a7f0722cfc9cb74"
+      },
+      "prep_signature": "2bce1a7f0722cfc9cb746d60d78fba5400c2a42f7009f664626b049c3a8ffce3",
+      "prep_index": 6,
+      "prep_class": "depolarizing/depth4"
+    },
+    {
+      "id": "ts_n4_2bce1a7f0722cfc9_AABB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AABB",
+      "word": "AABBAABBAABBAABBAABBAABBAABBAABBAABBAABB",
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.6904534316833082,
+        "phi": 0.6405134808914335,
+        "gamma": 0.2863868044700403,
+        "id": "pc_2bce1a7f0722cfc9cb74"
+      },
+      "prep_signature": "2bce1a7f0722cfc9cb746d60d78fba5400c2a42f7009f664626b049c3a8ffce3",
+      "prep_index": 6,
+      "prep_class": "depolarizing/depth4"
+    },
+    {
+      "id": "ts_n4_2bce1a7f0722cfc9_ABB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "ABB",
+      "word": "ABBABBABBABBABBABBABBABBABBABBABBABBABBA",
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.6904534316833082,
+        "phi": 0.6405134808914335,
+        "gamma": 0.2863868044700403,
+        "id": "pc_2bce1a7f0722cfc9cb74"
+      },
+      "prep_signature": "2bce1a7f0722cfc9cb746d60d78fba5400c2a42f7009f664626b049c3a8ffce3",
+      "prep_index": 6,
+      "prep_class": "depolarizing/depth4"
+    },
+    {
+      "id": "ts_n4_2bce1a7f0722cfc9_A",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "A",
+      "word": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.6904534316833082,
+        "phi": 0.6405134808914335,
+        "gamma": 0.2863868044700403,
+        "id": "pc_2bce1a7f0722cfc9cb74"
+      },
+      "prep_signature": "2bce1a7f0722cfc9cb746d60d78fba5400c2a42f7009f664626b049c3a8ffce3",
+      "prep_index": 6,
+      "prep_class": "depolarizing/depth4"
+    },
+    {
+      "id": "ts_n4_2bce1a7f0722cfc9_AAB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AAB",
+      "word": "AABAABAABAABAABAABAABAABAABAABAABAABAABA",
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.6904534316833082,
+        "phi": 0.6405134808914335,
+        "gamma": 0.2863868044700403,
+        "id": "pc_2bce1a7f0722cfc9cb74"
+      },
+      "prep_signature": "2bce1a7f0722cfc9cb746d60d78fba5400c2a42f7009f664626b049c3a8ffce3",
+      "prep_index": 6,
+      "prep_class": "depolarizing/depth4"
+    },
+    {
+      "id": "ts_n4_2bce1a7f0722cfc9_B",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "B",
+      "word": "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.6904534316833082,
+        "phi": 0.6405134808914335,
+        "gamma": 0.2863868044700403,
+        "id": "pc_2bce1a7f0722cfc9cb74"
+      },
+      "prep_signature": "2bce1a7f0722cfc9cb746d60d78fba5400c2a42f7009f664626b049c3a8ffce3",
+      "prep_index": 6,
+      "prep_class": "depolarizing/depth4"
+    },
+    {
+      "id": "ts_n4_6cc57e971b109401_AB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AB",
+      "word": "ABABABABABABABABABABABABABABABABABABABAB",
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.8446258753585048,
+        "phi": 0.7375175753128675,
+        "gamma": 0.05039216223255949,
+        "id": "pc_6cc57e971b1094013d22"
+      },
+      "prep_signature": "6cc57e971b1094013d226685aec9d3b621d99836870b06c80b9ea0da3eb21280",
+      "prep_index": 7,
+      "prep_class": "phase_biased/depth4"
+    },
+    {
+      "id": "ts_n4_6cc57e971b109401_AABB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AABB",
+      "word": "AABBAABBAABBAABBAABBAABBAABBAABBAABBAABB",
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.8446258753585048,
+        "phi": 0.7375175753128675,
+        "gamma": 0.05039216223255949,
+        "id": "pc_6cc57e971b1094013d22"
+      },
+      "prep_signature": "6cc57e971b1094013d226685aec9d3b621d99836870b06c80b9ea0da3eb21280",
+      "prep_index": 7,
+      "prep_class": "phase_biased/depth4"
+    },
+    {
+      "id": "ts_n4_6cc57e971b109401_ABB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "ABB",
+      "word": "ABBABBABBABBABBABBABBABBABBABBABBABBABBA",
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.8446258753585048,
+        "phi": 0.7375175753128675,
+        "gamma": 0.05039216223255949,
+        "id": "pc_6cc57e971b1094013d22"
+      },
+      "prep_signature": "6cc57e971b1094013d226685aec9d3b621d99836870b06c80b9ea0da3eb21280",
+      "prep_index": 7,
+      "prep_class": "phase_biased/depth4"
+    },
+    {
+      "id": "ts_n4_6cc57e971b109401_A",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "A",
+      "word": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.8446258753585048,
+        "phi": 0.7375175753128675,
+        "gamma": 0.05039216223255949,
+        "id": "pc_6cc57e971b1094013d22"
+      },
+      "prep_signature": "6cc57e971b1094013d226685aec9d3b621d99836870b06c80b9ea0da3eb21280",
+      "prep_index": 7,
+      "prep_class": "phase_biased/depth4"
+    },
+    {
+      "id": "ts_n4_6cc57e971b109401_AAB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AAB",
+      "word": "AABAABAABAABAABAABAABAABAABAABAABAABAABA",
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.8446258753585048,
+        "phi": 0.7375175753128675,
+        "gamma": 0.05039216223255949,
+        "id": "pc_6cc57e971b1094013d22"
+      },
+      "prep_signature": "6cc57e971b1094013d226685aec9d3b621d99836870b06c80b9ea0da3eb21280",
+      "prep_index": 7,
+      "prep_class": "phase_biased/depth4"
+    },
+    {
+      "id": "ts_n4_6cc57e971b109401_B",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "B",
+      "word": "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.8446258753585048,
+        "phi": 0.7375175753128675,
+        "gamma": 0.05039216223255949,
+        "id": "pc_6cc57e971b1094013d22"
+      },
+      "prep_signature": "6cc57e971b1094013d226685aec9d3b621d99836870b06c80b9ea0da3eb21280",
+      "prep_index": 7,
+      "prep_class": "phase_biased/depth4"
+    },
+    {
+      "id": "ts_n4_31dc73556aecc319_AB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AB",
+      "word": "ABABABABABABABABABABABABABABABABABABABAB",
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.7812059906546978,
+        "phi": 0.6385066804497033,
+        "gamma": 0.09267217311308233,
+        "id": "pc_31dc73556aecc319b583"
+      },
+      "prep_signature": "31dc73556aecc319b583cf5ed26ca71577ed716e650c720411538c6f8d5e1193",
+      "prep_index": 8,
+      "prep_class": "depolarizing/depth2"
+    },
+    {
+      "id": "ts_n4_31dc73556aecc319_AABB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AABB",
+      "word": "AABBAABBAABBAABBAABBAABBAABBAABBAABBAABB",
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.7812059906546978,
+        "phi": 0.6385066804497033,
+        "gamma": 0.09267217311308233,
+        "id": "pc_31dc73556aecc319b583"
+      },
+      "prep_signature": "31dc73556aecc319b583cf5ed26ca71577ed716e650c720411538c6f8d5e1193",
+      "prep_index": 8,
+      "prep_class": "depolarizing/depth2"
+    },
+    {
+      "id": "ts_n4_31dc73556aecc319_ABB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "ABB",
+      "word": "ABBABBABBABBABBABBABBABBABBABBABBABBABBA",
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.7812059906546978,
+        "phi": 0.6385066804497033,
+        "gamma": 0.09267217311308233,
+        "id": "pc_31dc73556aecc319b583"
+      },
+      "prep_signature": "31dc73556aecc319b583cf5ed26ca71577ed716e650c720411538c6f8d5e1193",
+      "prep_index": 8,
+      "prep_class": "depolarizing/depth2"
+    },
+    {
+      "id": "ts_n4_31dc73556aecc319_A",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "A",
+      "word": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.7812059906546978,
+        "phi": 0.6385066804497033,
+        "gamma": 0.09267217311308233,
+        "id": "pc_31dc73556aecc319b583"
+      },
+      "prep_signature": "31dc73556aecc319b583cf5ed26ca71577ed716e650c720411538c6f8d5e1193",
+      "prep_index": 8,
+      "prep_class": "depolarizing/depth2"
+    },
+    {
+      "id": "ts_n4_31dc73556aecc319_AAB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AAB",
+      "word": "AABAABAABAABAABAABAABAABAABAABAABAABAABA",
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.7812059906546978,
+        "phi": 0.6385066804497033,
+        "gamma": 0.09267217311308233,
+        "id": "pc_31dc73556aecc319b583"
+      },
+      "prep_signature": "31dc73556aecc319b583cf5ed26ca71577ed716e650c720411538c6f8d5e1193",
+      "prep_index": 8,
+      "prep_class": "depolarizing/depth2"
+    },
+    {
+      "id": "ts_n4_31dc73556aecc319_B",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "B",
+      "word": "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.7812059906546978,
+        "phi": 0.6385066804497033,
+        "gamma": 0.09267217311308233,
+        "id": "pc_31dc73556aecc319b583"
+      },
+      "prep_signature": "31dc73556aecc319b583cf5ed26ca71577ed716e650c720411538c6f8d5e1193",
+      "prep_index": 8,
+      "prep_class": "depolarizing/depth2"
+    },
+    {
+      "id": "ts_n4_64fd41875e5e637c_AB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AB",
+      "word": "ABABABABABABABABABABABABABABABABABABABAB",
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.8551675986182934,
+        "phi": 0.24352822852821934,
+        "gamma": 0.14512996489981858,
+        "id": "pc_64fd41875e5e637cbaa6"
+      },
+      "prep_signature": "64fd41875e5e637cbaa6a93ea7fb2e40dc6d2dc5929dd1d0f24a42f344a2f7a4",
+      "prep_index": 9,
+      "prep_class": "phase_biased/depth2"
+    },
+    {
+      "id": "ts_n4_64fd41875e5e637c_AABB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AABB",
+      "word": "AABBAABBAABBAABBAABBAABBAABBAABBAABBAABB",
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.8551675986182934,
+        "phi": 0.24352822852821934,
+        "gamma": 0.14512996489981858,
+        "id": "pc_64fd41875e5e637cbaa6"
+      },
+      "prep_signature": "64fd41875e5e637cbaa6a93ea7fb2e40dc6d2dc5929dd1d0f24a42f344a2f7a4",
+      "prep_index": 9,
+      "prep_class": "phase_biased/depth2"
+    },
+    {
+      "id": "ts_n4_64fd41875e5e637c_ABB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "ABB",
+      "word": "ABBABBABBABBABBABBABBABBABBABBABBABBABBA",
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.8551675986182934,
+        "phi": 0.24352822852821934,
+        "gamma": 0.14512996489981858,
+        "id": "pc_64fd41875e5e637cbaa6"
+      },
+      "prep_signature": "64fd41875e5e637cbaa6a93ea7fb2e40dc6d2dc5929dd1d0f24a42f344a2f7a4",
+      "prep_index": 9,
+      "prep_class": "phase_biased/depth2"
+    },
+    {
+      "id": "ts_n4_64fd41875e5e637c_A",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "A",
+      "word": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.8551675986182934,
+        "phi": 0.24352822852821934,
+        "gamma": 0.14512996489981858,
+        "id": "pc_64fd41875e5e637cbaa6"
+      },
+      "prep_signature": "64fd41875e5e637cbaa6a93ea7fb2e40dc6d2dc5929dd1d0f24a42f344a2f7a4",
+      "prep_index": 9,
+      "prep_class": "phase_biased/depth2"
+    },
+    {
+      "id": "ts_n4_64fd41875e5e637c_AAB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AAB",
+      "word": "AABAABAABAABAABAABAABAABAABAABAABAABAABA",
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.8551675986182934,
+        "phi": 0.24352822852821934,
+        "gamma": 0.14512996489981858,
+        "id": "pc_64fd41875e5e637cbaa6"
+      },
+      "prep_signature": "64fd41875e5e637cbaa6a93ea7fb2e40dc6d2dc5929dd1d0f24a42f344a2f7a4",
+      "prep_index": 9,
+      "prep_class": "phase_biased/depth2"
+    },
+    {
+      "id": "ts_n4_64fd41875e5e637c_B",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "B",
+      "word": "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.8551675986182934,
+        "phi": 0.24352822852821934,
+        "gamma": 0.14512996489981858,
+        "id": "pc_64fd41875e5e637cbaa6"
+      },
+      "prep_signature": "64fd41875e5e637cbaa6a93ea7fb2e40dc6d2dc5929dd1d0f24a42f344a2f7a4",
+      "prep_index": 9,
+      "prep_class": "phase_biased/depth2"
+    },
+    {
+      "id": "ts_n4_7efb19601d4bf613_AB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AB",
+      "word": "ABABABABABABABABABABABABABABABABABABABAB",
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.7276224954367848,
+        "phi": 0.512896015954109,
+        "gamma": 0.07125260186355437,
+        "id": "pc_7efb19601d4bf613b687"
+      },
+      "prep_signature": "7efb19601d4bf613b687472b77c5f1d22f58ae8432f0ceda24504089c59bbf31",
+      "prep_index": 10,
+      "prep_class": "depolarizing/depth4"
+    },
+    {
+      "id": "ts_n4_7efb19601d4bf613_AABB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AABB",
+      "word": "AABBAABBAABBAABBAABBAABBAABBAABBAABBAABB",
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.7276224954367848,
+        "phi": 0.512896015954109,
+        "gamma": 0.07125260186355437,
+        "id": "pc_7efb19601d4bf613b687"
+      },
+      "prep_signature": "7efb19601d4bf613b687472b77c5f1d22f58ae8432f0ceda24504089c59bbf31",
+      "prep_index": 10,
+      "prep_class": "depolarizing/depth4"
+    },
+    {
+      "id": "ts_n4_7efb19601d4bf613_ABB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "ABB",
+      "word": "ABBABBABBABBABBABBABBABBABBABBABBABBABBA",
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.7276224954367848,
+        "phi": 0.512896015954109,
+        "gamma": 0.07125260186355437,
+        "id": "pc_7efb19601d4bf613b687"
+      },
+      "prep_signature": "7efb19601d4bf613b687472b77c5f1d22f58ae8432f0ceda24504089c59bbf31",
+      "prep_index": 10,
+      "prep_class": "depolarizing/depth4"
+    },
+    {
+      "id": "ts_n4_7efb19601d4bf613_A",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "A",
+      "word": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.7276224954367848,
+        "phi": 0.512896015954109,
+        "gamma": 0.07125260186355437,
+        "id": "pc_7efb19601d4bf613b687"
+      },
+      "prep_signature": "7efb19601d4bf613b687472b77c5f1d22f58ae8432f0ceda24504089c59bbf31",
+      "prep_index": 10,
+      "prep_class": "depolarizing/depth4"
+    },
+    {
+      "id": "ts_n4_7efb19601d4bf613_AAB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AAB",
+      "word": "AABAABAABAABAABAABAABAABAABAABAABAABAABA",
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.7276224954367848,
+        "phi": 0.512896015954109,
+        "gamma": 0.07125260186355437,
+        "id": "pc_7efb19601d4bf613b687"
+      },
+      "prep_signature": "7efb19601d4bf613b687472b77c5f1d22f58ae8432f0ceda24504089c59bbf31",
+      "prep_index": 10,
+      "prep_class": "depolarizing/depth4"
+    },
+    {
+      "id": "ts_n4_7efb19601d4bf613_B",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "B",
+      "word": "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.7276224954367848,
+        "phi": 0.512896015954109,
+        "gamma": 0.07125260186355437,
+        "id": "pc_7efb19601d4bf613b687"
+      },
+      "prep_signature": "7efb19601d4bf613b687472b77c5f1d22f58ae8432f0ceda24504089c59bbf31",
+      "prep_index": 10,
+      "prep_class": "depolarizing/depth4"
+    },
+    {
+      "id": "ts_n4_800bbded6cbe5155_AB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AB",
+      "word": "ABABABABABABABABABABABABABABABABABABABAB",
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.919731417725196,
+        "phi": 0.295047481294121,
+        "gamma": 0.16938041090691763,
+        "id": "pc_800bbded6cbe51551b3e"
+      },
+      "prep_signature": "800bbded6cbe51551b3e327a7e73d7b2052a93146713477a1c47706b029f38f0",
+      "prep_index": 11,
+      "prep_class": "phase_biased/depth4"
+    },
+    {
+      "id": "ts_n4_800bbded6cbe5155_AABB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AABB",
+      "word": "AABBAABBAABBAABBAABBAABBAABBAABBAABBAABB",
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.919731417725196,
+        "phi": 0.295047481294121,
+        "gamma": 0.16938041090691763,
+        "id": "pc_800bbded6cbe51551b3e"
+      },
+      "prep_signature": "800bbded6cbe51551b3e327a7e73d7b2052a93146713477a1c47706b029f38f0",
+      "prep_index": 11,
+      "prep_class": "phase_biased/depth4"
+    },
+    {
+      "id": "ts_n4_800bbded6cbe5155_ABB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "ABB",
+      "word": "ABBABBABBABBABBABBABBABBABBABBABBABBABBA",
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.919731417725196,
+        "phi": 0.295047481294121,
+        "gamma": 0.16938041090691763,
+        "id": "pc_800bbded6cbe51551b3e"
+      },
+      "prep_signature": "800bbded6cbe51551b3e327a7e73d7b2052a93146713477a1c47706b029f38f0",
+      "prep_index": 11,
+      "prep_class": "phase_biased/depth4"
+    },
+    {
+      "id": "ts_n4_800bbded6cbe5155_A",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "A",
+      "word": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.919731417725196,
+        "phi": 0.295047481294121,
+        "gamma": 0.16938041090691763,
+        "id": "pc_800bbded6cbe51551b3e"
+      },
+      "prep_signature": "800bbded6cbe51551b3e327a7e73d7b2052a93146713477a1c47706b029f38f0",
+      "prep_index": 11,
+      "prep_class": "phase_biased/depth4"
+    },
+    {
+      "id": "ts_n4_800bbded6cbe5155_AAB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AAB",
+      "word": "AABAABAABAABAABAABAABAABAABAABAABAABAABA",
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.919731417725196,
+        "phi": 0.295047481294121,
+        "gamma": 0.16938041090691763,
+        "id": "pc_800bbded6cbe51551b3e"
+      },
+      "prep_signature": "800bbded6cbe51551b3e327a7e73d7b2052a93146713477a1c47706b029f38f0",
+      "prep_index": 11,
+      "prep_class": "phase_biased/depth4"
+    },
+    {
+      "id": "ts_n4_800bbded6cbe5155_B",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "B",
+      "word": "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.919731417725196,
+        "phi": 0.295047481294121,
+        "gamma": 0.16938041090691763,
+        "id": "pc_800bbded6cbe51551b3e"
+      },
+      "prep_signature": "800bbded6cbe51551b3e327a7e73d7b2052a93146713477a1c47706b029f38f0",
+      "prep_index": 11,
+      "prep_class": "phase_biased/depth4"
+    },
+    {
+      "id": "ts_n4_469b64b95ef92d95_AB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AB",
+      "word": "ABABABABABABABABABABABABABABABABABABABAB",
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.9093651707750448,
+        "phi": 0.6566637731192104,
+        "gamma": 0.2266676376008128,
+        "id": "pc_469b64b95ef92d95dcd4"
+      },
+      "prep_signature": "469b64b95ef92d95dcd4de97ce7574fec57eea5202600f5ae8f710fe036ce0f5",
+      "prep_index": 12,
+      "prep_class": "depolarizing/depth2"
+    },
+    {
+      "id": "ts_n4_469b64b95ef92d95_AABB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AABB",
+      "word": "AABBAABBAABBAABBAABBAABBAABBAABBAABBAABB",
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.9093651707750448,
+        "phi": 0.6566637731192104,
+        "gamma": 0.2266676376008128,
+        "id": "pc_469b64b95ef92d95dcd4"
+      },
+      "prep_signature": "469b64b95ef92d95dcd4de97ce7574fec57eea5202600f5ae8f710fe036ce0f5",
+      "prep_index": 12,
+      "prep_class": "depolarizing/depth2"
+    },
+    {
+      "id": "ts_n4_469b64b95ef92d95_ABB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "ABB",
+      "word": "ABBABBABBABBABBABBABBABBABBABBABBABBABBA",
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.9093651707750448,
+        "phi": 0.6566637731192104,
+        "gamma": 0.2266676376008128,
+        "id": "pc_469b64b95ef92d95dcd4"
+      },
+      "prep_signature": "469b64b95ef92d95dcd4de97ce7574fec57eea5202600f5ae8f710fe036ce0f5",
+      "prep_index": 12,
+      "prep_class": "depolarizing/depth2"
+    },
+    {
+      "id": "ts_n4_3b5d45076218772c_AB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AB",
+      "word": "ABABABABABABABABABABABABABABABABABABABAB",
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.9026082277768015,
+        "phi": 0.5697797162154824,
+        "gamma": 0.29848956348567623,
+        "id": "pc_3b5d45076218772cbd7c"
+      },
+      "prep_signature": "3b5d45076218772cbd7ce0bb6a7eaf5a21c301b0f06cea9a6c227e08fd90dca0",
+      "prep_index": 13,
+      "prep_class": "phase_biased/depth2"
+    },
+    {
+      "id": "ts_n4_3b5d45076218772c_AABB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AABB",
+      "word": "AABBAABBAABBAABBAABBAABBAABBAABBAABBAABB",
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.9026082277768015,
+        "phi": 0.5697797162154824,
+        "gamma": 0.29848956348567623,
+        "id": "pc_3b5d45076218772cbd7c"
+      },
+      "prep_signature": "3b5d45076218772cbd7ce0bb6a7eaf5a21c301b0f06cea9a6c227e08fd90dca0",
+      "prep_index": 13,
+      "prep_class": "phase_biased/depth2"
+    },
+    {
+      "id": "ts_n4_3b5d45076218772c_ABB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "ABB",
+      "word": "ABBABBABBABBABBABBABBABBABBABBABBABBABBA",
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.9026082277768015,
+        "phi": 0.5697797162154824,
+        "gamma": 0.29848956348567623,
+        "id": "pc_3b5d45076218772cbd7c"
+      },
+      "prep_signature": "3b5d45076218772cbd7ce0bb6a7eaf5a21c301b0f06cea9a6c227e08fd90dca0",
+      "prep_index": 13,
+      "prep_class": "phase_biased/depth2"
+    },
+    {
+      "id": "ts_n4_829775dfe7d3612d_AB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AB",
+      "word": "ABABABABABABABABABABABABABABABABABABABAB",
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.8471480127018169,
+        "phi": 0.6288734644778627,
+        "gamma": 0.08562117916465617,
+        "id": "pc_829775dfe7d3612d845a"
+      },
+      "prep_signature": "829775dfe7d3612d845a41429497bfa2e0c575764b84d54e96424ec00f0e7e2d",
+      "prep_index": 14,
+      "prep_class": "depolarizing/depth4"
+    },
+    {
+      "id": "ts_n4_829775dfe7d3612d_AABB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AABB",
+      "word": "AABBAABBAABBAABBAABBAABBAABBAABBAABBAABB",
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.8471480127018169,
+        "phi": 0.6288734644778627,
+        "gamma": 0.08562117916465617,
+        "id": "pc_829775dfe7d3612d845a"
+      },
+      "prep_signature": "829775dfe7d3612d845a41429497bfa2e0c575764b84d54e96424ec00f0e7e2d",
+      "prep_index": 14,
+      "prep_class": "depolarizing/depth4"
+    },
+    {
+      "id": "ts_n4_829775dfe7d3612d_ABB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "ABB",
+      "word": "ABBABBABBABBABBABBABBABBABBABBABBABBABBA",
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.8471480127018169,
+        "phi": 0.6288734644778627,
+        "gamma": 0.08562117916465617,
+        "id": "pc_829775dfe7d3612d845a"
+      },
+      "prep_signature": "829775dfe7d3612d845a41429497bfa2e0c575764b84d54e96424ec00f0e7e2d",
+      "prep_index": 14,
+      "prep_class": "depolarizing/depth4"
+    },
+    {
+      "id": "ts_n4_233c91fa7aceae6d_AB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AB",
+      "word": "ABABABABABABABABABABABABABABABABABABABAB",
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.5462310821266892,
+        "phi": 0.5387760240940753,
+        "gamma": 0.05872684883421421,
+        "id": "pc_233c91fa7aceae6dff8a"
+      },
+      "prep_signature": "233c91fa7aceae6dff8a08e761fdf7d7b6efa9e4ee74a84e6c094cbab8c2bdc0",
+      "prep_index": 15,
+      "prep_class": "phase_biased/depth4"
+    },
+    {
+      "id": "ts_n4_233c91fa7aceae6d_AABB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AABB",
+      "word": "AABBAABBAABBAABBAABBAABBAABBAABBAABBAABB",
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.5462310821266892,
+        "phi": 0.5387760240940753,
+        "gamma": 0.05872684883421421,
+        "id": "pc_233c91fa7aceae6dff8a"
+      },
+      "prep_signature": "233c91fa7aceae6dff8a08e761fdf7d7b6efa9e4ee74a84e6c094cbab8c2bdc0",
+      "prep_index": 15,
+      "prep_class": "phase_biased/depth4"
+    },
+    {
+      "id": "ts_n4_233c91fa7aceae6d_ABB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "ABB",
+      "word": "ABBABBABBABBABBABBABBABBABBABBABBABBABBA",
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.5462310821266892,
+        "phi": 0.5387760240940753,
+        "gamma": 0.05872684883421421,
+        "id": "pc_233c91fa7aceae6dff8a"
+      },
+      "prep_signature": "233c91fa7aceae6dff8a08e761fdf7d7b6efa9e4ee74a84e6c094cbab8c2bdc0",
+      "prep_index": 15,
+      "prep_class": "phase_biased/depth4"
+    },
+    {
+      "id": "ts_n4_3dc1f801a1939810_AB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AB",
+      "word": "ABABABABABABABABABABABABABABABABABABABAB",
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.6243624590322889,
+        "phi": 0.42197272852878065,
+        "gamma": 0.1270589700345639,
+        "id": "pc_3dc1f801a193981013a1"
+      },
+      "prep_signature": "3dc1f801a193981013a13c2c5d057e6deeff408b9eeb45680299d6eae8e83666",
+      "prep_index": 16,
+      "prep_class": "depolarizing/depth2"
+    },
+    {
+      "id": "ts_n4_3dc1f801a1939810_AABB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AABB",
+      "word": "AABBAABBAABBAABBAABBAABBAABBAABBAABBAABB",
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.6243624590322889,
+        "phi": 0.42197272852878065,
+        "gamma": 0.1270589700345639,
+        "id": "pc_3dc1f801a193981013a1"
+      },
+      "prep_signature": "3dc1f801a193981013a13c2c5d057e6deeff408b9eeb45680299d6eae8e83666",
+      "prep_index": 16,
+      "prep_class": "depolarizing/depth2"
+    },
+    {
+      "id": "ts_n4_3dc1f801a1939810_ABB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "ABB",
+      "word": "ABBABBABBABBABBABBABBABBABBABBABBABBABBA",
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.6243624590322889,
+        "phi": 0.42197272852878065,
+        "gamma": 0.1270589700345639,
+        "id": "pc_3dc1f801a193981013a1"
+      },
+      "prep_signature": "3dc1f801a193981013a13c2c5d057e6deeff408b9eeb45680299d6eae8e83666",
+      "prep_index": 16,
+      "prep_class": "depolarizing/depth2"
+    },
+    {
+      "id": "ts_n4_7da15aadc6b12b16_AB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AB",
+      "word": "ABABABABABABABABABABABABABABABABABABABAB",
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.7488406832993418,
+        "phi": 0.8556637241908558,
+        "gamma": 0.03609716325223328,
+        "id": "pc_7da15aadc6b12b16e2e3"
+      },
+      "prep_signature": "7da15aadc6b12b16e2e3b1512e5d129fdddd62138c76aad02bffdb20d5cc62d1",
+      "prep_index": 17,
+      "prep_class": "phase_biased/depth2"
+    },
+    {
+      "id": "ts_n4_7da15aadc6b12b16_AABB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AABB",
+      "word": "AABBAABBAABBAABBAABBAABBAABBAABBAABBAABB",
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.7488406832993418,
+        "phi": 0.8556637241908558,
+        "gamma": 0.03609716325223328,
+        "id": "pc_7da15aadc6b12b16e2e3"
+      },
+      "prep_signature": "7da15aadc6b12b16e2e3b1512e5d129fdddd62138c76aad02bffdb20d5cc62d1",
+      "prep_index": 17,
+      "prep_class": "phase_biased/depth2"
+    },
+    {
+      "id": "ts_n4_7da15aadc6b12b16_ABB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "ABB",
+      "word": "ABBABBABBABBABBABBABBABBABBABBABBABBABBA",
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.7488406832993418,
+        "phi": 0.8556637241908558,
+        "gamma": 0.03609716325223328,
+        "id": "pc_7da15aadc6b12b16e2e3"
+      },
+      "prep_signature": "7da15aadc6b12b16e2e3b1512e5d129fdddd62138c76aad02bffdb20d5cc62d1",
+      "prep_index": 17,
+      "prep_class": "phase_biased/depth2"
+    },
+    {
+      "id": "ts_n4_fc97ef435a579b6d_AB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AB",
+      "word": "ABABABABABABABABABABABABABABABABABABABAB",
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.6693518867634831,
+        "phi": 0.20566308639662115,
+        "gamma": 0.03106366200144552,
+        "id": "pc_fc97ef435a579b6d7c47"
+      },
+      "prep_signature": "fc97ef435a579b6d7c47b03ee113416a4f1bcb1adb363ffe6f41ddd37b4776d1",
+      "prep_index": 18,
+      "prep_class": "depolarizing/depth4"
+    },
+    {
+      "id": "ts_n4_fc97ef435a579b6d_AABB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AABB",
+      "word": "AABBAABBAABBAABBAABBAABBAABBAABBAABBAABB",
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.6693518867634831,
+        "phi": 0.20566308639662115,
+        "gamma": 0.03106366200144552,
+        "id": "pc_fc97ef435a579b6d7c47"
+      },
+      "prep_signature": "fc97ef435a579b6d7c47b03ee113416a4f1bcb1adb363ffe6f41ddd37b4776d1",
+      "prep_index": 18,
+      "prep_class": "depolarizing/depth4"
+    },
+    {
+      "id": "ts_n4_fc97ef435a579b6d_ABB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "ABB",
+      "word": "ABBABBABBABBABBABBABBABBABBABBABBABBABBA",
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.6693518867634831,
+        "phi": 0.20566308639662115,
+        "gamma": 0.03106366200144552,
+        "id": "pc_fc97ef435a579b6d7c47"
+      },
+      "prep_signature": "fc97ef435a579b6d7c47b03ee113416a4f1bcb1adb363ffe6f41ddd37b4776d1",
+      "prep_index": 18,
+      "prep_class": "depolarizing/depth4"
+    },
+    {
+      "id": "ts_n4_a1d6b122c1792c29_AB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AB",
+      "word": "ABABABABABABABABABABABABABABABABABABABAB",
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.5965855750374872,
+        "phi": 0.7666296985862895,
+        "gamma": 0.20580113656177065,
+        "id": "pc_a1d6b122c1792c297303"
+      },
+      "prep_signature": "a1d6b122c1792c297303b7566f95b6453b803106dd767cb9e905134f6190eac9",
+      "prep_index": 19,
+      "prep_class": "phase_biased/depth4"
+    },
+    {
+      "id": "ts_n4_a1d6b122c1792c29_AABB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AABB",
+      "word": "AABBAABBAABBAABBAABBAABBAABBAABBAABBAABB",
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.5965855750374872,
+        "phi": 0.7666296985862895,
+        "gamma": 0.20580113656177065,
+        "id": "pc_a1d6b122c1792c297303"
+      },
+      "prep_signature": "a1d6b122c1792c297303b7566f95b6453b803106dd767cb9e905134f6190eac9",
+      "prep_index": 19,
+      "prep_class": "phase_biased/depth4"
+    },
+    {
+      "id": "ts_n4_a1d6b122c1792c29_ABB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "ABB",
+      "word": "ABBABBABBABBABBABBABBABBABBABBABBABBABBA",
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.5965855750374872,
+        "phi": 0.7666296985862895,
+        "gamma": 0.20580113656177065,
+        "id": "pc_a1d6b122c1792c297303"
+      },
+      "prep_signature": "a1d6b122c1792c297303b7566f95b6453b803106dd767cb9e905134f6190eac9",
+      "prep_index": 19,
+      "prep_class": "phase_biased/depth4"
+    },
+    {
+      "id": "ts_n4_f2df863543c3e574_AB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AB",
+      "word": "ABABABABABABABABABABABABABABABABABABABAB",
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.58447298065614,
+        "phi": 0.765982566741773,
+        "gamma": 0.2183175194669533,
+        "id": "pc_f2df863543c3e574f9e8"
+      },
+      "prep_signature": "f2df863543c3e574f9e8ba24840a714e89bbf9a084993699892757f0b1f8de99",
+      "prep_index": 20,
+      "prep_class": "depolarizing/depth2"
+    },
+    {
+      "id": "ts_n4_f2df863543c3e574_AABB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AABB",
+      "word": "AABBAABBAABBAABBAABBAABBAABBAABBAABBAABB",
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.58447298065614,
+        "phi": 0.765982566741773,
+        "gamma": 0.2183175194669533,
+        "id": "pc_f2df863543c3e574f9e8"
+      },
+      "prep_signature": "f2df863543c3e574f9e8ba24840a714e89bbf9a084993699892757f0b1f8de99",
+      "prep_index": 20,
+      "prep_class": "depolarizing/depth2"
+    },
+    {
+      "id": "ts_n4_f2df863543c3e574_ABB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "ABB",
+      "word": "ABBABBABBABBABBABBABBABBABBABBABBABBABBA",
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.58447298065614,
+        "phi": 0.765982566741773,
+        "gamma": 0.2183175194669533,
+        "id": "pc_f2df863543c3e574f9e8"
+      },
+      "prep_signature": "f2df863543c3e574f9e8ba24840a714e89bbf9a084993699892757f0b1f8de99",
+      "prep_index": 20,
+      "prep_class": "depolarizing/depth2"
+    },
+    {
+      "id": "ts_n4_adb9f4ce818e7049_AB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AB",
+      "word": "ABABABABABABABABABABABABABABABABABABABAB",
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.5717191673667532,
+        "phi": 0.8902331410371898,
+        "gamma": 0.09169239409541174,
+        "id": "pc_adb9f4ce818e70490c3b"
+      },
+      "prep_signature": "adb9f4ce818e70490c3b30afa2dc43d2b6274fd481b8b8b12c8e014ea9ef18d3",
+      "prep_index": 21,
+      "prep_class": "phase_biased/depth2"
+    },
+    {
+      "id": "ts_n4_adb9f4ce818e7049_AABB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AABB",
+      "word": "AABBAABBAABBAABBAABBAABBAABBAABBAABBAABB",
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.5717191673667532,
+        "phi": 0.8902331410371898,
+        "gamma": 0.09169239409541174,
+        "id": "pc_adb9f4ce818e70490c3b"
+      },
+      "prep_signature": "adb9f4ce818e70490c3b30afa2dc43d2b6274fd481b8b8b12c8e014ea9ef18d3",
+      "prep_index": 21,
+      "prep_class": "phase_biased/depth2"
+    },
+    {
+      "id": "ts_n4_adb9f4ce818e7049_ABB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "ABB",
+      "word": "ABBABBABBABBABBABBABBABBABBABBABBABBABBA",
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 2,
+        "split": "calibration",
+        "F0": 0.5717191673667532,
+        "phi": 0.8902331410371898,
+        "gamma": 0.09169239409541174,
+        "id": "pc_adb9f4ce818e70490c3b"
+      },
+      "prep_signature": "adb9f4ce818e70490c3b30afa2dc43d2b6274fd481b8b8b12c8e014ea9ef18d3",
+      "prep_index": 21,
+      "prep_class": "phase_biased/depth2"
+    },
+    {
+      "id": "ts_n4_462c1dac2628c180_AB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AB",
+      "word": "ABABABABABABABABABABABABABABABABABABABAB",
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.8243345719559657,
+        "phi": 0.20182301454696194,
+        "gamma": 0.20529037291214716,
+        "id": "pc_462c1dac2628c180bde8"
+      },
+      "prep_signature": "462c1dac2628c180bde833f598b165aa69606ea1aa1d70da02b943bfd5470e16",
+      "prep_index": 22,
+      "prep_class": "depolarizing/depth4"
+    },
+    {
+      "id": "ts_n4_462c1dac2628c180_AABB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AABB",
+      "word": "AABBAABBAABBAABBAABBAABBAABBAABBAABBAABB",
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.8243345719559657,
+        "phi": 0.20182301454696194,
+        "gamma": 0.20529037291214716,
+        "id": "pc_462c1dac2628c180bde8"
+      },
+      "prep_signature": "462c1dac2628c180bde833f598b165aa69606ea1aa1d70da02b943bfd5470e16",
+      "prep_index": 22,
+      "prep_class": "depolarizing/depth4"
+    },
+    {
+      "id": "ts_n4_462c1dac2628c180_ABB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "ABB",
+      "word": "ABBABBABBABBABBABBABBABBABBABBABBABBABBA",
+      "prep": {
+        "n": 4,
+        "family": "depolarizing",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.8243345719559657,
+        "phi": 0.20182301454696194,
+        "gamma": 0.20529037291214716,
+        "id": "pc_462c1dac2628c180bde8"
+      },
+      "prep_signature": "462c1dac2628c180bde833f598b165aa69606ea1aa1d70da02b943bfd5470e16",
+      "prep_index": 22,
+      "prep_class": "depolarizing/depth4"
+    },
+    {
+      "id": "ts_n4_fe1c63786dae62f6_AB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AB",
+      "word": "ABABABABABABABABABABABABABABABABABABABAB",
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.7561376533003566,
+        "phi": 0.6395162028566634,
+        "gamma": 0.12063517717462327,
+        "id": "pc_fe1c63786dae62f64e45"
+      },
+      "prep_signature": "fe1c63786dae62f64e45d87f0b90bcdde0d7ba078ec1e59cabbfa1e6153de135",
+      "prep_index": 23,
+      "prep_class": "phase_biased/depth4"
+    },
+    {
+      "id": "ts_n4_fe1c63786dae62f6_AABB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "AABB",
+      "word": "AABBAABBAABBAABBAABBAABBAABBAABBAABBAABB",
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.7561376533003566,
+        "phi": 0.6395162028566634,
+        "gamma": 0.12063517717462327,
+        "id": "pc_fe1c63786dae62f64e45"
+      },
+      "prep_signature": "fe1c63786dae62f64e45d87f0b90bcdde0d7ba078ec1e59cabbfa1e6153de135",
+      "prep_index": 23,
+      "prep_class": "phase_biased/depth4"
+    },
+    {
+      "id": "ts_n4_fe1c63786dae62f6_ABB",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "family": "ABB",
+      "word": "ABBABBABBABBABBABBABBABBABBABBABBABBABBA",
+      "prep": {
+        "n": 4,
+        "family": "phase_biased",
+        "depth": 4,
+        "split": "calibration",
+        "F0": 0.7561376533003566,
+        "phi": 0.6395162028566634,
+        "gamma": 0.12063517717462327,
+        "id": "pc_fe1c63786dae62f64e45"
+      },
+      "prep_signature": "fe1c63786dae62f64e45d87f0b90bcdde0d7ba078ec1e59cabbfa1e6153de135",
+      "prep_index": 23,
+      "prep_class": "phase_biased/depth4"
+    }
+  ],
+  "isolation": {
+    "preparations": 24,
+    "shared_signatures": 0,
+    "min_history_gap": 0.0007515156236569398,
+    "min_history_gap_within_test": 0.009633215971840525,
+    "distinct": true,
+    "signatures_recomputed": true,
+    "development_pool_signatures": 60,
+    "classes": {
+      "depolarizing/depth2": 6,
+      "depolarizing/depth4": 6,
+      "phase_biased/depth2": 6,
+      "phase_biased/depth4": 6
+    },
+    "classes_easy": {
+      "depolarizing/depth2": 3,
+      "depolarizing/depth4": 3,
+      "phase_biased/depth2": 3,
+      "phase_biased/depth4": 3
+    },
+    "parameter_ranges": {
+      "F0": [
+        0.5458520667267913,
+        0.919731417725196
+      ],
+      "phi": [
+        0.20182301454696194,
+        0.8902331410371898
+      ],
+      "gamma": [
+        0.03106366200144552,
+        0.29848956348567623
+      ]
+    },
+    "passed": true
+  }
+}

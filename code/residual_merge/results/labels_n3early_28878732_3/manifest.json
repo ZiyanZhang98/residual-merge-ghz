@@ -1,0 +1,769 @@
+{
+  "mode": "labels_n3early",
+  "status": "LABELS_SHARD_COMPLETE",
+  "config": {
+    "version": 1,
+    "stage": "RM",
+    "new_final_queries": 0,
+    "authority": "HANDOFF section 5j item 22.28 (2026-10-29, user decision): M0 of the compressed main line - code and smoke of the pairwise residual merge gaps, budgeted agglomeration with a per-compression budget, the adaptive simulator and atom accounting; n=4; development tasks only; final data are never accessed",
+    "hard_regime": {
+      "step1_job": "28470804"
+    },
+    "tolerance": {
+      "P_relative": 0.01,
+      "F_absolute": 0.01,
+      "TD": 0.01
+    },
+    "hard_families": [
+      "AB",
+      "AABB",
+      "ABB"
+    ],
+    "f2": {
+      "arm": "M_PTA",
+      "K": [
+        4,
+        8,
+        16,
+        32,
+        64,
+        128,
+        256
+      ],
+      "n": [
+        4
+      ]
+    },
+    "merge": {
+      "knn": 8,
+      "cap": 256,
+      "max_rounds": 64
+    },
+    "labels": {
+      "exact_rounds": 3,
+      "coupled_paths": 512,
+      "chunk_paths": 32768,
+      "exact_chunk": 128
+    },
+    "smoke": {
+      "n": 4,
+      "families": [
+        "AB",
+        "ABB"
+      ],
+      "check_K": 16,
+      "short_word": 3,
+      "exact_budgets": [
+        0.01,
+        1000000000.0
+      ],
+      "probe_K": 64,
+      "probe_events": [
+        5,
+        10,
+        20,
+        30
+      ],
+      "telescoping_t": 10,
+      "pairs_per_event": 64,
+      "branch_mc_branches": 16,
+      "branch_mc_paths": 512,
+      "geo_budgets": [
+        0.0001,
+        0.001,
+        0.01,
+        0.1
+      ],
+      "seed": 20261029
+    },
+    "m1": {
+      "n": 4,
+      "K": [
+        8,
+        16,
+        32,
+        64
+      ],
+      "events": [
+        3,
+        8,
+        13,
+        18,
+        23,
+        28,
+        33
+      ],
+      "pairs_per_set": {
+        "fit": 12,
+        "monitor": 4
+      },
+      "seed": 20261030
+    },
+    "m1_early": {
+      "events": [
+        0,
+        1,
+        2
+      ]
+    },
+    "m2": {
+      "labels_job": "28727358",
+      "labels_jobs": [
+        "28727358",
+        "early_28735174"
+      ],
+      "width": 256,
+      "depth": 3,
+      "steps": 4000,
+      "batch_groups": 128,
+      "lr": 0.001,
+      "rank_margin": 0.1,
+      "rank_weight": 0.5,
+      "cal_weight": 0.1,
+      "seed": 0
+    },
+    "diag": {
+      "tasks": [
+        {
+          "task_id": "qb_n4_099abe2bc3d4dc2e_ABB",
+          "alpha": 1
+        },
+        {
+          "task_id": "qb_n4_92f70d2bea8c0b77_B",
+          "alpha": 1
+        },
+        {
+          "task_id": "qb_n4_0cb61695df223302_B",
+          "alpha": 16
+        },
+        {
+          "task_id": "qb_n4_db40afec75f29005_AB",
+          "alpha": 2
+        }
+      ],
+      "windows": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          10,
+          19
+        ],
+        [
+          20,
+          39
+        ]
+      ],
+      "c1_budget": 0.001
+    },
+    "m3": {
+      "n": 4,
+      "horizon": 40,
+      "alpha": [
+        0.125,
+        0.25,
+        0.5,
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "geo_budgets": [
+        3e-05,
+        0.0001,
+        0.0003,
+        0.001,
+        0.003,
+        0.01,
+        0.03,
+        0.1
+      ],
+      "profile_family": "ABB",
+      "profile_alpha": [
+        0.125,
+        1,
+        8
+      ],
+      "decision": {
+        "ratio": 1.3,
+        "fraction": 0.6666666666666666
+      }
+    },
+    "s1": {
+      "authority": "HANDOFF 22.29 step 1 (2026-10-30, user decision): known-noise likelihood replaces the target noise floor; 1B first, 1A only if 1B fails the progress check",
+      "labels_jobs": [
+        "28727358",
+        "early_28735174"
+      ],
+      "old_train_job": "28736643",
+      "width": 256,
+      "depth": 3,
+      "steps": 4000,
+      "batch_groups": 128,
+      "lr": 0.001,
+      "seed": 0,
+      "rank_margin": 0.1,
+      "rank_weight": 0.5,
+      "cal_weight": 0.1,
+      "resolved_ratio": 2.0,
+      "gate": {
+        "b_cost_ratio": 0.5,
+        "concordance_drop": 0.01,
+        "z2_exact_range": [
+          0.5,
+          2.0
+        ]
+      }
+    },
+    "eval2": {
+      "m3_deploy_job": "28737007",
+      "b_family": "B",
+      "alpha_ext": [
+        32,
+        64,
+        128
+      ],
+      "geo_ext": [
+        0.3,
+        1.0
+      ],
+      "f2_ext": [
+        1,
+        2
+      ],
+      "hard_check": [
+        "qb_n4_92f70d2bea8c0b77_AB",
+        "qb_n4_92f70d2bea8c0b77_AABB",
+        "qb_n4_0cb61695df223302_AB",
+        "qb_n4_0cb61695df223302_AABB",
+        "qb_n4_0e2be0e6b9789945_AB",
+        "qb_n4_0e2be0e6b9789945_AABB",
+        "qb_n4_099abe2bc3d4dc2e_ABB",
+        "qb_n4_5c37facb91d2010d_ABB",
+        "qb_n4_6248db14b65aaea5_ABB"
+      ],
+      "b_ratio": 1.0,
+      "b_not_worse": 8,
+      "regress_ratio": 1.1,
+      "smoke": {
+        "task": "qb_n4_5c37facb91d2010d_B",
+        "alpha": 16,
+        "geo_budget": 0.1
+      }
+    },
+    "s2": {
+      "authority": "HANDOFF 22.29 step 2 (2026-10-30, user decision after the step-1 gate failure and the sign diagnostic 28779188): signed mu + sigma, budget |sum mu| + kappa sqrt(sum sigma^2)",
+      "width": 256,
+      "depth": 3,
+      "steps": 4000,
+      "batch_groups": 128,
+      "lr": 0.001,
+      "seed": 0,
+      "kappa": 2.0,
+      "coverage_gate": 0.9,
+      "coverage_fit_target": 0.95
+    },
+    "curv": {
+      "authority": "HANDOFF 22.30 smoke (2026-10-31, user request 'A+B'): ABB plateau, (A) old model with goal-metric candidate neighbours, (B) curvature of the labelled pairs against the old model's error; no training",
+      "tasks": [
+        "qb_n4_099abe2bc3d4dc2e_ABB",
+        "qb_n4_5c37facb91d2010d_ABB",
+        "qb_n4_6248db14b65aaea5_ABB"
+      ],
+      "alpha": [
+        1,
+        0.25,
+        4
+      ],
+      "pta_alpha": [
+        1
+      ],
+      "repro": {
+        "task": "qb_n4_5c37facb91d2010d_ABB",
+        "alpha": 1
+      },
+      "metric": {
+        "hessian_chunk": 128,
+        "tie_breaker": 0.001
+      },
+      "label_preps": [
+        "099abe2bc3d4dc2e",
+        "5c37facb91d2010d",
+        "6248db14b65aaea5",
+        "92f70d2bea8c0b77",
+        "0cb61695df223302",
+        "0e2be0e6b9789945"
+      ],
+      "checks": {
+        "match": 1e-08,
+        "prefix1": 1e-06,
+        "exact": 1e-08
+      },
+      "reading": {
+        "a_tasks": 2,
+        "b_rho": 0.3,
+        "b_outputs": 2,
+        "b_min_pairs": 30
+      }
+    },
+    "curv2": {
+      "authority": "HANDOFF 22.30 C2 (2026-10-31, user decision 'check other families first'): old L with PTA goal-metric candidate neighbours on all 63 resolved n=4 M3 tasks at the M3 alphas, against M3 L, C1 and F2",
+      "kind": "PTA",
+      "shards": 12,
+      "regress_ratio": 1.1
+    },
+    "ext": {
+      "authority": "HANDOFF 22.35 (2026-11-02, user request): extended evaluation grids for the frozen configuration on all resolved n=4 M3 tasks (L alpha 32/64/128 where M3 alpha=16 passes; C1 budgets 0.3/1; F2 K=1/2)",
+      "alpha_ext": [
+        32,
+        64,
+        128
+      ],
+      "geo_ext": [
+        0.3,
+        1
+      ],
+      "f2_ext": [
+        1,
+        2
+      ],
+      "shards": 4,
+      "check_jobs": [
+        "28780005",
+        "28793378"
+      ]
+    },
+    "ens_data": {
+      "authority": "HANDOFF 22.33 T0a (2026-11-01, user request): rebuild the capture ensembles behind the M1 and early labels for the ensemble Transformer",
+      "build_shards": 4,
+      "match_tol": 1e-08
+    },
+    "ens": {
+      "authority": "HANDOFF 22.33 T0b (2026-11-01, user request): ensemble Transformer against the pair MLP at label level, 3 seeds each; rule fixed before results",
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "model": {
+        "width": 128,
+        "heads": 4,
+        "layers": 3,
+        "dropout": 0.1,
+        "pair_width": 256,
+        "pair_depth": 3,
+        "steps": 4000,
+        "batch_groups": 32,
+        "lr": 0.0003,
+        "weight_decay": 0.01,
+        "grad_clip": 1.0
+      },
+      "gate": {
+        "min_gain": 0.01,
+        "sd_factor": 2.0,
+        "family_drop": 0.01
+      }
+    },
+    "ens2": {
+      "authority": "HANDOFF 22.33 T0b attempt 2 (2026-11-01, user decision): training matched to the MLP (128 groups x 4000 steps, lr 1e-3 with 200-step warm-up and cosine to 1%, no dropout); everything else and the gate as attempt 1; last attempt of this plan",
+      "attempt": 2,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "model": {
+        "width": 128,
+        "heads": 4,
+        "layers": 3,
+        "dropout": 0.0,
+        "pair_width": 256,
+        "pair_depth": 3,
+        "steps": 4000,
+        "batch_groups": 128,
+        "lr": 0.001,
+        "warmup": 200,
+        "weight_decay": 0.01,
+        "grad_clip": 1.0
+      },
+      "gate": {
+        "min_gain": 0.01,
+        "sd_factor": 2.0,
+        "family_drop": 0.01,
+        "tie": 0.005
+      }
+    },
+    "union": {
+      "authority": "HANDOFF 22.30 U (2026-10-31, user request): smoke of the union candidate pool (geometric kNN united with PTA goal-metric kNN, priced by the old L) on the ABB tasks and the C2-regressed tasks; decides whether to roll back to L",
+      "kind": "PTA",
+      "shards": 4,
+      "ratio": 1.1,
+      "c2_job": "28794554",
+      "tasks": [
+        "qb_n4_099abe2bc3d4dc2e_ABB",
+        "qb_n4_5c37facb91d2010d_ABB",
+        "qb_n4_6248db14b65aaea5_ABB",
+        "qb_n4_0cb61695df223302_AABB",
+        "qb_n4_ab157ba089d13da1_AABB",
+        "qb_n4_0e2be0e6b9789945_AABB",
+        "qb_n4_6248db14b65aaea5_AABB",
+        "qb_n4_0cb61695df223302_AB",
+        "qb_n4_92f70d2bea8c0b77_AB",
+        "qb_n4_db40afec75f29005_AB",
+        "qb_n4_cc2b61279baf96f7_B",
+        "qb_n4_099abe2bc3d4dc2e_B",
+        "qb_n4_20a25aa62fba07cc_B",
+        "qb_n4_7edd93d7c190ba13_B"
+      ]
+    },
+    "test": {
+      "authority": "HANDOFF 22.37 (2026-11-02, user decisions: default alpha 0.5, plan B, Monte Carlo cap 2^21): independent n=4 test set of the frozen configuration (L = train 28736643, Pauli-coordinate kNN), registered before any test result exists; it runs once",
+      "n": 4,
+      "H": 40,
+      "gamma": 0.05,
+      "seed": 20261103,
+      "preparations": 24,
+      "easy_preparations": 12,
+      "hard_families": [
+        "AB",
+        "AABB",
+        "ABB"
+      ],
+      "easy_families": [
+        "A",
+        "AAB",
+        "B"
+      ],
+      "mc_max_paths": 2097152,
+      "alpha": [
+        0.125,
+        0.25,
+        0.5,
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64,
+        128
+      ],
+      "geo_budgets": [
+        3e-05,
+        0.0001,
+        0.0003,
+        0.001,
+        0.003,
+        0.01,
+        0.03,
+        0.1,
+        0.3,
+        1.0
+      ],
+      "f2_K": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64,
+        128,
+        256
+      ],
+      "default_alpha": 0.5,
+      "shards": 12,
+      "bootstrap": {
+        "reps": 10000,
+        "seed": 20261104
+      },
+      "decision": {
+        "ratio": 1.3,
+        "fraction": 0.6666666666666666,
+        "easy_ratio": 1.0
+      },
+      "ext_deploy_job": "28837517",
+      "ext_analysis_job": "28837518",
+      "smoke": {
+        "mc_task": "qb_n4_50174bcac3ad718f_AB",
+        "deploy_task": "qb_n4_db40afec75f29005_AB",
+        "alpha": 2,
+        "geo_budget": 0.01,
+        "K": 16,
+        "default_alpha_development": {
+          "hard": [
+            24,
+            27
+          ],
+          "easy": [
+            36,
+            36
+          ]
+        }
+      }
+    },
+    "n3": {
+      "authority": "HANDOFF 22.38 (2026-11-03, user decision): the frozen recipe of 22.37 applied unchanged at n=3 as a second setting (labels on the n=3 fit preparations, 1 training seed, the frozen extended grids, default alpha 0.5); evaluation on the resolved n=3 monitor tasks of hard_regime step 1; no stop gate; registered before any n=3 result exists",
+      "n": 3,
+      "label_shards": 12,
+      "eval_shards": 8,
+      "n4_label_report_job": "28734447",
+      "n4_test_analysis_job": "28851720",
+      "smoke": {
+        "n4_preps_shards": 60,
+        "n3_preps_shards": 48,
+        "train_steps": 50,
+        "tasks": 64,
+        "task": "qb_n3_4c167578cc9ac651_AB",
+        "alpha": 0.5,
+        "geo_budget": 0.01,
+        "K": 16
+      }
+    },
+    "resource": {
+      "reserve_seconds": 180
+    }
+  },
+  "sources": {
+    "predictive_state_claim/architecture_head_ablation/ghz_scaling_gate/g1_checks.py": "0ffb9250e0ec8d16fccdf592cfe4a48a5b86b3a18ffe4550de1b55caa20c3d0b",
+    "predictive_state_claim/architecture_head_ablation/ghz_scaling_gate/g1_common.py": "652624627dcfe9ffacf21c9f2cce2fe06e6d56dcd85c7198f31608b013946e5c",
+    "predictive_state_claim/architecture_head_ablation/ghz_scaling_gate/g1_core.py": "cfa1dceb761e5ccb43c6d65917b0bf96cc2b652585943d5a1c0de488c390a008",
+    "predictive_state_claim/architecture_head_ablation/ghz_scaling_gate/g1_pool.py": "de1fe19d717c7488e17c86cc885d058e98cd2095a477c04da4544aeb66148096",
+    "predictive_state_claim/architecture_head_ablation/ghz_scaling_gate/g1_report.py": "a8fa07eef30b541446a40ebefecb8457b3f0ff0f618404d4b4e61d5a41b9704b",
+    "predictive_state_claim/architecture_head_ablation/ghz_scaling_gate/g1_run.py": "23419c473717c017be6f7ef8affce8ca859dcaf9670fe145c834e1a701b4c566",
+    "predictive_state_claim/architecture_head_ablation/ghz_scaling_gate/g1_tasks.py": "fcaefb7d9592a7ba59c583010e76ac6a10ec383011bc1da443e450a6c7bdc6e2",
+    "predictive_state_claim/architecture_head_ablation/ghz_scaling_gate/ghz_bench.py": "f45e526fe7b85dacafdfe4a25d3f0ae1bd097157627de7fe5ed1b3522e49d833",
+    "predictive_state_claim/architecture_head_ablation/ghz_scaling_gate/ghz_checks.py": "c36ce5e01ab327f5055098920b8b124175c7a11738b163e650436aba080450c8",
+    "predictive_state_claim/architecture_head_ablation/ghz_scaling_gate/ghz_data.py": "a73eb2939675315beab280bfc6a39ebe5b1ff9ca0f5b48e130ab0f4e0abb9f4a",
+    "predictive_state_claim/architecture_head_ablation/ghz_scaling_gate/ghz_factors.py": "6a8069d6819a6f2b9e0bea82effb57a148fc8222e5a9d2e1a6271f952a59f925",
+    "predictive_state_claim/architecture_head_ablation/ghz_scaling_gate/ghz_merge.py": "5fd6f73ae3a21cdf0bd25affadc4454daeca33ba1419f3be44dce63c6cfbfe53",
+    "predictive_state_claim/architecture_head_ablation/ghz_scaling_gate/ghz_physics.py": "2dfdcab907bb87cd48b973911432ecfc3fd8036e02410493d8b121e3eab07779",
+    "predictive_state_claim/architecture_head_ablation/ghz_scaling_gate/ghz_runtime.py": "bc3baf60ecbb272900dd1a915c85c6ecce2dff42440ae544e8f5b3ddaaf04a1e",
+    "predictive_state_claim/architecture_head_ablation/ghz_scaling_gate/run.py": "e1c2ee86d378a241607e7888768ec62fc2b0a69c253fe5db6083ddf0f7ce70df",
+    "predictive_state_claim/architecture_head_ablation/ghz_scaling_gate/config.json": "d7e493e1d272c076a616fce8510a0da8d535b60f82eea9791354990a1f6e796c",
+    "predictive_state_claim/architecture_head_ablation/ghz_scaling_gate/run.sbatch": "9d064e33bbef64e7026215cc4cf604340bdd8e1706975a1a354c299be2e90d36",
+    "predictive_state_claim/architecture_head_ablation/positive_block_kernel/block_runtime.py": "ce3687506b019db7a3ad769385218d2061c12d02f749b20950a6034a51a5a8d5",
+    "predictive_state_claim/architecture_head_ablation/positive_block_kernel/job_environment.sh": "041474b99fd01625f1f9320e8319d7ae969ad9243fd5ffa1802f0ca99abaf3b2",
+    "predictive_state_claim/architecture_head_ablation/h3_short_sweep/environment.sh": "cad8750dd97a822b57ca33b4f5a3dfb5210350a7cc0d962f03404e6780a39d95",
+    "predictive_state_claim/steps_3_5/engine.py": "52dd0f2799fd5f14ad4ed9ffd52aac73d041050b9c0880915b7e71531d482bd7",
+    "predictive_state_claim/steps_3_5/config.json": "49c02fa3f5145595b16506ba93647ea2f96266f09a0f80b583d6d408fc240671",
+    "predictive_state_claim/steps_0_2/run.py": "1db7473d7fc1e596a5b46668d3293aabb76a94afe18bf8225b4f21356a2adce0",
+    "research_review/exp2/run_exp2.py": "75fefd177a8e95ca023e2abd147854cebcb097205acd33459d6413dca5f7cba3",
+    "research_review/exp2/config.json": "adf204be479302458360db6d27ad1f8a53a39b28691cba21cdee48753ebc35d3",
+    "dejmps_experiment/simulator/dejmps.py": "1f4906f55f0585addbe997b763fd7824bff4fbdf36a48ed0e1b38fb306b685b7",
+    "dejmps_experiment/simulator/channels.py": "5cfb90b89ec4c5235261d01758bc6e55ab27b11ac34ca2592ee5f917f3cdb4d8",
+    "dejmps_experiment/simulator/linalg.py": "0137b2cab0603ada68de99daf2c4df67893756ae5215de829c9de712be1ecbc9",
+    "dejmps_experiment/data/pauli_basis.py": "27bc9f024dc9b82dc89f1743ac5b94f790899f76864da3e087699e5a9bfba2bf",
+    "predictive_state_claim/architecture_head_ablation/ghz_scaling_gate/g1_config.json": "8838d716d6cef9911395dfeb0999014d234b58b54378f6aeb7c00b88e48e9157",
+    "predictive_state_claim/architecture_head_ablation/ghz_scaling_gate/g1a.sbatch": "744921e94c442053d69e312bae2e934fd213203c47e2c016661b05c03b54fe8a",
+    "predictive_state_claim/architecture_head_ablation/ghz_scaling_gate/g1a_smoke.sbatch": "827b1894eca7c25a186c1d9c7c7ec1c584a64e5d7508092126281e0cee1a7d1a",
+    "predictive_state_claim/architecture_head_ablation/ghz_scaling_gate/g1a_pipeline.sh": "e4e0c1fe33416c1df7a9899f937f85bc59b0a135603340eed2fe78077dd1ddc3",
+    "predictive_state_claim/architecture_head_ablation/bsc_gate/bsc_core.py": "d556cffe3d1094d55d9b81da213dd7944d31defb3e5111d1184276be90f41df4",
+    "predictive_state_claim/architecture_head_ablation/bsc_gate/bsc_handlers.py": "a3cfc9463ebc521002615905c79dd9a6907d3f167bcc5b99a067f940ddb933f5",
+    "predictive_state_claim/architecture_head_ablation/bsc_gate/bsc_pool.py": "a26d58205b9f63882544b854686e18596fc04ef675238738d2ca92a962ad0c51",
+    "predictive_state_claim/architecture_head_ablation/bsc_gate/bsc_report.py": "05ee99ae23ff34fb3370401745d588f3ed686f2018239613a1427d2e7f6e2290",
+    "predictive_state_claim/architecture_head_ablation/bsc_gate/bsc_run.py": "86f2056a3072702b60b96d553bf27f71be16592771fcc0d330559b0172bbdb40",
+    "predictive_state_claim/architecture_head_ablation/bsc_gate/bsc_runtime.py": "ae4bb02b110b165f8e7b9f1680e75fee5a37d3d313684d360051379f48a8af94",
+    "predictive_state_claim/architecture_head_ablation/bsc_gate/bsc_tasks.py": "0f36dd1ac7677db39697493a37b498fd9733ba5c6761770a7b43ac5c6cddbe6c",
+    "predictive_state_claim/architecture_head_ablation/bsc_gate/bsc_truth.py": "7ed24c02de5c88572bac2a54d30c89e96238c36bc41631567e71ce57859cbe67",
+    "predictive_state_claim/architecture_head_ablation/bsc_gate/bsc_config.json": "5be8475197ab01bfd8946d5f25f3f5d2b5024f89f7d164fcb140229c7b51eb5d",
+    "predictive_state_claim/architecture_head_ablation/bsc_gate/bsc.sbatch": "43820b5bd31c72d8b2387283b68137a2ff1215cbf6bd405fd891f20089bb2424",
+    "predictive_state_claim/architecture_head_ablation/bsc_gate/bsc_smoke.sbatch": "e3fe128b39a3841cec2e65f09bedde49b207a0dedf692a8f83b1684cbcdb5ad7",
+    "predictive_state_claim/architecture_head_ablation/bsc_gate/bsc_pipeline.sh": "bbf33a10383aacaf1990c4713ec4d8b2c7a2dee9515ce2547a6ed322f9602c8c",
+    "predictive_state_claim/architecture_head_ablation/response_recombination/aggregate.py": "1b2f22606b176ed9bb2a7ef1f66239234825dd0e556668c70a976a3f4267cf26",
+    "predictive_state_claim/architecture_head_ablation/response_recombination/b0.sbatch": "f09e4e24949fd55623bf54f03148bf0300135d9c2f2496bafc781e2119e726c7",
+    "predictive_state_claim/architecture_head_ablation/response_recombination/b0_evaluation.sbatch": "747496d978e361b5fb5796d8ada035a81abce8677b2b56977a245c59de8c3fdb",
+    "predictive_state_claim/architecture_head_ablation/response_recombination/b0_report.sbatch": "e9fa9d1f10cf517be96d6334f36302c734c3a01c7ff5961fc205458eae7bebeb",
+    "predictive_state_claim/architecture_head_ablation/response_recombination/b0_smoke.sbatch": "7515be7dc3370e58d32905f5680d527844f4be4b3b0f39ad3a3e2435a02114f4",
+    "predictive_state_claim/architecture_head_ablation/response_recombination/config.json": "5fea9c7b74615a3b077fd8143c5e1e29d0ea9271aa73ef772ca179725eff0921",
+    "predictive_state_claim/architecture_head_ablation/response_recombination/diagnose.py": "e56d23459cc9d76334aefb34b8189c61bf7ac6ede4174daf8937e10c921b6b5b",
+    "predictive_state_claim/architecture_head_ablation/response_recombination/diagnose.sbatch": "acea051d131c8e416dda1d83a322deababfd2cfe484d54b321b52951c74d7889",
+    "predictive_state_claim/architecture_head_ablation/response_recombination/pipeline.sh": "28ed7ce11ba34d4d4683e1c9f00f9ae729ee7c430de8d0f7845ab50c4101dfec",
+    "predictive_state_claim/architecture_head_ablation/response_recombination/rr_checks.py": "140ca634b9c69cce1217138f7378da6fbd85dbe81467e60745c0b7e507b0e5fa",
+    "predictive_state_claim/architecture_head_ablation/response_recombination/rr_compress.py": "f17bed6e3c1e4900b5a213f803f1319f3a6acd427b4e7e7ee2d403411373b322",
+    "predictive_state_claim/architecture_head_ablation/response_recombination/rr_evaluate.py": "2785d2446672820823e26923e14104634f2092969d1a2444c0976356aa27e088",
+    "predictive_state_claim/architecture_head_ablation/response_recombination/rr_evaluate_checks.py": "d722780f82ef48be77de834d661358daeaaae125ba496f16d444d4eb0a016bd4",
+    "predictive_state_claim/architecture_head_ablation/response_recombination/rr_factor_checks.py": "23873b1c3c757f94e2c0e94fa4cba7f56a04183dd03ce04cef60a0e5a6a16d71",
+    "predictive_state_claim/architecture_head_ablation/response_recombination/rr_features.py": "6a2f695d10dca3bd17bf234c0bb736f4c8a52f88c96d5ddf7c5da1bb7771240c",
+    "predictive_state_claim/architecture_head_ablation/response_recombination/rr_reference.py": "adbc4511591e8ea92a480a3765ed782200ca912f008315450304f6dc479df20c",
+    "predictive_state_claim/architecture_head_ablation/response_recombination/rr_reference_checks.py": "8896d7df329c673cb492317c1b53d09edf08c02c018d7b7656deb258774f504a",
+    "predictive_state_claim/architecture_head_ablation/response_recombination/rr_report.py": "a68cba69f08c4a4b4cf12b8c00e7502d75afcb0b68f9d91e686682f2f4102934",
+    "predictive_state_claim/architecture_head_ablation/response_recombination/rr_runtime.py": "ac2f036c47a036c363276e82b35a80a70f2de128be719a29b912ce45b9149872",
+    "predictive_state_claim/architecture_head_ablation/response_recombination/rr_sim.py": "3389ef683a8ae46389e74f3c0f75a58ee6c9510ba2bae2892252fc8d15d339c3",
+    "predictive_state_claim/architecture_head_ablation/response_recombination/rr_svd_checks.py": "6b507390f1cda4ed0d12fe3673c6e6e1259463b9103eaa78a27eef109b76f5ca",
+    "predictive_state_claim/architecture_head_ablation/response_recombination/rr_tasks.py": "b986c5494850acf74b86d21aa7492b7521591df30590f791857fa8f56bf88731",
+    "predictive_state_claim/architecture_head_ablation/response_recombination/run.py": "de7ec956c823716960283aa35b0c55a6b789671f22b7e5a76c394a66bd489fc1",
+    "predictive_state_claim/architecture_head_ablation/response_recombination/svd_diagnose.py": "f44a7e3389e9972b2a638615493aef1a9ac655be88bf1bd03cb0c16f41dff15d",
+    "predictive_state_claim/architecture_head_ablation/response_recombination/svd_diagnose.sbatch": "b2b3c8e90b954a624d806679d0d9a7d4023ef70e3ddfab754b300d00ed8f41e1",
+    "predictive_state_claim/architecture_head_ablation/response_recombination/svd_invalid_diagnose.py": "e36b4721225a6af2aee68e51e3b2d0f885484d473cc242352c2d59b29752f45c",
+    "predictive_state_claim/architecture_head_ablation/response_recombination/svd_invalid_diagnose.sbatch": "7f7056f7624cb0451fe148597b87e8f3fe4c6ddb824cf655174f0ccceabf0979",
+    "predictive_state_claim/architecture_head_ablation/response_recombination/svd_invalid_unit.sbatch": "6c1b054b31baa114a51e7456329ceacd98e86a3b95a56923e7779b029e9dcadf",
+    "predictive_state_claim/architecture_head_ablation/response_recombination/svd_invalid_validate.py": "9c744e268f5941947b15eb20bf303cd0874f642f77b7fdb8e4ff81244dcc0559",
+    "predictive_state_claim/architecture_head_ablation/response_recombination/svd_invalid_validate.sbatch": "f1e026039cf5ad2e6e013b28735d3e7d49dee709414a2e52b7af2855a3cd89a3",
+    "predictive_state_claim/architecture_head_ablation/response_recombination/svd_validate.py": "43e43d56b11d34ea4a16d08a6b3d71e0b6ae672e336ea4c39e604cef0ca61c4f",
+    "predictive_state_claim/architecture_head_ablation/response_recombination/svd_validate.sbatch": "8308982bd3daace7bc656bd9b5c22321ab439bda28aaddf01f6c652843dec0de",
+    "predictive_state_claim/architecture_head_ablation/response_learning/l_train.py": "4956b68ec1ec23d567646446bc8ad571e5274e3487819b079dfe04ec80af2148",
+    "predictive_state_claim/architecture_head_ablation/response_learning/l_evaluate.py": "fc9cfd8eebf28afb0e7da9fa916d8eed457b765c9e419508bac3d784f32e61ea",
+    "predictive_state_claim/architecture_head_ablation/response_learning/config.json": "0e4d96779b2974f52272dd337437b6e66aceee9fcffe69a4ddd41199d43a2f09",
+    "predictive_state_claim/architecture_head_ablation/response_learning/resource_plan.json": "b16bd474e28a3859f363c9771f7704326929117f7be7db29f7cb3b41a413b136",
+    "predictive_state_claim/architecture_head_ablation/response_learning/l_data.py": "9fce784d9da3188567aee33ac7cb1a7c4bb95ac761d5977dfdfa30c342df41fe",
+    "predictive_state_claim/architecture_head_ablation/response_learning/run.py": "e6a54d92258f90eb7739a18c2758183c60ce80807cc84be9ee19d6f991a98cca",
+    "predictive_state_claim/architecture_head_ablation/response_learning/l_provider.py": "18688b43d9bad505b2cdadf6382ccff017791058f80929694f9ad5bcc911eeac",
+    "predictive_state_claim/architecture_head_ablation/response_learning/evaluate.sbatch": "dff32f39c16ae69c87a522ba1cb57744803b12700469cb8ff5f0850fc65b137d",
+    "predictive_state_claim/architecture_head_ablation/response_learning/train.sbatch": "520b25953b83a14c032214ec8865ac545f38148e3efb2f2779136269321116ed",
+    "predictive_state_claim/architecture_head_ablation/response_learning/l_checks.py": "7275c2a452ee38e9d53aa055d13ddc31be118e79bece261cb0447fba05e2f787",
+    "predictive_state_claim/architecture_head_ablation/response_learning/pipeline.sh": "ccdfeb2844ff489d943a23db76a2a7348ecf83a6332fe87a5a5854431fd771b2",
+    "predictive_state_claim/architecture_head_ablation/response_learning/profile.sbatch": "bd3ba6098a646fd0190801e35685006ded3a5466a45cbfe1eea0f1bee905b678",
+    "predictive_state_claim/architecture_head_ablation/response_learning/prepare.sbatch": "b8a324a632031a7ffc1ae8f69794134dbd7cea8a1e14a960c357c652ad18dc9a",
+    "predictive_state_claim/architecture_head_ablation/response_learning/l_runtime.py": "4affe9bfd47bb973c89c6e534b414b313ff5da01f2935d2d6f5b57e2190b8831",
+    "predictive_state_claim/architecture_head_ablation/response_learning/l_model.py": "0b0340b6881b1add7a1613da8f378adf1fac2fa660133910f3504681bfb7bd14",
+    "predictive_state_claim/architecture_head_ablation/p_correction/pc_model.py": "084d2848c569a89baa54f17c3ccffb0c084444fd844eb91880780be43519096b",
+    "predictive_state_claim/architecture_head_ablation/p_correction/config.json": "ae0888201c99574fda0aa96fd54cbe0371fb78d1321b811f5a00dcb2cec99ff8",
+    "predictive_state_claim/architecture_head_ablation/p_correction/pc_sources.py": "326a06d0dbe9a28017a9264db35aa5a45c747ae836c293daf4ae5d8359c03b75",
+    "predictive_state_claim/architecture_head_ablation/p_correction/pc_pipeline.py": "ab08d63f8f3152ef04cec35bf8ab904affbcb445385c592175f79847fd38d435",
+    "predictive_state_claim/architecture_head_ablation/p_correction/pc_metrics.py": "f395dab7526caa8a8f0db43e29071ffe5375067cb5abc944696c1a3dfd398f01",
+    "predictive_state_claim/architecture_head_ablation/p_correction/pc_train.py": "cecb1ec53d4f02cc3cbb47696aae6f80ea6601b67c7d5769c7f92234041b089a",
+    "predictive_state_claim/architecture_head_ablation/p_correction/pc_data.py": "d00990834c3dff964aec433417abf8b966a03320120c10fefaabce1f2698e20e",
+    "predictive_state_claim/architecture_head_ablation/p_correction/run.py": "1f856ed37dea5821582fe0c2a6aad9e3491070d7fbdf8b94d07e5bcd6b432068",
+    "predictive_state_claim/architecture_head_ablation/p_correction/pc_evaluate.py": "c3d98bd2d1a09382627e52186ce09c5da3f7996dfe7ba3527263f97c2805de2a",
+    "predictive_state_claim/architecture_head_ablation/p_correction/pc_policy.py": "7d1df1225683cddfc3de4f6ff5bc5ced10210ba4ffa62809f1b096bd51536fe5",
+    "predictive_state_claim/architecture_head_ablation/p_correction/submit.sh": "54075a13c02c341adb64dfb7505d81cb580fedf712f90716f33e54ed87fb6741",
+    "predictive_state_claim/architecture_head_ablation/p_correction/pc_estimators.py": "6a6373b409511224e5a0c0b4880ad55a0e3be7f9c3a87daea9eb3d5fa31d57f9",
+    "predictive_state_claim/architecture_head_ablation/p_correction/pc_checks_v3.py": "85048c0abee6cf510951afdc8ff367031628662fc45d46885dad5da25b6304ee",
+    "predictive_state_claim/architecture_head_ablation/p_correction/profile.sbatch": "b2b2aba23a9e71775dfe7b79cff5489c20be566ca67e00a9fec0f18bb2955c57",
+    "predictive_state_claim/architecture_head_ablation/p_correction/pc_gates.py": "3e8ca33cd74f0a8e7a082bbee89abfff672ff63354133d31316895f283688248",
+    "predictive_state_claim/architecture_head_ablation/p_correction/pc_profile.py": "8a047ece3253cc9e93f63085b4e04522b14392059763eeda00fb688b91b60c6f",
+    "predictive_state_claim/architecture_head_ablation/p_correction/analysis.sbatch": "dd83bd9273b51afe4a6a800052380ed0f2a92eea63a674251c7b0a4d084dd134",
+    "predictive_state_claim/architecture_head_ablation/p_correction/pc_sim.py": "3b2a78d8d5a8d5f963c78c94702bec89dc5145b5623f56a74cfd6d8ead4abb61",
+    "predictive_state_claim/architecture_head_ablation/p_correction/pc_runtime.py": "90fa7f78c45325bae86896a953394c71caf8d12f093fbf06c08e22cd96e1ede5",
+    "predictive_state_claim/architecture_head_ablation/p_correction/checks.sbatch": "6334407f11d1a35facbf62c0e66cd67dedf6e9884afacb44f8fc9f3fcf144b84",
+    "predictive_state_claim/architecture_head_ablation/p_correction/run.sbatch": "25bee04de8f43ce89f0ad73feadf57eedf5d83e022c7fc9057bc2baec42ef692",
+    "predictive_state_claim/architecture_head_ablation/p_correction/pc_checks.py": "ae8f42dc807af69c5427c1e08f1eaac13f6c6d7c8f47a863d5fbde1111811b5b",
+    "predictive_state_claim/architecture_head_ablation/p_correction/pc_guard.py": "2552a48692f29c8f39e3b3255a1fe71e8c6ea15d386a7cf02a986d45685e57b1",
+    "predictive_state_claim/architecture_head_ablation/p_correction/pc_selection.py": "f9c5be3a344de507b73bd6d2d366eea50319c370663768c1aa6506bde594e0f7",
+    "predictive_state_claim/architecture_head_ablation/qoi_adjoint/aggregate.sbatch": "aec3df9de6f5957c8005e953bb6a88ebdbde7b61fd7285d45bea1c8e58285969",
+    "predictive_state_claim/architecture_head_ablation/qoi_adjoint/config.json": "df066e986392b15f5116fd38975ae0860befc5ac6af3e1267d95f22519a884ad",
+    "predictive_state_claim/architecture_head_ablation/qoi_adjoint/qa_audit.py": "2f46e420b2c138b478ed512cf2c4b4e29ec1e25fba12eaf29149733d40e540b9",
+    "predictive_state_claim/architecture_head_ablation/qoi_adjoint/qa_checks.py": "3754380ad4bdde91c4f1e10409b8c31cb45cd8708958611619cf2d7d8dcd803f",
+    "predictive_state_claim/architecture_head_ablation/qoi_adjoint/qa_metrics.py": "5a1ab176fd013de3902e25aa3a3634f3a294de3cff6ea420e9dfc53cf8dd60bc",
+    "predictive_state_claim/architecture_head_ablation/qoi_adjoint/qa_plan.py": "2b2adce37301a7db81d143d1dd1e2a2ec6bf19c9bc897625c393caff39851b92",
+    "predictive_state_claim/architecture_head_ablation/qoi_adjoint/qa_runtime.py": "5ef3df9ccb71399333b69ed2e54e89f6f95f4d56dff6277b7232fa7aa95df4be",
+    "predictive_state_claim/architecture_head_ablation/qoi_adjoint/qa_sim.py": "43daca044f4c6f593a7c0f8dc9e2b793e6334cf77db80341ab441970c37b564e",
+    "predictive_state_claim/architecture_head_ablation/qoi_adjoint/qa_sources.py": "0dd1a7ab6a5c99cc16fcfe8aaa81718df8d3878ebe6c3a934132cf5ecdc23d16",
+    "predictive_state_claim/architecture_head_ablation/qoi_adjoint/run.py": "2ed9b0192b656e913f286c6c2bcac52f5f48351feaf7acefad45593e6aae5bc8",
+    "predictive_state_claim/architecture_head_ablation/qoi_adjoint/run.sbatch": "95684b4c109e056ffa1ba8def5963fd1f2cb1432c58b7f9785ff67501619f252",
+    "predictive_state_claim/architecture_head_ablation/qoi_learn/config.json": "da6215e2e9fddf5dfab90676ca48f44b900bdb9b5eb3c5a0c72cc3e5d8a6b955",
+    "predictive_state_claim/architecture_head_ablation/qoi_learn/decide.sbatch": "ce147f335263e6282db01e597d692403b066c0d8a79881b9c86b19c6571181fb",
+    "predictive_state_claim/architecture_head_ablation/qoi_learn/qb_data.py": "9214ae67d54c78b8551335b0155722f32ef9f98f4c17051fbb2e1d114159a5b2",
+    "predictive_state_claim/architecture_head_ablation/qoi_learn/qb_model.py": "88041bb244411cb186542dca7f274c00c0cd30d9ce9defe0f1a230d7375314ca",
+    "predictive_state_claim/architecture_head_ablation/qoi_learn/qb_pregate.py": "2c6781e0f36670b71e12bf723887fe64b9e8b884b18bbcec94a96e7e59182957",
+    "predictive_state_claim/architecture_head_ablation/qoi_learn/qb_runtime.py": "6f6f7c8b827ab2e2450d1f884410f84327d47b34556e45ccbdf02b1673a150bd",
+    "predictive_state_claim/architecture_head_ablation/qoi_learn/qb_train.py": "ecfd7521ff1e88ab826788bf274a95464510e0e085c8e56a31ad956b51216abc",
+    "predictive_state_claim/architecture_head_ablation/qoi_learn/run.py": "2a8398cf47ead5dc6ec0c2e3b13019c3dd0845a9443a381083de7f63a08df50e",
+    "predictive_state_claim/architecture_head_ablation/qoi_learn/run.sbatch": "c55131e239ef6c5f24112fa9ecdae2cf4b60d6482673f707820d9cf372d533f5",
+    "predictive_state_claim/architecture_head_ablation/hard_regime/config.json": "464990e606dfffb0ef3830e2d4dc4cac44b215538aad17675e8d008ac117248d",
+    "predictive_state_claim/architecture_head_ablation/hard_regime/cpu.sbatch": "44641303486ea5fc206082f41a8501a9c6a8c7cc2f0d1ef9b0cf8c5b0758df70",
+    "predictive_state_claim/architecture_head_ablation/hard_regime/hr_eval.py": "ec4760f281958f40d75f14b6e119f27b7c03a51a0eb50f1cae13d19dda6dcbfa",
+    "predictive_state_claim/architecture_head_ablation/hard_regime/hr_goal.py": "e84200e43bc8d014530055ebdc29a5dc80ce37248c7817bba6c4b16dea3b812f",
+    "predictive_state_claim/architecture_head_ablation/hard_regime/hr_mc.py": "32f58dd685739a684250b827dade94c5d21ce032742c6b8599f3628e110d17ea",
+    "predictive_state_claim/architecture_head_ablation/hard_regime/hr_runtime.py": "ec4eaa5f465e141187caeec8d47cee69098bdbc5709aa0b607dfd2075abff7a4",
+    "predictive_state_claim/architecture_head_ablation/hard_regime/run.py": "027f9a5f029440b5324a8cf8274a00b6f3a22f42a0240f4bdd989425f6af50de",
+    "predictive_state_claim/architecture_head_ablation/hard_regime/run.sbatch": "b1d8443f4c9f0e23a234e1bc31e32aac477b7dd77dee585c0eb2dca8f773ba7b",
+    "predictive_state_claim/architecture_head_ablation/lookahead_tuning/config.json": "faae27948f14042f03fc9058255c33bfe3414886fc7bd666ddb669037ec5f347",
+    "predictive_state_claim/architecture_head_ablation/lookahead_tuning/cpu.sbatch": "8ee86bde12a5d428b411aecf6e9e4035348ea2a71fad05dab3a4896a3d80ab6f",
+    "predictive_state_claim/architecture_head_ablation/lookahead_tuning/lt_lookahead.py": "3656e94488743e82b76a741b8bd73d92ebd8e5cebc24c39ad03214edcd665f97",
+    "predictive_state_claim/architecture_head_ablation/lookahead_tuning/lt_runtime.py": "42a3576b3d4c8bbe0b676b888135c63a5bdbf1df3430f07b1f6d5f4948f38dc2",
+    "predictive_state_claim/architecture_head_ablation/lookahead_tuning/lt_smoke.py": "bc8d3f6088289d9b9fa6de016442a79588c614000961582d78b5654416969d31",
+    "predictive_state_claim/architecture_head_ablation/lookahead_tuning/run.py": "cb9809ffdeb4fca0146bb7c8c408b2a1eef0b7cced120d5a033474e0c780250c",
+    "predictive_state_claim/architecture_head_ablation/lookahead_tuning/run.sbatch": "3ae3b21395cb04b158f0b326cb239dee301a11743f0d9d1d632a29505e7408c7",
+    "predictive_state_claim/architecture_head_ablation/lookahead_oracle/config.json": "5ea05f9f106669ad7cc3e1b83c2fdc78d2b525354815e80979ebf48f4764cc46",
+    "predictive_state_claim/architecture_head_ablation/lookahead_oracle/cpu.sbatch": "7e89f48f0b3cdef2f178e615fa20156dcc2e0f3f13275484e14df401bd49cb10",
+    "predictive_state_claim/architecture_head_ablation/lookahead_oracle/lo_eval.py": "141843e16bb0ad6f96d28e227886ec934d33434bd76cd1a1237cead5535c3140",
+    "predictive_state_claim/architecture_head_ablation/lookahead_oracle/lo_runtime.py": "589f838271bb35df6cdaf555c10911e34b2117edbb1bfcaa3840456ae27091ac",
+    "predictive_state_claim/architecture_head_ablation/lookahead_oracle/run.py": "b5a4f2a02ad766f86edabb39ac7585a9e5e3f88aa8c10dc2ce2cb7206a110244",
+    "predictive_state_claim/architecture_head_ablation/lookahead_oracle/run.sbatch": "28546e1aef480d9b29f5b25923ad7d2f930ebc3c4eb6bf8ea589d366304a44d4",
+    "predictive_state_claim/architecture_head_ablation/physics_guided/pg_sources.py": "7a9cf06d9d6a6abc330fcbb9480f52061d36efd7f0a5b1627815edfa6bcca1e4",
+    "predictive_state_claim/architecture_head_ablation/physics_guided/pg_runtime.py": "f0d2d7ce8ec8e04a3f75f18010f4b2c56701e3e3c4ae61a1f834b580d7960060",
+    "predictive_state_claim/architecture_head_ablation/lookahead_truth/config.json": "92a30d1663f2625a19a23182eae6d9f28f7c1eb29ba1d085ae7c6037b63f48e3",
+    "predictive_state_claim/architecture_head_ablation/lookahead_truth/cpu.sbatch": "26ec90cda1c63966abce1ebff1bd70723dbef87686204d9caa44760055348d8a",
+    "predictive_state_claim/architecture_head_ablation/lookahead_truth/lg_erase.py": "1272405ca25cab2ff06f36d7327ffa05d052deaedbe6f5cd28c06858f7c33970",
+    "predictive_state_claim/architecture_head_ablation/lookahead_truth/lg_probe.py": "cf885fc9d431204864a9e097483c600ce88d8569dd5d5f56a18c5ee4fc3fb227",
+    "predictive_state_claim/architecture_head_ablation/lookahead_truth/lg_report.py": "1445bc6c20d0b168afadc560859682ac25c713aab8bee2508436ed3612062e29",
+    "predictive_state_claim/architecture_head_ablation/lookahead_truth/lg_runtime.py": "8932232e8858931845430dbeeeeaaaba21f6236c7617148cafd06375b0bfd17e",
+    "predictive_state_claim/architecture_head_ablation/lookahead_truth/run.py": "41b82c2087e46fb11097e12bad8f31a74bc4d536778b0531ddb7e3ac321f511f",
+    "predictive_state_claim/architecture_head_ablation/lookahead_truth/run.sbatch": "fdc6cd9ec7d2e19e85eb0259e889a3b4e3297ce6a58691cdfa54af8fc52037bc",
+    "ml_guided_pta/residual_merge/config.json": "16403ec99f7b0bbdfec754cb53b36cc1d732cd5de07f565e8ffaf5f07444467d",
+    "ml_guided_pta/residual_merge/cpu.sbatch": "eb3b3aae8eb1f36a48e1c8b10a20bcc955911fc28e4439cfa933ca93a592ccfa",
+    "ml_guided_pta/residual_merge/curv.sbatch": "a48f964c92660ffbd649527b54b1383a790627d88372ebcca34a83d05a235d0b",
+    "ml_guided_pta/residual_merge/curv2.sbatch": "16a717d4ef7e4903b3e393584a0800f08b1c08bf26fde0c6c4d7c83075bebb98",
+    "ml_guided_pta/residual_merge/curv2_cpu.sbatch": "baed7b501120ae72a98c6dda5b23eb7095405c157f2aecfdef1ca9f18307ad15",
+    "ml_guided_pta/residual_merge/deploy.sbatch": "9239b92d3875e9156aa67faf66e13611fd9b26c0c65c23f840b2c9ef4c8484c2",
+    "ml_guided_pta/residual_merge/diag.sbatch": "4a2cea6508e45aa1a07135280e1657b795b12ef48035fdf9288401ab124ff4ca",
+    "ml_guided_pta/residual_merge/diag2_cpu.sbatch": "676cd75f7718164034cd0855ecc531ba6c828cc990fe03e179e70c614ef2eec8",
+    "ml_guided_pta/residual_merge/diag3_cpu.sbatch": "568d19518e5c6cb78d373fc54a7b194be3cee6ecd6da9b4105963047138fef01",
+    "ml_guided_pta/residual_merge/diag4_cpu.sbatch": "ea1a0ebc171be0539a4006d1b083f24fa3a4ec4a95219d8a114b11e058f8c28a",
+    "ml_guided_pta/residual_merge/ens_build.sbatch": "2b28dcc38f23b476bf67e77eb36c2a1d4f9f59914f227e107e58246679ab3fe5",
+    "ml_guided_pta/residual_merge/ens_t0b.sbatch": "3887e49e2b2f4b400e78d8070c2889a1eefcd24e41767713e11806f390474313",
+    "ml_guided_pta/residual_merge/ens_t0b2.sbatch": "43494915cf6d0b10e2d804fb6662095fca65cf76b2451cc135923377a8484aec",
+    "ml_guided_pta/residual_merge/eval2.sbatch": "bdd5448f03fa83329d74e9c3186bb194eb5360d7ca29b6a716ed26e2b7b60f60",
+    "ml_guided_pta/residual_merge/eval2_cpu.sbatch": "1c971a91dd1bffc53bfd2050b109ce1461869434f778fa91cadf4c8c677bc908",
+    "ml_guided_pta/residual_merge/ext.sbatch": "3a329d9b31e07cd5676b11b895c849a04e77a8dbd0f97fec488f656f7c107882",
+    "ml_guided_pta/residual_merge/ext_cpu.sbatch": "12a56bfbc2d325b8ddf9b32db2b7e54d94b41f5140c3c38a2c56ef0cc0279c8a",
+    "ml_guided_pta/residual_merge/labels.sbatch": "f107d29cc462505c80a664d247349e0f870b58b5361595ff063b4ab2eb0ad84c",
+    "ml_guided_pta/residual_merge/lik.sbatch": "9ec85f1ab4072e35c7160d8dcfa89b76742d671a0cf202c9d4527a77a61274df",
+    "ml_guided_pta/residual_merge/n3_cpu.sbatch": "7a38a32e9f669244a7f623b36efb8e69c64f176cd8c4e9ac9a20267686ebd381",
+    "ml_guided_pta/residual_merge/n3_eval.sbatch": "7428493b78a629da4ef4ed2d2b5344209571adcd4ab43f8b0edb1e9ca0c98a1a",
+    "ml_guided_pta/residual_merge/n3_labels.sbatch": "feaa635e7946403e424faf700b56bafc74f8c027708164d54a52538a1945e9eb",
+    "ml_guided_pta/residual_merge/n3_smoke.sbatch": "a39306f6f957ea608b37369e3d896d118e2fd35469a8ebd545c96ce8a954fd48",
+    "ml_guided_pta/residual_merge/n3_train.sbatch": "de2d238c0343e58f02328c5952e856405821bca0da7b77804095d821bc7af1da",
+    "ml_guided_pta/residual_merge/rm_core.py": "24b87017664ee46e5f010b67741db52b1d872ded7d7c40778f22cfe49bb9b0d8",
+    "ml_guided_pta/residual_merge/rm_curv.py": "0f97a25c5edb22a2aa64bc5a8410cbfc3762cf8d0a60470daa1208f20a4b33b7",
+    "ml_guided_pta/residual_merge/rm_deploy.py": "794ec97053f02c484c2067531b88a2cabdfbbcbfa347af39a596c14f18e5de51",
+    "ml_guided_pta/residual_merge/rm_diag2.py": "f74a2daa51a8e72a43d167250999573579b95012552827b651e51d884c1b634f",
+    "ml_guided_pta/residual_merge/rm_ens_data.py": "8037197a8e140b28324ce6b911a2f4985e2faebc0e407c30ce66b1b8b2aa693a",
+    "ml_guided_pta/residual_merge/rm_ens_model.py": "6129129eb4be641f0d6e06f78c1cabc1adab64b554c8495ff2e990b5570addcd",
+    "ml_guided_pta/residual_merge/rm_eval2.py": "ae24b2a66b440ec5b4d9d98b9b683d5f9b78f41c46d9e134ac5dda806f6a221d",
+    "ml_guided_pta/residual_merge/rm_ext.py": "3ebc4dd1b52004a012d54c5ceac9135ff4deaa34a759195217367ba34fdd069e",
+    "ml_guided_pta/residual_merge/rm_labels.py": "f2232ad6677d7e91c51de808974aa4730935cadf2b701419173c7212e0b617ec",
+    "ml_guided_pta/residual_merge/rm_lik.py": "e30d90cad67dfab41a15d0bff78f166ff022a6e04511cdd85916fb42a8786721",
+    "ml_guided_pta/residual_merge/rm_model.py": "8dfc1153d5ef61c922e31746b0312dabdb1a1b2d88a52fed55269537063e6536",
+    "ml_guided_pta/residual_merge/rm_n3.py": "630457b98c5540c08d83fb0f1750bb0c423f3516c55160bf722a48b85c2fd9fb",
+    "ml_guided_pta/residual_merge/rm_n3_report.py": "031d0dc5375a6385f31b9d064098981cff32abbfa0809de759e3db3cbcb7e6a0",
+    "ml_guided_pta/residual_merge/rm_report.py": "a8c7f8365013d63e55fd9040e5ff544e803e02cf1037fd4447348400436b3aa8",
+    "ml_guided_pta/residual_merge/rm_runtime.py": "fef67b082d9271dc41775765187e86fabc350a8b3aca24ca2fadb29994761842",
+    "ml_guided_pta/residual_merge/rm_signed.py": "5943eb701830082ed8826829de74f9ce1fbacfb4103220382c067b70de047e00",
+    "ml_guided_pta/residual_merge/rm_smoke.py": "f98b0777c0d0f194a4b5b97f530037f560a04b33e853572bd21142256853412c",
+    "ml_guided_pta/residual_merge/rm_test.py": "21fca63bc9b0a23eb2d9c0a00cb84cfa0a1e29c66f594d2f84b1f8a610272eaa",
+    "ml_guided_pta/residual_merge/rm_test_report.py": "c3cd264c338b9660fcfa0434e32934e0fca06c2e7a843b39636067e5012858c2",
+    "ml_guided_pta/residual_merge/rm_union.py": "ed5ce17c2dec2bb0095b0f50849ef5cb33da624405d97a52204abbe49adf0d03",
+    "ml_guided_pta/residual_merge/rm_verify.py": "22342869809aa1fdb34bc774661a01d901efb9b1f97e432bd7507cf66d4397f0",
+    "ml_guided_pta/residual_merge/run.py": "cab0dd3fac97fbcb7d56ff44cbf298cbbe17403086390963f0adb33122d9394b",
+    "ml_guided_pta/residual_merge/run.sbatch": "2e261e292239d512836aa6e09168dc4410cf9df49d481659be246ab32124a45f",
+    "ml_guided_pta/residual_merge/run2.py": "3f44b95d1c533f059b8e6c9bef9fb99d584b8e4bcfefe5578b421acbb4a8e52d",
+    "ml_guided_pta/residual_merge/test.sbatch": "650e5ad32a427f36b7e67572b86b2eea17ab128adc7a8d153da81d1a5b72a2ef",
+    "ml_guided_pta/residual_merge/test_cpu.sbatch": "b9605800ba8b124af4a9e6014efaa11719aad258913d2023306b01be3f6547d6",
+    "ml_guided_pta/residual_merge/test_pool.sbatch": "1b5c4d2a460479bc7d1172af8bf586e61a13202f55772187b1ba9fdf5c93efbc",
+    "ml_guided_pta/residual_merge/test_smoke.sbatch": "2ca0eccb14f5c52c5a4414a8f6b9c272c417af4501b3cc241e698999a8ceeb87",
+    "ml_guided_pta/residual_merge/train.sbatch": "9d7fb1cabe0881e04050e876f7fe885b06d6fde4b245d9d2380c08547c90a288",
+    "ml_guided_pta/residual_merge/union.sbatch": "cb691e58cb023197adc018a47dc312ec7f1235e41abdeaffebf5c578d7cd6621",
+    "ml_guided_pta/residual_merge/union_cpu.sbatch": "af4c1d14876876a293b1716685d4ddd19438ec3037d01745570faad738054f92"
+  },
+  "job_id": "28880557",
+  "array_job_id": "28878732",
+  "array_task_id": "3",
+  "inputs": {},
+  "new_final_queries": 0,
+  "files": {
+    "events.json": "756b8954b0bb9f2d6f9ba506c857b8e09c1401e5d3fc77bda72edcbb31fb955d",
+    "labels.pt": "b83d7de7f5836c439d33d57e838dca7e71f10813ee5521a761fd5d29222690b0",
+    "progress.json": "48f83dae33157efceda20c22d24df47be82515b755e89e16bbe93b73b02e5189",
+    "summary.json": "cde969fe5f9fad889349bd6a1f3c04d60b9db675d613dd061242fa47f4d55f75",
+    "unit.json": "32dd3b450b81600c855ba045400841a7ab0157154ae48ccebd0f8bc82c479681"
+  }
+}

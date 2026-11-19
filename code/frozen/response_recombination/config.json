@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "physics_backend": "sqrt",
+  "stage": "B0",
+  "seed": 0,
+  "new_final_queries": 0,
+  "n": 4,
+  "g1a_results": "../ghz_scaling_gate/results/g1a_28087770",
+  "H": 10,
+  "accuracy": {"td": 0.01, "P": 0.05, "strict_P": 0.01},
+  "K_grid": [8, 16, 32, 64, 128],
+  "merge_extra_K": [4, 5, 6],
+  "replicates": 8,
+  "supplement_max": 0,
+  "features": {
+    "base_q": 2,
+    "state_q": 2,
+    "partition_reserve": 4,
+    "local_row_budget": 7,
+    "chunk_leaves": 8192,
+    "rank_rtol": 1e-12,
+    "moment_tolerance": 1e-10
+  },
+  "candidates": [
+    {"id": "M0_geo", "family": "M0", "geometry": "geo"},
+    {"id": "M0_diag", "family": "M0", "geometry": "diag"},
+    {"id": "R1q", "family": "R1q", "depth": 0},
+    {"id": "P1_d4", "family": "P1", "depth": 4},
+    {"id": "R2psi_d1", "family": "R2psi", "depth": 1},
+    {"id": "R2psi_d2", "family": "R2psi", "depth": 2},
+    {"id": "R2psi_d4", "family": "R2psi", "depth": 4},
+    {"id": "R2_d1", "family": "R2", "depth": 1},
+    {"id": "R2_d2", "family": "R2", "depth": 2},
+    {"id": "R2_d4", "family": "R2", "depth": 4},
+    {"id": "R2_d2_q4", "family": "R2", "depth": 2, "state_q": 4}
+  ],
+  "panels": {
+    "calibration_main": 8,
+    "calibration_threshold": 4,
+    "evaluation_main": 96,
+    "evaluation_threshold": 8,
+    "evaluation_pressure": 8
+  },
+  "reference": {
+    "td": 0.001, "P": 0.005, "strict_P": 0.001,
+    "R": [512, 1024, 2048],
+    "sensitivity": 0.0001,
+    "T3_K": 1024, "T3_replicates": 32, "T3_bootstrap": 300,
+    "T3_validation_tasks": 2
+  },
+  "checks": {"draws": 6000, "trajectory_draws": 128, "oracle_draws": 8, "z_review": 6.0},
+  "report": {"bootstrap": 1000, "empirical_pass_fraction": 0.875},
+  "time": {"limit_hours": 6.0, "report_reserve_minutes": 15},
+  "smoke": {
+    "K_grid": [8, 16], "merge_extra_K": [4], "replicates": 2,
+    "panels": {"calibration_main": 4, "calibration_threshold": 0,
+               "evaluation_main": 4, "evaluation_threshold": 0, "evaluation_pressure": 0},
+    "reference": {"T3_K": 128, "T3_replicates": 8, "T3_bootstrap": 50, "T3_validation_tasks": 1},
+    "checks": {"draws": 1500, "trajectory_draws": 32, "oracle_draws": 4},
+    "report": {"bootstrap": 100},
+    "time": {"limit_hours": 2.0, "report_reserve_minutes": 10}
+  }
+}
